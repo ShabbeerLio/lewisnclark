@@ -1,0 +1,221 @@
+.footer{
+    width: 100%;
+    background-color: black;
+}
+
+.footer-main{
+    width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 4rem 15px;
+}
+
+.footer-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+}
+
+.footer-main h2{
+    font-size: 1.4rem;
+    color: #b98f4b;
+    margin-bottom: 1.25em;
+}
+.footer-main p{
+    color: #ddc8ac;
+    margin-bottom: 1.75em;
+}
+
+.footer-contact-address ul{
+    padding: 0;
+}
+.footer-contact-address ul li{
+    color: #ddc8ac;
+    display: flex;
+}
+
+.footer-contact-detail ul{
+   padding: 0;
+}
+.footer-contact-detail ul li{
+    display: flex;
+}
+.footer-contact-detail ul li a{
+    text-decoration: none;
+    color: #ddc8ac;
+}
+
+.footer-contact-form{
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #b98f4b;
+    padding: 30px;
+}
+.footer-contact-form h3{
+   color: #333333;
+   font-size: 25px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: left;
+}
+.footer-contact-form p{
+   color: #333333;
+   font-size: 16px;
+    font-family: Roboto;
+    font-weight: normal;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.contact-form-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.contact-form-box .input-box{
+    min-width: 0;
+    flex: 1;
+    padding: 0 5px;
+}
+.contact-form-box .input-box label{
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: black;
+}
+.input-box label{
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: black;
+}
+
+form .input-box{
+    margin-bottom: 10px;
+}
+form .input-box input{
+    border-color: #c4360f;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    border-radius: 3px;
+    border-width: 1px;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
+    height: auto;
+    min-height: unset;
+    max-height: unset;
+    display: block;
+    margin: 0;
+    padding: 9px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    background-image: unset;
+    line-height: 1.3em;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
+form .input-box textarea{
+    border-color: #c4360f;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    border-radius: 3px;
+    border-width: 1px;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 140px;
+    resize: vertical;
+    display: block;
+    margin: 0;
+    padding: 9px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    background-image: unset;
+    line-height: 20px;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.contact-form-box-button{
+    min-width: 0;
+    flex: 1;
+    padding: 0 5px;
+}
+.contact-form-box-button button p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.contact-form-box-button button{
+    background-color: #894343;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+    width: auto;
+    min-width: 100px;
+    max-width: unset;
+    height: auto;
+    min-height: unset;
+    max-height: unset;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    background-image: unset;
+    line-height: 1.45em;
+    text-align: center;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.contact-form-box-button button p{
+    color: white;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #000000;
+    background-image: none;
+    
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-top-color: #E5E5E5;
+    padding: 20px 0px;
+}
+.footer-copyright p{
+     color: #bca57f;
+     min-height: 80px;
+     margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .footer-main{
+      max-width: 1200px;
+    }
+  }

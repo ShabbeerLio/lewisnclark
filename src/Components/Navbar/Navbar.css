@@ -1,13 +1,10 @@
 .navBar {
   width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 9999;
   background-color: black;
 }
 
 .company-logo-box,
-.nav-items nav{
+.nav-items nav {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -25,9 +22,9 @@
 .company-logo img {
   width: 100%;
   object-fit: cover;
-  padding: 5px;
-  margin: 10px;
-  max-height: 100px;
+  padding: 15px;
+  /* margin: 10px; */
+  max-height: 130px;
 }
 
 .navbar {
@@ -35,7 +32,7 @@
 }
 
 .navbar-collapse {
-    justify-content: center;
+  justify-content: center;
 }
 
 /* animated button */
@@ -139,14 +136,40 @@
 }
 
 .nav-action svg {
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 20px;
   color: #fcd79f;
 }
 
+.navbar-nav .dropdown-menu {
+  background-color: #383535;
+  border-top: 1px solid red;
+  border-radius: 0px;
+  top: 97%;
+  padding: 0;
+}
+.nav-menu ul li a:hover {
+  background-color: #787470;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+#luxuryDropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+/* search */
+
+
 @media screen and (min-width: 1200px) {
   .company-logo-box,
-  .nav-items nav{
+  .nav-items nav {
     max-width: 1140px;
   }
 }

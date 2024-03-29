@@ -1,0 +1,134 @@
+.about {
+  width: 100%;
+  background-color: black;
+  padding: 4rem 0;
+}
+
+.about-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-head h2 {
+  text-align: center;
+  color: #e7caa1;
+  font-family: "Roboto", Sans-serif;
+  font-size: 31px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-icon span .seperator:before {
+  display: block;
+  content: "";
+  border-block-end: 0;
+  flex-grow: 1;
+  border-block-start: 2.4px dashed #8aff74;
+}
+
+.about-icon span .seperator:after {
+  display: block;
+  content: "";
+  border-block-end: 0;
+  flex-grow: 1;
+  border-block-start: 2.4px dashed #8aff74;
+}
+
+.about-icon span .seperator {
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-icon span svg {
+  font-size: 12px;
+}
+
+.about-icon span {
+  text-align: center;
+  padding-block-start: 2px;
+  padding-block-end: 2px;
+}
+
+.about-icon {
+  color: #8aff74;
+}
+
+.about-image img {
+  width: 100%;
+  object-fit: cover;
+  padding: 20px 0px 10px 0px;
+}
+
+.about-detail {
+  padding: 4rem;
+}
+
+.about-detail h2 {
+  text-align: center;
+  color: #e7caa1;
+  font-family: "Ruluko", Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about-detail h4 {
+  text-align: center;
+  color: #e7caa1;
+  font-family: "Ruluko", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 38px;
+  margin-bottom: 20px;
+}
+
+.about-detail p {
+  text-align: justify;
+  color: #e7caa1;
+  font-family: "Ruluko", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.about-detail span {
+  text-align: justify;
+  color: #e7caa1;
+  font-family: "Ruluko", Sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.about-our-people h2 {
+  text-align: center;
+  color: #e7caa1;
+  font-family: "Ruluko", Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+.people-box{
+    display: flex;
+    
+}
+.people-box img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1200px) {
+  .about-main {
+    max-width: 1140px;
+  }
+}

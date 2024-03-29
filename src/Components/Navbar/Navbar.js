@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import Logo from "../../Assets/Home/cropped-cropped-cropped-tour-and-treval-4-removebg-preview-300x219.png"
-import { IoSearch, IoApps, IoPeopleOutline } from "react-icons/io5";
+import { IoSearchSharp, IoChevronDown } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
 
@@ -33,9 +34,9 @@ const Navbar = (props) => {
                 <div id="myNavMenu" className={menuClass}>
                     <div className="company-logo">
                         <div className="company-logo-box">
-                            <a className="navBar-logo" href="#home">
+                            <Link className="navBar-logo" to="/">
                                 <img src={Logo} alt="" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="nav-items">
@@ -49,27 +50,33 @@ const Navbar = (props) => {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav ml-auto">
                                         <li className="nav-item">
-                                            <a className="nav-link active" href="#home" onClick={closeMenu}>Home</a>
+                                            <Link className="nav-link active" to="/" onClick={closeMenu}>Home</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#about" onClick={closeMenu}>About Us</a>
+                                            <Link className="nav-link" to="/about-us/" onClick={closeMenu}>About Us</Link>
                                         </li>
-                                        <li className="nav-item ">
-                                            <a className="nav-link dropdown-toggle" href="#business" onClick={closeMenu}>Luxury India</a>
+                                        <li className="nav-item dropdown" id="luxuryDropdown">
+                                            <a className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Luxury India <IoChevronDown />
+                                            </a>
+                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><Link className="dropdown-item" to="#">Luxury North India</Link></li>
+                                                <li><Link className="dropdown-item" to="#">Luxury South India</Link></li>
+                                            </ul>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#gallery" onClick={closeMenu}>Luxury Hotels</a>
+                                            <Link className="nav-link" to="#gallery" onClick={closeMenu}>Luxury Hotels</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#careers" onClick={closeMenu}>India Tour Images</a>
+                                            <Link className="nav-link" to="#careers" onClick={closeMenu}>India Tour Images</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#blogs" onClick={closeMenu}>Contact Us</a>
+                                            <Link className="nav-link" to="#blogs" onClick={closeMenu}>Contact Us</Link>
                                         </li>
                                     </ul>
                                     <div className="nav-action">
                                         <div className="navbar-search">
-                                            <IoSearch />
+                                            <IoSearchSharp />
                                         </div>
                                     </div>
                                 </div>

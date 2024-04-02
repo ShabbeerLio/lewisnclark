@@ -1,10 +1,17 @@
 .about {
   width: 100%;
   background-color: black;
-  padding: 4rem 0;
+  padding: 4rem 0 2rem 0;
 }
 
 .about-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about-main-peoples{
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -46,7 +53,7 @@
 }
 
 .about-icon span svg {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .about-icon span {
@@ -66,7 +73,7 @@
 }
 
 .about-detail {
-  padding: 4rem;
+  padding: 4rem 0rem;
 }
 
 .about-detail h2 {
@@ -98,6 +105,7 @@
   font-weight: 400;
   line-height: 22px;
 }
+
 .about-detail span {
   text-align: justify;
   color: #e7caa1;
@@ -109,26 +117,88 @@
 
 .about-our-people h2 {
   text-align: center;
-  color: #e7caa1;
+  color: #EECD89;
   font-family: "Ruluko", Sans-serif;
-  font-size: 35px;
+  font-size: 31px;
   font-weight: 600;
   text-transform: uppercase;
   padding: 40px;
 }
 
-.people-box{
-    display: flex;
-    
+.people-box {
+  display: flex;
+  padding: 30px 0px;
 }
-.people-box img{
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
+
+.people-box-image {
+  width: 16%;
+  padding: 10px;
+}
+
+.people-box img {
+  width: 100%;
+  border-radius:50%;
+  object-fit: cover;
+  height: auto;
+}
+
+.people-box-detail {
+  width: 84%;
+  padding: 10px;
+}
+.people-box-detail h3{
+  margin-bottom: 20px;
+  color: #E7CAA1;
+  font-family: "Ruluko", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.people-box-detail h3 a{
+  color: #E7CAA1;
+  /* font-family: "Ruluko", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase; */
+  text-decoration: none;
+}
+.people-box-detail p{
+  text-align: justify;
+    color: #E7CAA1;
+    font-family: "Ruluko", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.people-box-button a p{
+  font-family: "Ruluko", Sans-serif;
+    font-weight: 500;
+    fill: #000000;
+    color: #000000;
+    background-color: #DAC78F;
+    padding: 12px 24px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 0;
+}
+.people-box-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.people-box-button a{
+  text-decoration: none;
+  
 }
 
 @media screen and (min-width: 1200px) {
-  .about-main {
+  .about-main{
     max-width: 1140px;
+  }
+  .about-main-peoples {
+    max-width: 1200px;
   }
 }

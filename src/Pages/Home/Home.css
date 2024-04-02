@@ -164,6 +164,7 @@
   justify-content: center;
 }
 .home-theam .theam-button p {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;

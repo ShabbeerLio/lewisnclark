@@ -71,7 +71,7 @@ const Navbar = (props) => {
                                             <Link className="nav-link" to="#careers" onClick={closeMenu}>India Tour Images</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="#blogs" onClick={closeMenu}>Contact Us</Link>
+                                            <Link className="nav-link" to="/contact-us/" onClick={closeMenu}>Contact Us</Link>
                                         </li>
                                     </ul>
                                     <div className="nav-action">

@@ -1,0 +1,102 @@
+.category-body1{
+    width: 100%;
+    background-color: #000000;
+    padding: 4rem 0 2rem 0;
+  }
+  .category-body2{
+    width: 100%;
+    background-color: #111111;
+    padding: 4rem 0 2rem 0;
+  }
+  
+  .category-head{
+      text-align: center;
+  }
+  .category-head h2{
+      color: #BCA57F;
+      font-family: "Ruluko", Sans-serif;
+      font-size: 31px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1.3em;
+      margin-bottom: 20px;
+  }
+  
+  .category-head p{
+      text-align: center;
+      color: #BCA57F;
+      font-family: "Ruluko", Sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 20px;
+  }
+  
+  .category-body-items{
+      display: flex;
+      gap: 2.5rem;
+  }
+  
+  .category-item-left{
+      width: 45%;
+  }
+  .category-item-left img{
+      width: 100%;
+  }
+  
+  .category-item-right{
+      width: 55%;
+  }
+  .category-item-right h2{
+      color: #B98F4B;
+      font-family: "Ruluko", Sans-serif;
+      font-size: 23px;
+      font-weight: 600;
+      text-transform: uppercase;
+      -webkit-text-stroke-color: #000;
+      stroke: #000;
+      margin-bottom: 20px;
+  }
+  .category-item-right h4{
+      color: #BCA57F;
+      font-family: "Ruluko", Sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+  }
+  .category-item-right .category-title p{
+      color: #A74845;
+      font-family: "Ruluko", Sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      text-transform: none;
+      line-height: 27px;
+      margin-bottom: 20px;
+  }
+  .category-item-right p{
+      text-align: justify;
+      color: #BCA57F;
+      font-family: "Ruluko", Sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 20px;
+  }
+  .category-item-right .category-button{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+  }
+  .category-item-right .category-button p{
+      font-family: "Ruluko", Sans-serif;
+      font-weight: 500;
+      fill: #B98F4B;
+      color: #B98F4B;
+      background-color: #50422C;
+      display: inline-block;
+      line-height: 1;
+      font-size: 15px;
+      padding: 12px 24px;
+      border-radius: 3px;
+      text-align: center;
+      transition: all .3s;
+  }

@@ -1,0 +1,23 @@
+.category {
+  width: 100%;
+  background-color: #000000;
+  padding: 4rem 0 10px 0;
+}
+
+.category-main,
+.category-box {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .category-main,
+  .category-box {
+    max-width: 1140px;
+  }
+}

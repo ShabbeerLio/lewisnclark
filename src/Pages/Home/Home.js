@@ -39,13 +39,13 @@ const Home = () => {
           <p>India is a vast country and beholds rich history and vibrant culture and vivid types of nature. Lewis and Clark Tour offers Luxury tour packages in India. We make your dream to Travel to India true. Our tours are filled up with stories—tales that fascinate the travellers coming back to India again and again.</p>
           <div className="home-images">
             <div className="home-img-item">
-              <a href="/">
+              <a href="/luxury-nouth-india/">
                 <img src={himg1} alt="" />
                 <h4>Luxury North India</h4>
               </a>
             </div>
             <div className="home-img-item">
-              <a href="/">
+              <a href="/luxury-south-india/">
                 <img src={himg2} alt="" />
                 <h4>Luxury South India</h4>
               </a>

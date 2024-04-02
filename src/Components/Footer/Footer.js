@@ -80,7 +80,6 @@ const Footer = () => {
                     </ul>
                     <h2>REGISTERED IN NEW DELHI (INCREDIBLE INDIA)</h2>
                     <p>UAM Nummer - DL10D0013736 <br />GST/ VAT Nummer - 07AZWPK6163B1Z4</p>
-                    <p></p>
                 </div>
                 <div className="footer-contact-detail">
                     <h2>LUXURY INDIA TOURS</h2>

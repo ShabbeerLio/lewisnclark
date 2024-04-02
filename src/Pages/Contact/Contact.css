@@ -1,0 +1,97 @@
+.contact {
+  width: 100%;
+  background-color: #000000;
+  padding: 4rem 0;
+}
+
+.contact-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.contact-head h2 {
+    text-align: center;
+    color: #B98F4B;
+    font-family: "Roboto", Sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .contact-icon span .seperator:before {
+    display: block;
+    content: "";
+    border-block-end: 0;
+    flex-grow: 1;
+    border-block-start: 2.4px dashed #8aff74;
+  }
+  
+  .contact-icon span .seperator:after {
+    display: block;
+    content: "";
+    border-block-end: 0;
+    flex-grow: 1;
+    border-block-start: 2.4px dashed #8aff74;
+  }
+  
+  .contact-icon span .seperator {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-icon span svg {
+    font-size: 20px;
+  }
+  
+  .contact-icon span {
+    text-align: center;
+    padding-block-start: 2px;
+    padding-block-end: 2px;
+  }
+  
+  .contact-icon {
+    color: #8aff74;
+  }
+
+  .contact-body{
+    display: flex;
+    gap: 1rem;
+    padding: 20px 0px 10px 0px;
+  }
+
+  .contact-body-left{
+    width: 50%;
+  }
+  .contact-body-left .contact-left-img img{
+    width: 100%;
+  }
+  .contact-body-right{
+    width: 50%;
+  }
+  .contact-body-right .contact-right-detail p{
+    text-align: justify;
+    color: #BCA57F;
+    font-family: "Ruluko", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .contact-map{
+    margin-top: 6rem;
+    position: relative;
+    height: 60vh;
+    width: 100%;
+  }
+
+@media screen and (min-width: 1200px) {
+  .contact-main {
+    max-width: 1140px;
+  }
+}

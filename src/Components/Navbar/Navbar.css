@@ -119,10 +119,11 @@
 
 .nav-menu ul li a {
   padding: 20px !important;
-  font-size: 16px;
-  /* font-weight: 500; */
-  color: #fcd79f !important;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #dbc695 !important;
   text-transform: capitalize;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
 }
 
 .nav-menu ul li:hover {

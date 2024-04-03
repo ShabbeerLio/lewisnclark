@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Peoples.css"
 import { MdOutlineSearch } from "react-icons/md";
 
-const Peoples = () => {
+const Peoples = (props) => {
+
+    useEffect(() => {
+        document.title = `${(props.title)}`
+    }, [])
+
     return (
         <div className='people'>
             <div className='people-main'>

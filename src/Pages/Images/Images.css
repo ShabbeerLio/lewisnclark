@@ -1,0 +1,64 @@
+.Images{
+    background-color: black;
+    padding: 3rem 0rem;
+}
+
+.Images-head{
+    padding: 10px;
+    text-align: center;
+}
+.Images-head h2{
+    color: #E7CAA1;
+    font-family: "Roboto", Sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.Image-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.Image-gallery .gallery-box{
+    padding: 25px;
+}
+.Image-gallery .gallery-box img{
+    width: 100%;
+}
+
+.Image-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Image-buttons .Img-btns{
+    padding: 10px;
+}
+.Image-buttons .Img-btns a p{
+    cursor: pointer;
+    margin: 0;
+    display: inline-block;
+    line-height: 1;
+    background-color: #DAC78F;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #4D4343;;
+    text-align: center;
+    transition: all .3s;
+}
+
+.Image-buttons {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem 0;
+  }
+
+@media screen and (min-width: 1200px) {
+    .Image-buttons {
+      max-width: 1140px;
+    }
+  }

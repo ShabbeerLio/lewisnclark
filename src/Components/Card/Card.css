@@ -12,6 +12,9 @@
   .category-head{
       text-align: center;
   }
+  .category-item-right a{
+      text-decoration: none;
+  }
   .category-head h2{
       color: #BCA57F;
       font-family: "Ruluko", Sans-serif;

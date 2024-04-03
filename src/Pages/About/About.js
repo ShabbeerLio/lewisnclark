@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./About.css"
 import aboutimg from "../../Assets/About/Lewis-and-Clark-Tours.jpg"
 import p4 from "../../Assets/About/3f1e7d76-a3cc-4a98-acc7-7173fd98f071.jpg"
@@ -7,9 +7,22 @@ import p5 from "../../Assets/About/WhatsApp-Image-2023-04-26-at-17.17.17.jpeg"
 import p1 from "../../Assets/About/bikram-1.jpg"
 import p3 from "../../Assets/About/prashant.jpg"
 import { FaSnowflake } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 
 
-const About = () => {
+const About = (props) => {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'auto'
+    });
+};
+
+  useEffect(() => {
+    document.title = `${(props.title)}`
+  }, [])
+
   return (
     <>
       <div className='about'>
@@ -104,9 +117,9 @@ const About = () => {
                 </div>
               </div>
               <div className="people-box-button">
-              <a href="">
+              <Link to="/contact-us/" onClick={scrollToTop}>
                 <p>Book Now</p>
-              </a>
+              </Link>
               </div>
             </div>
           </div>

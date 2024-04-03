@@ -1,23 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Category.css"
 import CategoryData from './categoryData'
 import Card from '../Card/Card'
 
-const Category = () => {
+const Category = ({title, category }) => {
+
+    useEffect(() => {
+        document.title = `${(title)}`
+    }, [])
+    
+    const selectedCategory = CategoryData.find(cat => cat.category === category);
+
+    if (!selectedCategory) {
+        return <div>Category not found</div>;
+    }
+
+
     return (
         <div className='category'>
-            {CategoryData.map((item) => (
-                <>
-                    <div className='category-main'>
-                        <div className="category-head">
-                            <h2>{item.category}: <br /> {item.title}</h2>
-                            <p>{item.desc}</p>
-                        </div>
-                    </div>
-                    {item.subCategory.map((items ,index) => (
-                        <Card items={items} index={index}/>
-                    ))}
-                </>
+            <div className='category-main'>
+                <div className="category-head">
+                    <h2>{selectedCategory.category}: <br /> {selectedCategory.title}</h2>
+                    <p>{selectedCategory.desc}</p>
+                </div>
+            </div>
+            {selectedCategory.subCategory.map((items, index) => (
+                <Card key={items.id} items={items} index={index} />
             ))}
         </div>
     )

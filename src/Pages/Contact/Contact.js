@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Contact.css"
 import { FaSnowflake } from "react-icons/fa6";
 import contactimg from "../../Assets/Contact/1-1-1.jpg"
 import Maps from '../../Components/Map/Maps';
 
-const Contact = () => {
+const Contact = (props) => {
+
+    useEffect(() => {
+        document.title = `${(props.title)}`
+    }, [])
+    
     return (
         <div className='contact'>
             <div className='contact-main'>

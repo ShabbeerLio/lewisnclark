@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Home.css"
 import Banner from '../../Components/Banner/Banner'
 import himg1 from "../../Assets/Home/LUXURY-NORTH-INDIA-2.jpg"
@@ -11,8 +11,20 @@ import theam from "../../Assets/Home/romantic-rajasthan-tour.jpg"
 import chooseus1 from "../../Assets/Home/India-exploration.jpg"
 import chooseus2 from "../../Assets/Home/explore-india-tour.jpg"
 import exoticimg from "../../Assets/Home/Images-1280.1280.jpeg"
+import { Link } from 'react-router-dom'
 
-const Home = () => {
+const Home = (props) => {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'auto'
+    });
+};
+
+  useEffect(() => {
+    document.title = `${(props.title)}`
+}, [])
 
   return (
     <div className='home'>
@@ -39,16 +51,16 @@ const Home = () => {
           <p>India is a vast country and beholds rich history and vibrant culture and vivid types of nature. Lewis and Clark Tour offers Luxury tour packages in India. We make your dream to Travel to India true. Our tours are filled up with stories—tales that fascinate the travellers coming back to India again and again.</p>
           <div className="home-images">
             <div className="home-img-item">
-              <a href="/luxury-nouth-india/">
+              <Link to="/luxury-north-india/" onClick={scrollToTop}>
                 <img src={himg1} alt="" />
                 <h4>Luxury North India</h4>
-              </a>
+              </Link>
             </div>
             <div className="home-img-item">
-              <a href="/luxury-south-india/">
+              <Link to="/luxury-south-india/" onClick={scrollToTop}>
                 <img src={himg2} alt="" />
                 <h4>Luxury South India</h4>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -93,7 +105,9 @@ const Home = () => {
           <div className="chooseUs-main">
             <div className="chooseUs-item">
               <div className="chooseUs-left">
-                <img src={chooseus1} alt="" />
+                <Link to="/luxury-north-india/" onClick={scrollToTop}>
+                  <img src={chooseus1} alt="" />
+                </Link>
               </div>
               <div className="chooseUs-right">
                 <p>We got our inspiration from the trails of Lewis and Clark Expedition; hence our company name Lewis and Clark Tour came in to existence on the famous traveller’s name.</p>
@@ -110,7 +124,9 @@ const Home = () => {
                 <p>Our <strong>India Customized Tours </strong>are well planned with private driver with Car and highly qualified accompany language speaking guide. Rejuvenate yourself with <strong>Kerala Ayurveda, Tea Plant Munnar</strong> and relax at beautiful Kerala and Goa beaches.  Varanasi beholds richness of Indian culture; feel divine of Hinduism at Varanasi Ganges Ghats. Enthrill yourself with our <strong>Luxury India wildlife tou</strong>r for Tiger Safari through Ranthambhore Tiger Park, <strong>Kanha National park</strong> and with Bandhav Garh national park with overnight at Taj Lodges. For a <strong>short India trip</strong>, we always recommend <strong>Luxury Golden Triangle</strong> India from Delhi to Jaipur via Agra Taj Mahal.</p>
               </div>
               <div className="chooseUs-left">
-                <img src={chooseus2} alt="" />
+                <Link to="/luxury-north-india/" onClick={scrollToTop}>
+                  <img src={chooseus2} alt="" />
+                </Link>
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ const Contact = (props) => {
 
     useEffect(() => {
         document.title = `${(props.title)}`
-    }, [])
+      }, [])
     
     return (
         <div className='contact'>
@@ -26,7 +26,7 @@ const Contact = (props) => {
                 <div className="contact-body">
                     <div className="contact-body-left">
                         <div className="contact-left-img">
-                            <img src={contactimg} alt="" />
+                            <img src={contactimg} alt="lewis and clark tours" />
                         </div>
                     </div>
                     <div className="contact-body-right">

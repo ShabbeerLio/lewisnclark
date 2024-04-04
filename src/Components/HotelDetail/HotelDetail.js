@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./HotelDetail.css"
 import { FaSnowflake } from "react-icons/fa6";
 import bannerimg from "../../Assets/Categories/Banner-Golden-Triangle-4-nights-5-days.jpg"
 import iterval1 from "../../Assets/Categories/Layer-8-2.png"
 import overview from "../../Assets/Categories/GOLDEN-TRIANGLE-INDIA-TOUR_.jpeg"
 import CategoryData from '../Category/categoryData';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import { FaWalking } from "react-icons/fa";
 
 const HotelDetail = () => {
     const { pathName } = useParams();
@@ -14,15 +15,20 @@ const HotelDetail = () => {
         .flatMap(category => category.subCategory)
         .find(item => item.pathName === pathName);
 
+    useEffect(() => {
+        document.title = `${(subCategoryItem.titleTag)}`
+    }, [])
+
     if (!subCategoryItem) {
         return <div>Item not found</div>;
     }
+
 
     return (
         <div className='HotelDetail'>
             <div className="hotel-detail-box">
                 <div className="hotel-detail-banner">
-                    <img src={subCategoryItem.banner} alt="" />
+                    <img src={subCategoryItem.banner} alt={subCategoryItem.bannerTag} />
                 </div>
             </div>
             <div className="hotel-detail-box">
@@ -46,12 +52,18 @@ const HotelDetail = () => {
                     <div className="hotel-overview">
                         <div className="hotel-body-left">
                             <h4>overview</h4>
-                            <p>The customized Golden Triangle tour leads you with splendor and grandeur of luxury India and exotic of north India. Covering the golden triangle cities Delhi, Agra, Jaipur gives you the unforgettable experience. The luxury golden triangle will bring you the royal experience by staying in the luxury hotels of Delhi, Agra and Jaipur. The exotic north India tour begins in Delhi, the capital city of India, known for its glorious history and modern-day hustle-bustle. </p>
-                            <p>The Delhi, Agra, Jaipur tour stops at Agra, the home to the magnificent Taj Mahal, the most beautiful one of the Seven Wonders of the World.  Finally your luxury India tour concludes in Jaipur, known as the Pink City and gem city. Jaipur destination is famous for its majestic forts, palaces, and vibrant culture and delicious cuisine. The exotic India Tour offers a glimpse of India’s diverse cultural heritage and architectural marvels. The Delhi Golden triangle tour is the perfect match to dream, explore and experience India</p>
+                            {subCategoryItem.overviewDetail.map((i) => (
+                                <>
+                                    <p>{i.detail}</p>
+                                </>
+                            ))}
                         </div>
                         <div className="hotel-body-right">
                             <div className="hotel-body-image">
-                                <img src={overview} alt="" />
+                                <img src={subCategoryItem.overview} alt={subCategoryItem.overviewTag} />
+                            </div>
+                            <div className="hotel-contactForm">
+                                {subCategoryItem.contactForm}
                             </div>
                         </div>
                     </div>
@@ -62,16 +74,33 @@ const HotelDetail = () => {
                     <div className="hotel-items-head">
                         <h2>Tour Itinerary</h2>
                     </div>
-                    <div className="hotel-items-box">
-                        <div className="hotel-item-left">
-                            <img src={iterval1} alt="" />
+                    {subCategoryItem.tour.map((i) => (<>
+                        <div className="hotel-items-box">
+                            <div className="hotel-item-left">
+                                <img src={i.tourCover} alt={i.alt} />
+                            </div>
+                            <div className="hotel-item-right">
+                                <h2>{i.arrival}</h2>
+                                <span>
+                                    <FaWalking />
+                                </span>
+                                <p>{i.detail1}</p>
+                                <p>{i.detail2}</p>
+                            </div>
                         </div>
-                        <div className="hotel-item-right">
-                            <h2>Day 1: Arrival in Delhi</h2>
-                            <span></span>
-                            <p>Arrival at Delhi airport, you will be greeted and received by our tour manager. Transfer to the hotel and check-in at the hotel. You will be handed over the documents for Delhi Agra Jaipur tour package.</p>
-                            <p>The first day of the Jaipur tour package from Delhi starts with the Lodhi Garden, a tranquil oasis in the heart of bustling Delhi, where visitors can escape the chaos of the city and enjoy a peaceful stroll amidst lush greenery. Followed by Gandhi Memorial dedicated to the life and legacy of Mahatma Gandhi, we will drive past the Government building, which symbolizes a vibrant democracy. Visit also Jama mosque and the bustling spice market by enthralling rickshaw ride. Upon finishing, the day tour transport to the hotel.</p>
-                        </div>
+                    </>))}
+                    <h2>{subCategoryItem.downTitle}</h2>
+                    <p>{subCategoryItem.downdetail1}</p>
+                    <p>{subCategoryItem.downdetail2}</p>
+                    <p>{subCategoryItem.downdetail3}</p>
+                </div>
+            </div>
+            <div className="hotel-detail-box">
+                <div className="hotel-detail-item">
+                    <div className="hotel-button">
+                        <Link to="/contact-us/">
+                            <p>Book Now</p>
+                        </Link>
                     </div>
                 </div>
             </div>

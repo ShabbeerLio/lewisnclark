@@ -6,28 +6,33 @@
 .company-logo-box,
 .nav-items nav {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.nav-items {
-  background-color: #383535;
+.navbar-items {
+  width: 100%;
   border-top: 1px solid #9a6844;
 }
+.nav-items {
+  background-color: black;
+}
+
 
 .company-logo img {
   width: 100%;
   object-fit: cover;
   padding: 15px;
-  /* margin: 10px; */
   max-height: 130px;
 }
 
 .navbar {
+  padding: 0;
+}
+
+.container-fluid{
   padding: 0;
 }
 
@@ -36,6 +41,8 @@
 }
 
 /* animated button */
+
+
 .navbar-toggler {
   width: 30px;
   height: 20px;
@@ -108,6 +115,12 @@
   display: none;
 }
 
+.nav-button{
+  border: 2px solid #ead19c;
+  margin-right: 20px;
+  padding: 10px;
+}
+
 .navbar-light .navbar-toggler {
   border: none;
   box-shadow: none;
@@ -165,20 +178,40 @@
   display: none !important;
 }
 
+
+
 /* search */
+.navbar-search {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  
+}
+.navbar-search svg{
+  cursor: pointer;
+}
+
+.navbar-search input {
+  border: none;
+  outline: none;
+  flex: 1;
+  margin-left: 5px;
+}
 
 
 @media screen and (min-width: 1200px) {
-  .company-logo-box,
-  .nav-items nav {
+  .company-logo-box{
     max-width: 1140px;
   }
+
+  
 }
 
 @media screen and (min-width: 992px) {
-  /* .navbar-expand-lg .navbar-collapse {
-    justify-content: space-between;
-  } */
+
+  .nav-items {
+    background-color: #383535;
+  }
 
   .navbar-nav .nav-item .dropdown-menu.mega-menu::before {
     content: "";
@@ -193,7 +226,21 @@
     margin-left: 0;
     transform: translate(-50%);
   }
+
+  .company-logo{
+    background-color: black;
+    width: 100%;
+  }
+
+  .container-fluid {
+    flex-direction: column;
+  }
+
+  .nav-button{
+    display: none;
+  }
 }
+
 
 @media only screen and (max-width: 990px) {
   .nav-action {
@@ -205,4 +252,11 @@
     position: relative;
     border-bottom: 1px solid #bbb;
   }
+
+  .nav-action{
+    display: none;
+  }
+}
+@media only screen and (max-width: 540px) {
+  
 }

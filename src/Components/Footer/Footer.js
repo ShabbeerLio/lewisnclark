@@ -1,5 +1,8 @@
 import React, { useRef, useState } from 'react'
 import "./Footer.css"
+import ContactForm from './ContactForm';
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
 
@@ -85,93 +88,41 @@ const Footer = () => {
                     <h2>LUXURY INDIA TOURS</h2>
                     <ul>
                         <li>
-                            <a href="">Golden Triangle India Tours</a>
+                            <Link to="/golden-triangle-india-tours/">Golden Triangle India Tours</Link>
                         </li>
                         <li>
-                            <a href="">Luxury India through the land of colours</a>
+                            <Link to="/luxury-india-through-the-land-of-colours/">Luxury India through the land of colours</Link>
                         </li>
                         <li>
-                            <a href="">Luxury North India – Golden Triangle with Varanasi</a>
+                            <Link to="/luxury-north-india-golden-triangle-with-varanasi/">Luxury North India – Golden Triangle with Varanasi</Link>
                         </li>
                         <li>
-                            <a href="">Luxury Golden Triangle Wildlife</a>
+                            <Link to="/luxury-golden-triangle-wildlife/">Luxury Golden Triangle Wildlife</Link>
                         </li>
                         <li>
-                            <a href="">Luxury Kerala Tour</a>
+                            <Link to="/luxury-kerala-tour/">Luxury Kerala Tour</Link>
                         </li>
                         <li>
-                            <a href="">Trails of luxury South India Tour</a>
+                            <Link to="/trails-of-luxury-south-india-tour/">Trails of luxury South India Tour</Link>
                         </li>
                     </ul>
                     <h2>IMPORTANT LINKS</h2>
                     <ul>
                         <li>
-                            <a href="/">Home</a>
+                            <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <a href="/">About Us</a>
+                            <Link href="/about-us/">About Us</Link>
                         </li>
                         <li>
-                            <a href="/">India Tour Images</a>
+                            <Link href="/india-tour-images/">India Tour Images</Link>
                         </li>
                         <li>
-                            <a href="/">Contact Us</a>
+                            <Link href="/contact-us/">Contact Us</Link>
                         </li>
                     </ul>
                 </div>
-                <div className="footer-contact-form">
-                    <h3>INQUIRE NOW</h3>
-                    <p>SEND YOUR DETAILS TO BOOK</p>
-                    <form ref={form} onSubmit={handleSubmit}>
-                        <div className="contact-form-box">
-                            <div className='input-box'>
-                                <label>Name</label>
-                                <input
-                                    name="user_name"
-                                    type="text"
-                                    value={formData.name}
-                                    placeholder='Your Name'
-                                    onChange={handleInputChange} required
-                                />
-                            </div>
-                            <div className='input-box'>
-                                <label>Phone</label>
-                                <input
-                                    name="user_number"
-                                    type="number"
-                                    value={formData.number}
-                                    placeholder='Your Phone'
-                                    onChange={handleInputChange} required
-                                />
-                            </div>
-                        </div>
-                        <div className='input-box'>
-                            <label>Email </label>
-                            <input
-                                name="user_email"
-                                type="email"
-                                value={formData.email}
-                                placeholder='Your Email Address'
-                                onChange={handleInputChange} required
-                            />
-                        </div>
-                        <div className='input-box'>
-                            <label>Message</label>
-                            <textarea
-                                name="message"
-                                value={formData.message}
-                                placeholder='Your Message'
-                                onChange={handleInputChange} required
-                            />
-                        </div>
-                        <div className="contact-form-box-button">
-                            {/* <p>We do not sell, share, trade your information with anyone for any reason. We won’t give spam mails.</p> */}
-                            <button type="submit">
-                                <p>Send Message</p>
-                            </button>
-                        </div>
-                    </form>
-                </div>
+                <ContactForm/>
             </div>
             <div className="footer-copyright">
                 <p>Copyright © 2024 Lewis and Clark Tours</p>

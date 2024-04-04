@@ -52,13 +52,13 @@ const Home = (props) => {
           <div className="home-images">
             <div className="home-img-item">
               <Link to="/luxury-north-india/" onClick={scrollToTop}>
-                <img src={himg1} alt="" />
+                <img src={himg1} alt="north india tour packages" />
                 <h4>Luxury North India</h4>
               </Link>
             </div>
             <div className="home-img-item">
               <Link to="/luxury-south-india/" onClick={scrollToTop}>
-                <img src={himg2} alt="" />
+                <img src={himg2} alt="Luxury tour of India" />
                 <h4>Luxury South India</h4>
               </Link>
             </div>
@@ -66,30 +66,30 @@ const Home = (props) => {
         </div>
         <div className="home-tags">
           <div className="tags-item">
-            <img src={tag1} alt="" />
+            <img src={tag1} alt="best travel agency in india" />
             <h3>Travel Experts</h3>
             <p>Plan your Luxury India vacation with us! Personalized journeys exclusively
               guided and assisted by our India Travel experts at best!</p>
           </div>
           <div className="tags-item">
-            <img src={tag2} alt="" />
+            <img src={tag2} alt="india tour packages from usa" />
             <h3>Authentic Experiences</h3>
             <p>India Trip with a private Tour guide Escort and Chauffeur for an authentic and local experience in the privately arranged and comfortable transport!</p>
           </div>
           <div className="tags-item">
-            <img src={tag3} alt="" />
+            <img src={tag3} alt="best trip packages in india" />
             <h3>Exceptional Service</h3>
             <p>Providing exceptional services with special care and assistance during the entire Luxury tour which makes your holidays in India mesmerizing!</p>
           </div>
           <div className="tags-item">
-            <img src={tag4} alt="" />
+            <img src={tag4} alt="travel packages in india" />
             <h3>Unconditional support</h3>
             <p>Available 24/7 for the tour support, change your Luxury Tour plan during the trip or any modification required to your itinerary, we are just one call or message away!</p>
           </div>
         </div>
         <div className="home-boxes">
           <div className="home-theam">
-            <img src={theam} alt="" />
+            <img src={theam} alt="luxury india tour packages" />
             <h2>Luxury Hotels</h2>
             <p>Lewis and Clark Tours is Luxury tour operators in India and offers all kind of Rajasthan tours luxury packages, Luxury private tours India and plans your India holidays exclusively with all inclusive for your best and unforgettable journey. Plan your Luxury vacation India with local tour operator in India for an authentic and real India experience! We are an India holiday specialists and are available to advice and support 24 x 7 for your India trip.</p>
             <div className="theam-button">
@@ -106,7 +106,7 @@ const Home = (props) => {
             <div className="chooseUs-item">
               <div className="chooseUs-left">
                 <Link to="/luxury-north-india/" onClick={scrollToTop}>
-                  <img src={chooseus1} alt="" />
+                  <img src={chooseus1} alt="rajasthan tour packages" />
                 </Link>
               </div>
               <div className="chooseUs-right">
@@ -125,7 +125,7 @@ const Home = (props) => {
               </div>
               <div className="chooseUs-left">
                 <Link to="/luxury-north-india/" onClick={scrollToTop}>
-                  <img src={chooseus2} alt="" />
+                  <img src={chooseus2} alt="travel packages in india" />
                 </Link>
               </div>
             </div>
@@ -143,7 +143,7 @@ const Home = (props) => {
           <p>Incredible Travel Experiences with LUXURY, Designed for you….!!!</p>
           <p>Our Luxury India Travel Experts will take over the entire planning of your personal and Luxury trips to India and ensure that you will explore and experience the best trip to India, with a perfect vacation. Your satisfaction is our happiness. We are available 24 x7 for our Travel guests!</p>
           <div className="exotic-img">
-            <img src={exoticimg} alt="" />
+            <img src={exoticimg} alt="rajasthan vacation packages" />
           </div>
           <p>Discover the epitome of opulence with the Best Luxury India Tours curated by the premier tour operator in Delhi. Indulge in the allure of the Best of India’s Luxury Packages, meticulously designed to offer an unparalleled travel experience.</p>
           <p>Our expertise as the Best Luxury Tour Operator in India ensures that every detail of your journey is seamlessly orchestrated, providing you with the utmost comfort and sophistication.</p>

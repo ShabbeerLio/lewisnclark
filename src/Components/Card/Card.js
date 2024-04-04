@@ -28,7 +28,7 @@ const Card = ({ items }) => {
                                 pathname: `/${formatPathname(items.pathName)}/`
                             }}
                             onClick={scrollToTop}>
-                            <img src={items.cover} alt="" />
+                            <img src={items.cover} alt={items.alt} />
                         </Link>
                     </div>
                     <div className="category-item-right">

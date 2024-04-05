@@ -72,7 +72,7 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-main">
                 <div className="footer-contact-address">
-                    <h2>LEWIS AND CLARK TOURS</h2>
+                    <h1>LEWIS AND CLARK TOURS</h1>
                     <p>An India Destination Management Company (DMC)</p>
                     <h2>CORPORATE OFFICE (INDIA)</h2>
                     <p>H 44, BSI Business Park, Sector 63, Noida, Uttar Pradesh 201301, India</p>

@@ -28,7 +28,7 @@ const About = (props) => {
       <div className='about'>
         <div className='about-main'>
           <div className="about-head">
-            <h2>About us</h2>
+            <h1>About us</h1>
             <div className="about-icon">
               <span>
                 <div className="seperator">
@@ -45,7 +45,7 @@ const About = (props) => {
         </div>
         <div className='about-main'>
           <div className="about-detail">
-            <h2>Lewis N Clark Tours</h2>
+            <h1>Lewis N Clark Tours</h1>
             <h4>An India Destination Management Company (DMC)</h4>
             <div className="about-detail-desc">
               <p>Lewis N Clark Tours is a start up in India from April 2019 and an India Destination Management Company (India DMC). Our travel company specialises in customized & authentic pre-designed tours throughout India. We are an inbound Tour Agency in India and offer customized Tour and Tailor made tours in India.  Our Luxury India Tour programs are uniquely planned by Indian Tour experts and professionally executed.  Lewis N Clark Tours plans your exotic trip in India authentically with flexibility.</p>
@@ -59,7 +59,7 @@ const About = (props) => {
         </div>
         <div className='about-main-peoples'>
           <div className="about-our-people">
-            <h2>Our Team</h2>
+            <h1>Our Team</h1>
             <div className="about-people-detail">
               <div className="people-box">
                 <div className="people-box-image">

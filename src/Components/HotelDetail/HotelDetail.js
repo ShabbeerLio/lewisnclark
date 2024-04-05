@@ -34,7 +34,7 @@ const HotelDetail = () => {
             <div className="hotel-detail-box">
                 <div className="hotel-detail-body">
                     <div className="hoteldetail-head">
-                        <h2>{subCategoryItem.title}</h2>
+                        <h1>{subCategoryItem.title}</h1>
                         <div className="hoteldetail-icon">
                             <span>
                                 <div className="seperator">

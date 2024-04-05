@@ -14,7 +14,7 @@ const Contact = (props) => {
         <div className='contact'>
             <div className='contact-main'>
                 <div className="contact-head">
-                    <h2>Contact us</h2>
+                    <h1>Contact us</h1>
                     <div className="contact-icon">
                         <span>
                             <div className="seperator">

@@ -12,7 +12,7 @@ const Hotels = (props) => {
         <div className='hotel'>
             <div className="hotel-box1">
                 <div className='hotel-head'>
-                    <h2>LUXURY ACCOMODATION</h2>
+                    <h1>LUXURY ACCOMODATION</h1>
                     <p>India is a beautiful destination for many travellers, be it Taj Mahal a symbol of love, or cultural divine city Varanasi or colorful Rajasthan a state of Maharaja in North India whereas south India fascinates with its greenery, peacefully and Ayurveda. Taj Group Hotels, Oberoi Group and Leela chain of hotels are best known luxury accommodations for your Luxury private tours India. Choose our recommended Luxury hotels for India Holidays and plan your Private Tour India with our Travel Designer.</p>
                 </div>
             </div>

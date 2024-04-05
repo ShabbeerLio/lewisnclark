@@ -32,7 +32,7 @@ const Home = (props) => {
       <div className="home-about">
         <div className="home-boxes">
           <h3>Welcome</h3>
-          <h2>Lewis and Clark Tours! </h2>
+          <h1>Lewis and Clark Tours! </h1>
           <div className="home-icon">
             <span>
               <div className="seperator">
@@ -90,7 +90,7 @@ const Home = (props) => {
         <div className="home-boxes">
           <div className="home-theam">
             <img src={theam} alt="luxury india tour packages" />
-            <h2>Luxury Hotels</h2>
+            <h1>Luxury Hotels</h1>
             <p>Lewis and Clark Tours is Luxury tour operators in India and offers all kind of Rajasthan tours luxury packages, Luxury private tours India and plans your India holidays exclusively with all inclusive for your best and unforgettable journey. Plan your Luxury vacation India with local tour operator in India for an authentic and real India experience! We are an India holiday specialists and are available to advice and support 24 x 7 for your India trip.</p>
             <div className="theam-button">
               <p>View All</p>
@@ -100,7 +100,7 @@ const Home = (props) => {
       </div>
       <div className="home-chooseUs">
         <div className="home-boxes">
-          <h2>Why Lewis and Clark?</h2>
+          <h1>Why Lewis and Clark?</h1>
           <p>Lewis and Clark expedition is known as a major chapter in the history of American exploration. The famous travellers Lewis N Clark and their team travelled a lot and discovered unmapped lands, rivers and mountains significantly.</p>
           <div className="chooseUs-main">
             <div className="chooseUs-item">

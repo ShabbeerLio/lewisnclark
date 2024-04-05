@@ -13,7 +13,7 @@ const Images = (props) => {
         <div className='Images'>
             <div className='Images-main'>
                 <div className='Images-head'>
-                    <h2>India Tour Images</h2>
+                    <h1>India Tour Images</h1>
                 </div>
                 <div className="Image-gallery">
                     {ImageData.map((item) => (

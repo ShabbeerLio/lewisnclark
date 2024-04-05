@@ -20,7 +20,7 @@ const Category = ({title, category }) => {
         <div className='category'>
             <div className='category-main'>
                 <div className="category-head">
-                    <h2>{selectedCategory.category}: <br /> {selectedCategory.title}</h2>
+                    <h1>{selectedCategory.category}: <br /> {selectedCategory.title}</h1>
                     <p>{selectedCategory.desc}</p>
                 </div>
             </div>

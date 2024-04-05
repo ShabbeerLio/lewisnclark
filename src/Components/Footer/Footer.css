@@ -126,7 +126,7 @@ form .input-box input{
     padding: 9px;
     border-width: 1px;
     border-style: solid;
-    border-radius: 2px;
+    border-radius: 5px;
     background-image: unset;
     line-height: 1.3em;
     -webkit-transition: .2s ease;
@@ -152,7 +152,7 @@ form .input-box textarea{
     padding: 9px;
     border-width: 1px;
     border-style: solid;
-    border-radius: 2px;
+    border-radius: 5px;
     background-image: unset;
     line-height: 20px;
     -webkit-transition: .2s ease;
@@ -201,6 +201,9 @@ form .input-box textarea{
 }
 
 .contact-form-box-button button p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 
@@ -226,5 +229,28 @@ form .input-box textarea{
 @media screen and (min-width: 1200px) {
     .footer-main{
       max-width: 1200px;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+
+    .footer-main {
+    grid-template-columns: repeat(1,1fr);
+    }
+
+    .footer-contact-detail{
+        padding-top: 2rem;
+    }
+
+    .footer-main h2 {
+        margin-bottom: 1rem;
+    }
+
+    .footer-contact-address ul {
+        margin-bottom: 2rem;
+    }
+
+    .footer-copyright p {
+        min-height: 100%;
     }
   }

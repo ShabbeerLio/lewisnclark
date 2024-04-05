@@ -306,3 +306,38 @@
     max-width: 1140px;
   }
 }
+
+
+@media only screen and (max-width: 540px) {
+  .home-images {
+    flex-wrap: wrap;
+  }
+  .home-img-item{
+    width: 100%;
+  }
+
+  .home-tags {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .home-boxes{
+    padding: 15px;
+  }
+
+  .chooseUs-item{
+    flex-wrap: wrap;
+  }
+
+  .chooseUs-left{
+    width: 100%;
+  }
+
+  .chooseUs-right{
+    width: 100%;
+    padding: 15px 0px !important;
+  }
+
+  .chooseUs-left:last-child {
+    padding: 0;
+  }
+}

@@ -181,6 +181,26 @@
 
 
 /* search */
+
+.navbar-search {
+  background-color: transparent; /* Set initial background color */
+  transition: background-color 0.3s ease-out;
+}
+
+.navbar-search.open {
+  background-color: white; /* Set the background color when input is open */
+}
+
+.search-input-container {
+  overflow: hidden;
+  max-width: 0;
+  transition: max-width 0.3s ease-out;
+}
+
+.search-input-container.open {
+  max-width: 200px; /* Set the width you desire */
+}
+
 .navbar-search {
   display: flex;
   align-items: center;
@@ -189,6 +209,7 @@
 }
 .navbar-search svg{
   cursor: pointer;
+  margin-left: 0;
 }
 
 .navbar-search input {
@@ -258,5 +279,7 @@
   }
 }
 @media only screen and (max-width: 540px) {
-  
+  .company-logo img {
+    padding: 15px 0px;
+  }
 }

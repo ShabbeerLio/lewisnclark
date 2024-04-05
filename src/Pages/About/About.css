@@ -202,3 +202,28 @@
     max-width: 1200px;
   }
 }
+
+@media only screen and (max-width: 540px) {
+.people-box {
+  flex-wrap: wrap;
+}
+
+.people-box-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.people-box-image img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.people-box-detail{
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px 0px;
+}
+}

@@ -95,3 +95,21 @@
     max-width: 1140px;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .contact-body{
+    flex-wrap: wrap;
+  }
+
+  .contact-body-left{
+    width: 100%;
+  }
+
+  .contact-body-right{
+    width: 100%;
+  }
+
+  .contact-map {
+    margin-top: 2rem;
+  }
+}

@@ -65,3 +65,13 @@
     max-width: 1140px;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .hotel-item-box {
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .hotel-item{
+    padding: 0;
+  }
+}

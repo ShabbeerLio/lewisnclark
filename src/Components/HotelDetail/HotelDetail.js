@@ -54,7 +54,7 @@ const HotelDetail = () => {
                             <h4>overview</h4>
                             {subCategoryItem.overviewDetail.map((i) => (
                                 <>
-                                    <p>{i.detail}</p>
+                                    <p key={i.id}>{i.detail}</p>
                                 </>
                             ))}
                         </div>

@@ -75,9 +75,9 @@ const Navbar = () => {
                                             </li>
                                             <div className="nav-action">
                                                 <div className="navbar-search">
-                                                    {isInputVisible && (
+                                                    <div className={`search-input-container ${isInputVisible ? 'open' : ''}`}>
                                                         <input type="text" placeholder="Search..." />
-                                                    )}
+                                                    </div>
                                                     <div className="search-icon" onClick={toggleInputVisibility}>
                                                         <IoSearchSharp />
                                                     </div>

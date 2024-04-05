@@ -9,8 +9,13 @@ const ContactForm = () => {
 
     const [formData, setFormData] = useState({
         user_name: '',
-        user_number: '',
         user_email: '',
+        user_country: '',
+        user_number: '',
+        user_durationTravel:'',
+        user_intendedTime:'',
+        user_adults:'',
+        user_children:'',
         message: ''
     });
 
@@ -51,17 +56,27 @@ const ContactForm = () => {
             });
 
         // Access the user's name, email, and message from the formData state
-        const { user_name, user_number, user_email, message } = formData;
+        const { user_name, user_number, user_email, user_country, user_durationTravel, user_intendedTime, user_adults ,user_children , message } = formData;
 
         console.log('Name:', user_name);
-        console.log('Number:', user_number);
         console.log('Email:', user_email);
+        console.log('Number:', user_number);
+        console.log('Country:', user_country);
+        console.log('Duration Travel:', user_durationTravel);
+        console.log('Intended Time:', user_intendedTime);
+        console.log('Adults:', user_adults);
+        console.log('Children:', user_children);
         console.log('Message:', message);
 
         setFormData({
             user_name: '',
-            user_number: '',
             user_email: '',
+            user_number: '',
+            user_country: '',
+            user_durationTravel: '',
+            user_intendedTime: '',
+            user_adults: '',
+            user_children: '',
             message: ''
         });
     };
@@ -78,7 +93,7 @@ const ContactForm = () => {
                 <form ref={form} onSubmit={handleSubmit}>
                     <div className="contact-form-box">
                         <div className='input-box'>
-                            <label>Name</label>
+                            {/* <label>Name</label> */}
                             <input
                                 name="user_name"
                                 type="text"
@@ -88,39 +103,95 @@ const ContactForm = () => {
                             />
                         </div>
                         <div className='input-box'>
-                            <label>Phone</label>
+                            {/* <label>Email </label> */}
+                            <input
+                                name="user_email"
+                                type="email"
+                                value={formData.email}
+                                placeholder='Your Email '
+                                onChange={handleInputChange} required
+                            />
+                        </div>
+                    </div>
+                    <div className="contact-form-box">
+                        <div className='input-box'>
+                            {/* <label>Country</label> */}
+                            <input
+                                name="user_country"
+                                type="text"
+                                value={formData.country}
+                                placeholder='Country'
+                                onChange={handleInputChange} required
+                            />
+                        </div>
+                        <div className='input-box'>
+                            {/* <label>Phone</label> */}
                             <input
                                 name="user_number"
                                 type="number"
                                 value={formData.number}
-                                placeholder='Your Phone'
+                                placeholder='Your Number'
+                                onChange={handleInputChange} required
+                            />
+                        </div>
+                    </div>
+                    <div className="contact-form-box">
+                        <div className='input-box'>
+                            {/* <label>Duration of Travel</label> */}
+                            <input
+                                name="user_durationTravel"
+                                type="number"
+                                value={formData.durationTravel}
+                                placeholder='Duration of Travel'
+                                onChange={handleInputChange} required
+                            />
+                        </div>
+                        <div className='input-box'>
+                            {/* <label>Phone</label> */}
+                            <input
+                                name="user_intendedTime"
+                                type="number"
+                                value={formData.intendedTime}
+                                placeholder='Intended Time of Visit'
+                                onChange={handleInputChange} required
+                            />
+                        </div>
+                    </div>
+                    <div className="contact-form-box">
+                        <div className='input-box'>
+                            {/* <label>Name</label> */}
+                            <input
+                                name="user_adults"
+                                type="number"
+                                value={formData.adults}
+                                placeholder='No. of Adults'
+                                onChange={handleInputChange} required
+                            />
+                        </div>
+                        <div className='input-box'>
+                            {/* <label>Phone</label> */}
+                            <input
+                                name="user_children"
+                                type="number"
+                                value={formData.children}
+                                placeholder='No. of Children'
                                 onChange={handleInputChange} required
                             />
                         </div>
                     </div>
                     <div className='input-box'>
-                        <label>Email </label>
-                        <input
-                            name="user_email"
-                            type="email"
-                            value={formData.email}
-                            placeholder='Your Email Address'
-                            onChange={handleInputChange} required
-                        />
-                    </div>
-                    <div className='input-box'>
-                        <label>Message</label>
+                        {/* <label>Message</label> */}
                         <textarea
                             name="message"
                             value={formData.message}
-                            placeholder='Your Message'
+                            placeholder='Describe Your Requirement'
                             onChange={handleInputChange} required
                         />
                     </div>
                     <div className="contact-form-box-button">
                         {/* <p>We do not sell, share, trade your information with anyone for any reason. We won’t give spam mails.</p> */}
                         <button type="submit">
-                            <p>Send Message</p>
+                            <p>Submit</p>
                         </button>
                     </div>
                 </form>

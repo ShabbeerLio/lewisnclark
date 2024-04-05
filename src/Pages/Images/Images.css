@@ -62,3 +62,15 @@
       max-width: 1140px;
     }
   }
+
+  @media only screen and (max-width: 540px) {
+    .Image-gallery {
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        padding: 15px;
+    }
+
+    .Image-gallery .gallery-box {
+        padding: 0;
+    }
+  }

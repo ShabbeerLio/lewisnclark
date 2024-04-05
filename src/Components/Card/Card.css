@@ -103,3 +103,25 @@
       text-align: center;
       transition: all .3s;
   }
+
+  @media only screen and (max-width: 540px) {
+    .category-body-items{
+        flex-wrap: wrap;
+    }
+
+    .category-item-left{
+        width: 100%;
+    }
+
+    .category-item-right{
+        width: 100%;
+    }
+
+    .category-item-right a {
+        width: 100%;
+    }
+
+    .category-item-right .category-button p {
+        width: 100%;
+    }
+  }

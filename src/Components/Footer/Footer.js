@@ -74,18 +74,18 @@ const Footer = () => {
                 <div className="footer-contact-address">
                     <h1>LEWIS AND CLARK TOURS</h1>
                     <p>An India Destination Management Company (DMC)</p>
-                    <h2>CORPORATE OFFICE (INDIA)</h2>
+                    <h1>CORPORATE OFFICE (INDIA)</h1>
                     <p>H 44, BSI Business Park, Sector 63, Noida, Uttar Pradesh 201301, India</p>
                     <ul>
                         <li>Phone: +91-9811-20-7934​ (24/7 - Call & WhatsApp)</li>
                         <li>Phone: +91-9958-06-6500</li>
                         <li>Email: info at lewisnclarktours dot com</li>
                     </ul>
-                    <h2>REGISTERED IN NEW DELHI (INCREDIBLE INDIA)</h2>
+                    <h1>REGISTERED IN NEW DELHI (INCREDIBLE INDIA)</h1>
                     <p>UAM Nummer - DL10D0013736 <br />GST/ VAT Nummer - 07AZWPK6163B1Z4</p>
                 </div>
                 <div className="footer-contact-detail">
-                    <h2>LUXURY INDIA TOURS</h2>
+                    <h1>LUXURY INDIA TOURS</h1>
                     <ul>
                         <li>
                             <Link to="/golden-triangle-india-tours/">Golden Triangle India Tours</Link>
@@ -106,7 +106,7 @@ const Footer = () => {
                             <Link to="/trails-of-luxury-south-india-tour/">Trails of luxury South India Tour</Link>
                         </li>
                     </ul>
-                    <h2>IMPORTANT LINKS</h2>
+                    <h1>IMPORTANT LINKS</h1>
                     <ul>
                         <li>
                             <Link href="/">Home</Link>

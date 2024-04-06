@@ -93,7 +93,6 @@ const ContactForm = () => {
                 <form ref={form} onSubmit={handleSubmit}>
                     <div className="contact-form-box">
                         <div className='input-box'>
-                            {/* <label>Name</label> */}
                             <input
                                 name="user_name"
                                 type="text"
@@ -103,7 +102,6 @@ const ContactForm = () => {
                             />
                         </div>
                         <div className='input-box'>
-                            {/* <label>Email </label> */}
                             <input
                                 name="user_email"
                                 type="email"
@@ -115,7 +113,6 @@ const ContactForm = () => {
                     </div>
                     <div className="contact-form-box">
                         <div className='input-box'>
-                            {/* <label>Country</label> */}
                             <input
                                 name="user_country"
                                 type="text"
@@ -125,7 +122,6 @@ const ContactForm = () => {
                             />
                         </div>
                         <div className='input-box'>
-                            {/* <label>Phone</label> */}
                             <input
                                 name="user_number"
                                 type="number"
@@ -137,7 +133,6 @@ const ContactForm = () => {
                     </div>
                     <div className="contact-form-box">
                         <div className='input-box'>
-                            {/* <label>Duration of Travel</label> */}
                             <input
                                 name="user_durationTravel"
                                 type="number"
@@ -147,7 +142,6 @@ const ContactForm = () => {
                             />
                         </div>
                         <div className='input-box'>
-                            {/* <label>Phone</label> */}
                             <input
                                 name="user_intendedTime"
                                 type="number"
@@ -159,28 +153,33 @@ const ContactForm = () => {
                     </div>
                     <div className="contact-form-box">
                         <div className='input-box'>
-                            {/* <label>Name</label> */}
-                            <input
+                            <select
                                 name="user_adults"
-                                type="number"
                                 value={formData.adults}
-                                placeholder='No. of Adults'
-                                onChange={handleInputChange} required
-                            />
+                                onChange={handleInputChange}
+                                required
+                            >
+                                <option value="1">No. of Adult</option>
+                                <option value="1">1 </option>
+                                <option value="2">2 </option>
+                                <option value="3">3 </option>
+                            </select>
                         </div>
                         <div className='input-box'>
-                            {/* <label>Phone</label> */}
-                            <input
+                            <select
                                 name="user_children"
-                                type="number"
                                 value={formData.children}
-                                placeholder='No. of Children'
-                                onChange={handleInputChange} required
-                            />
+                                onChange={handleInputChange}
+                                required
+                            >
+                                <option value="1">No. of Children</option>
+                                <option value="1">1 </option>
+                                <option value="2">2 </option>
+                                <option value="3">3 </option>
+                            </select>
                         </div>
                     </div>
                     <div className='input-box'>
-                        {/* <label>Message</label> */}
                         <textarea
                             name="message"
                             value={formData.message}
@@ -189,7 +188,6 @@ const ContactForm = () => {
                         />
                     </div>
                     <div className="contact-form-box-button">
-                        {/* <p>We do not sell, share, trade your information with anyone for any reason. We won’t give spam mails.</p> */}
                         <button type="submit">
                             <p>Submit</p>
                         </button>

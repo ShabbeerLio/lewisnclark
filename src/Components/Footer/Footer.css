@@ -132,6 +132,35 @@ form .input-box input{
     -webkit-transition: .2s ease;
     transition: .2s ease;
 }
+form .input-box select{
+    border-color: #c4360f;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    border-radius: 3px;
+    border-width: 1px;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
+    height: auto;
+    min-height: unset;
+    max-height: unset;
+    display: block;
+    margin: 0;
+    padding: 9px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    background-image: unset;
+    line-height: 1.3em;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
 form .input-box textarea{
     border-color: #c4360f;
     background-color: #ffffff;

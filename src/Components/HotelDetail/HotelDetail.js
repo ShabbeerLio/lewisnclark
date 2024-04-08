@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react'
 import "./HotelDetail.css"
 import { FaSnowflake } from "react-icons/fa6";
-import bannerimg from "../../Assets/Categories/Banner-Golden-Triangle-4-nights-5-days.jpg"
-import iterval1 from "../../Assets/Categories/Layer-8-2.png"
-import overview from "../../Assets/Categories/GOLDEN-TRIANGLE-INDIA-TOUR_.jpeg"
 import CategoryData from '../Category/categoryData';
 import { Link, useParams } from 'react-router-dom';
 import { FaWalking } from "react-icons/fa";
@@ -25,7 +22,7 @@ const HotelDetail = () => {
 
 
     return (
-        <div className='HotelDetail'>
+        <div className='HotelDetail' key={subCategoryItem.id}>
             <div className="hotel-detail-box">
                 <div className="hotel-detail-banner">
                     <img src={subCategoryItem.banner} alt={subCategoryItem.bannerTag} />
@@ -75,7 +72,7 @@ const HotelDetail = () => {
                         <h2>Tour Itinerary</h2>
                     </div>
                     {subCategoryItem.tour.map((i) => (<>
-                        <div className="hotel-items-box">
+                        <div className="hotel-items-box" key={i.id}>
                             <div className="hotel-item-left">
                                 <img src={i.tourCover} alt={i.alt} />
                             </div>

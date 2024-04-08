@@ -14,9 +14,9 @@ const Peoples = (props) => {
                 <h1>This page doesn't seem to exist.</h1>
                 <h3>It looks like the link pointing here was faulty. Maybe try searching?		</h3>
                 <div className="people-search">
-                    <div class="group">
+                    <div className="group">
                         <form action="">
-                            <input class="input" type="search" placeholder="Search" />
+                            <input className="input" type="search" placeholder="Search" />
                             <MdOutlineSearch />
                         </form>
                     </div>

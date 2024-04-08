@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import "./Navbar.css"
 import Logo from "../../Assets/Home/cropped-cropped-cropped-tour-and-treval-4-removebg-preview-300x219.png"
 import { IoSearchSharp, IoChevronDown } from "react-icons/io5";
@@ -6,28 +6,36 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
-    const [menuClass, setMenuClass] = useState('nav-menu');
-
+    const [isInputVisible, setInputVisible] = useState(false);
+    const [isCollapseOpen, setIsCollapseOpen] = useState(false);
 
     // Function to close the menu when a navigation link is clicked
+
     const closeMenu = () => {
-        setMenuClass('nav-menu');
         window.scrollTo({
             top: 0,
             behavior: 'auto'
         });
+        const navbarCollapse = document.getElementById('navbarSupportedContent');
+        if (navbarCollapse.classList.contains('show')) {
+            navbarCollapse.classList.remove('show');
+        }
+        const togglerIcon = document.querySelectorAll('.toggler-icon');
+        togglerIcon.forEach(icon => {
+            icon.classList.toggle('active');
+        });
+        setIsCollapseOpen(!isCollapseOpen);
     };
-
-    const [isInputVisible, setInputVisible] = useState(false);
 
     const toggleInputVisibility = () => {
         setInputVisible(!isInputVisible);
     };
 
+
     return (
         <>
             <div className="navBar">
-                <div id="myNavMenu" className={menuClass}>
+                <div id="myNavMenu" className="nav-menu">
                     <div className="nav-items">
                         <nav className="row navbar navbar-expand-lg navbar-light align-items-lg-end">
                             <div className="container-fluid">
@@ -39,14 +47,20 @@ const Navbar = () => {
                                     </div>
                                 </div>
                                 <div className="nav-button">
-                                    <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <button className={`navbar-toggler ${isCollapseOpen ? '' : 'collapsed'} d-flex d-lg-none flex-column justify-content-around`}
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent"
+                                        aria-controls="navbarSupportedContent"
+                                        aria-expanded="false"
+                                        aria-label="Toggle navigation"
+                                        onClick={closeMenu}>
                                         <span className="toggler-icon top-bar"></span>
                                         <span className="toggler-icon middle-bar"></span>
                                         <span className="toggler-icon bottom-bar"></span>
                                     </button>
                                 </div>
                                 <div className="navbar-items">
-
                                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul className="navbar-nav ml-auto">
                                             <li className="nav-item">

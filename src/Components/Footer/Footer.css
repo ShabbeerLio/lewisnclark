@@ -261,7 +261,7 @@ form .input-box textarea{
     }
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 990px) {
 
     .footer-main {
     grid-template-columns: repeat(1,1fr);

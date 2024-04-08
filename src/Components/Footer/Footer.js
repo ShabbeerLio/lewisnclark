@@ -5,6 +5,13 @@ import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'auto'
+        });
+    };
     return (
         <div className="footer">
             <div className="footer-main">
@@ -25,37 +32,37 @@ const Footer = () => {
                     <h1>LUXURY INDIA TOURS</h1>
                     <ul>
                         <li>
-                            <Link to="/golden-triangle-india-tours/">Golden Triangle India Tours</Link>
+                            <Link to="/golden-triangle-india-tours/" onClick={scrollToTop}>Golden Triangle India Tours</Link>
                         </li>
                         <li>
-                            <Link to="/luxury-india-through-the-land-of-colours/">Luxury India through the land of colours</Link>
+                            <Link to="/luxury-india-through-the-land-of-colours/" onClick={scrollToTop}>Luxury India through the land of colours</Link>
                         </li>
                         <li>
-                            <Link to="/luxury-north-india-golden-triangle-with-varanasi/">Luxury North India – Golden Triangle with Varanasi</Link>
+                            <Link to="/luxury-north-india-golden-triangle-with-varanasi/" onClick={scrollToTop}>Luxury North India – Golden Triangle with Varanasi</Link>
                         </li>
                         <li>
-                            <Link to="/luxury-golden-triangle-wildlife/">Luxury Golden Triangle Wildlife</Link>
+                            <Link to="/luxury-golden-triangle-wildlife/" onClick={scrollToTop}>Luxury Golden Triangle Wildlife</Link>
                         </li>
                         <li>
-                            <Link to="/luxury-kerala-tour/">Luxury Kerala Tour</Link>
+                            <Link to="/luxury-kerala-tour/" onClick={scrollToTop}>Luxury Kerala Tour</Link>
                         </li>
                         <li>
-                            <Link to="/trails-of-luxury-south-india-tour/">Trails of luxury South India Tour</Link>
+                            <Link to="/trails-of-luxury-south-india-tour/" onClick={scrollToTop}>Trails of luxury South India Tour</Link>
                         </li>
                     </ul>
                     <h1>IMPORTANT LINKS</h1>
                     <ul>
                         <li>
-                            <Link href="/">Home</Link>
+                            <Link href="/" onClick={scrollToTop}>Home</Link>
                         </li>
                         <li>
-                            <Link href="/about-us/">About Us</Link>
+                            <Link href="/about-us/" onClick={scrollToTop}>About Us</Link>
                         </li>
                         <li>
-                            <Link href="/india-tour-images/">India Tour Images</Link>
+                            <Link href="/india-tour-images/" onClick={scrollToTop}>India Tour Images</Link>
                         </li>
                         <li>
-                            <Link href="/contact-us/">Contact Us</Link>
+                            <Link href="/contact-us/" onClick={scrollToTop}>Contact Us</Link>
                         </li>
                     </ul>
                 </div>

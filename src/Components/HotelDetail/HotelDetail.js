@@ -20,6 +20,13 @@ const HotelDetail = () => {
         return <div>Item not found</div>;
     }
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'auto'
+        });
+    };
+
 
     return (
         <div className='HotelDetail' key={subCategoryItem.id}>
@@ -95,7 +102,7 @@ const HotelDetail = () => {
             <div className="hotel-detail-box">
                 <div className="hotel-detail-item">
                     <div className="hotel-button">
-                        <Link to="/contact-us/">
+                        <Link to="/contact-us/" onClick={scrollToTop}>
                             <p>Book Now</p>
                         </Link>
                     </div>

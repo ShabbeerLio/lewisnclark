@@ -267,6 +267,7 @@ const CategoryData = [
             },
             {
                 id: 3,
+                titleTag: "Golden Triangle Tour Packages | Agra Taj Mahal Tour Packages",
                 cover: require('../../Assets/Categories/LUXURY-GOLDEN-TRIANGLE-VARANASI-TOUR.jpg'),
                 alt: "golden triangle india tour packages",
                 title: "golden triangle india tour packages",

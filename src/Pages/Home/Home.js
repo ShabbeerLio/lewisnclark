@@ -12,6 +12,7 @@ import chooseus1 from "../../Assets/Home/India-exploration.jpg"
 import chooseus2 from "../../Assets/Home/explore-india-tour.jpg"
 import exoticimg from "../../Assets/Home/Images-1280.1280.jpeg"
 import { Link } from 'react-router-dom'
+import { Helmet } from "react-helmet";
 
 const Home = (props) => {
 
@@ -22,13 +23,18 @@ const Home = (props) => {
     });
   };
 
-  useEffect(() => {
-    document.title = `${(props.title)}`
-  }, [])
+  // useEffect(() => {
+  //   document.title = `${(props.title)}`
+  // }, [])
 
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{props.title}</title>
+        <link rel="canonical" href="https://lewisnclarktours.com/" />
+      </Helmet>
       <div className='home'>
         <Banner />
         <div className="home-about">

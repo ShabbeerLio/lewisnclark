@@ -8,6 +8,7 @@ import p1 from "../../Assets/About/bikram-1.jpg"
 import p3 from "../../Assets/About/prashant.jpg"
 import { FaSnowflake } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 
 const About = (props) => {
@@ -19,12 +20,17 @@ const About = (props) => {
     });
   };
 
-  useEffect(() => {
-    document.title = `${(props.title)}`
-  }, [])
+  // useEffect(() => {
+  //   document.title = `${(props.title)}`
+  // }, [])
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{props.title}</title>
+        <link rel="canonical" href="https://lewisnclarktours.com/about-us/" />
+      </Helmet>
       <div className='about'>
         <div className='about-main'>
           <div className="about-head">

@@ -53,16 +53,16 @@ const Footer = () => {
                     <h1>IMPORTANT LINKS</h1>
                     <ul>
                         <li>
-                            <Link href="/" onClick={scrollToTop}>Home</Link>
+                            <Link to="/" onClick={scrollToTop}>Home</Link>
                         </li>
                         <li>
-                            <Link href="/about-us/" onClick={scrollToTop}>About Us</Link>
+                            <Link to="/about-us/" onClick={scrollToTop}>About Us</Link>
                         </li>
                         <li>
-                            <Link href="/india-tour-images/" onClick={scrollToTop}>India Tour Images</Link>
+                            <Link to="/india-tour-images/" onClick={scrollToTop}>India Tour Images</Link>
                         </li>
                         <li>
-                            <Link href="/contact-us/" onClick={scrollToTop}>Contact Us</Link>
+                            <Link to="/contact-us/" onClick={scrollToTop}>Contact Us</Link>
                         </li>
                     </ul>
                 </div>

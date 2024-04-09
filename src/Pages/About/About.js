@@ -14,10 +14,10 @@ const About = (props) => {
 
   const scrollToTop = () => {
     window.scrollTo({
-        top: 0,
-        behavior: 'auto'
+      top: 0,
+      behavior: 'auto'
     });
-};
+  };
 
   useEffect(() => {
     document.title = `${(props.title)}`
@@ -32,7 +32,7 @@ const About = (props) => {
             <div className="about-icon">
               <span>
                 <div className="seperator">
-                  <FaSnowflake/>
+                  <FaSnowflake />
                 </div>
               </span>
             </div>
@@ -117,14 +117,15 @@ const About = (props) => {
                 </div>
               </div>
               <div className="people-box-button">
-              <Link to="/contact-us/" onClick={scrollToTop}>
-                <p>Book Now</p>
-              </Link>
+                <Link to="/contact-us/" onClick={scrollToTop}>
+                  <p>Book Now</p>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </>
   )
 }

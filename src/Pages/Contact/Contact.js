@@ -37,7 +37,7 @@ const Contact = (props) => {
                     </div>
                 </div>
                 <div className="contact-map">
-                    <Maps/>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.017270727365!2d77.37420797550072!3d28.629244475666525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce521d60ee40f%3A0xb6564bc4d9c48998!2sLewis%20and%20Clark%20Tours!5e0!3m2!1sen!2sin!4v1712648271993!5m2!1sen!2sin" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

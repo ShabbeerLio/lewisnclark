@@ -9,7 +9,7 @@ const CategoryData = [
         subCategory: [
             {
                 id: 1,
-                titleTag: "Golden Triangle Tour Packages | Agra Taj Mahal Tour Packages",
+                titleTag: "Golden Triangle Tour Packages | Delhi Jaipur Tour Packages",
                 cover: require('../../Assets/Categories/LUXURY-GOLDEN-TRIANGLE-TOUR.jpg'),
                 alt: "LUXURY GOLDEN TRIANGLE TOUR",
                 title: "Luxury Golden Triangle Tour",
@@ -104,7 +104,7 @@ const CategoryData = [
             },
             {
                 id: 2,
-                titleTag: "Golden Triangle Tour Packages | Agra Taj Mahal Tour Packages",
+                titleTag: "Golden Triangle Tour Packages | Delhi Jodhpur Udaipur Tour Packages",
                 cover: require('../../Assets/Categories/Rajasthan-holiday-trip.jpg'),
                 alt: "rajasthan travel packages",
                 title: "LUXURY INDIA THROUGH THE LAND OF COLORS",
@@ -278,7 +278,7 @@ const CategoryData = [
                 pathName: "luxury-north-india-golden-triangle-with-varanasi",
                 banner: require('../../Assets/Categories/LUXURY-GOLDEN-TRIANGLE-VARANASI-TOUR_.jpeg'),
                 bannerTag: "luxury golden triangle varanasi tour",
-                overview: require('../../Assets/Categories/Varanasi/GOLDEN-TRIANGLE-overview.jpeg'),
+                overview: require('../../Assets/Categories/Varanasi/GOLDEN-TRIANGLE-overview.jpg'),
                 overviewTag: "luxury golden triangle tour india",
                 overviewDetail: [
                     {
@@ -301,7 +301,7 @@ const CategoryData = [
                     },
                     {
                         id: 2,
-                        tourCover: require('../../Assets/Categories/Varanasi/2Layer-13.png'),
+                        tourCover: require('../../Assets/Categories/Varanasi/2Layer-13.jpg'),
                         alt: "Luxury Holidays Vacations in India",
                         detail1: "From the winding lanes of Old Delhi to the towering skyscrapers of the modern city, Delhi is a fascinating blend of old and new, tradition and innovation. On Second day of the Oberoi golden triangle tour, we will visit Sikh Temple and participate in the service kitchen also known as langar. This communal meal is served to everyone who visits the temple, regardless of religion or background. Followed by architecture marvel Qutub Minar, a 13th century Delhi Sultanate monument, minaret made of red sandstone and marble and is adorned with intricate carvings and verses from the Quran. Transfer to the Hotel.",
                         arrival: "Day 2: Delhi Sightseeing",
@@ -315,28 +315,28 @@ const CategoryData = [
                     },
                     {
                         id: 4,
-                        tourCover: require('../../Assets/Categories/Varanasi/4Layer-4-1.png'),
+                        tourCover: require('../../Assets/Categories/Varanasi/4Layer-4-1.jpg'),
                         alt: "Luxury Tour Packages in India",
                         detail1: "On day three of the Jaipur Udaipur Tour package, we will visit glorious Jagdish temple, a perfect blend of mystery, story, and history. Later we will visit City Palace, with a striking style, built atop a hill in a fusion of Rajasthan Rajput architecture, providing a panoramic view of the city and its surroundings. Enjoy the evening boat ride, in the city of lakes Udaipur and experience the beauty and charm of Udaipur. Followed with SаhеliyоnkiВаri (Gardenоfrоyаlladies), Udaipur City tour will end. Transfer to the hotel.",
                         arrival: "Day 4: Udaipur Sightseeing",
                     },
                     {
                         id: 5,
-                        tourCover: require('../../Assets/Categories/Varanasi/5Layer-5.png'),
+                        tourCover: require('../../Assets/Categories/Varanasi/5Layer-5.jpg'),
                         alt: "Luxury Rajasthan Tour",
                         detail1: "Post Breakfast, we will drive to Jaipur. Enjoy the view of country side view during the drive. Rajasthan is famous for its hospitality. Incredible India believes in Atithi Devo Bhava” meaning “Guest is God” Feel the warmth of local Rajasthan hospitality. Arrival in Jaipur and transfer to the hotel. Overnight at your luxury hotel in Jaipur.",
                         arrival: "Day 5: Udaipur -Jaipur",
                     },
                     {
                         id: 6,
-                        tourCover: require('../../Assets/Categories/Varanasi/6Layer-6-1.png'),
+                        tourCover: require('../../Assets/Categories/Varanasi/6Layer-6-1.jpg'),
                         alt: "Luxury India Tour with Oberoi Hotels",
                         detail1: "Your Jaipur Tour guides you to the Pink City, the Gem city. On the 6th day of the Jaipur tour places, we will visit Amer Palace Fort, located at a distance of about 11 km, an extensive palace complex built with pale yellow and pink sandstone and with white marble and followed by Jantar Mantar, UNESCO world heritage, an 18th-century astronomical observatory. It ends with the Hi-Tea at Royal Palace to give you the feel of Luxury Rajasthan. Transfer to the hotel.",
                         arrival: "Day 6:  Jaipur",
                     },
                     {
                         id: 7,
-                        tourCover: require('../../Assets/Categories/Varanasi/7Layer-8-1.png'),
+                        tourCover: require('../../Assets/Categories/Varanasi/7Layer-8-1.jpg'),
                         alt: "India Holiday Packages",
                         detail1: "Next, we will go to the city of the Taj Mahal. On day 6 of the Taj Mahal tour package, we will visit the monument of love, the Taj Mahal. The timeless masterpiece of Mughal Architecture Taj Mahal, you will be struck by its sheer size and grandeur. Then we will pass another UNESCO world heritage Red Fort, known for its red marble specialty. Transfer to your luxury hotel.",
                         arrival: "Day 7: Jaipur - Agra",
@@ -350,21 +350,21 @@ const CategoryData = [
                     },
                     {
                         id: 9,
-                        tourCover: require('../../Assets/Categories/Varanasi/9Layer-9-2.png'),
+                        tourCover: require('../../Assets/Categories/Varanasi/9Layer-9-2.jpg'),
                         alt: "India Family Tour Packages",
                         detail1: "Fly to the abode of Lord Shiva and Parvati, Varanasi, also known as Banaras or Kashi, the next stop of your Varanasi tour package. It is a 14,000 years old city, situated at the Bank of river holy Hindu river Ganga. Then be part of Ganga Aarti, carried out by a priestly congregation on the ghats, during the honking of conch shells, the jingling of bells, the crashing of cymbals, and reciting mantras in unison. Transport you to the hotel.",
                         arrival: "Day 9:  Khajuraho - Varanasi",
                     },
                     {
                         id: 10,
-                        tourCover: require('../../Assets/Categories/Varanasi/10Layer-11-1.png'),
+                        tourCover: require('../../Assets/Categories/Varanasi/10Layer-11-1.jpg'),
                         alt: "Customized Holiday Packages in India",
                         detail1: "After breakfast, on day 10 of the Varanasi tour guide, we will go for the sunrise boat ride, with the first rays of sunlight, and the painted sky, with boatmen of Varanasi walking to their rowboats at the banks of the River Ganges, where you can see the beauty and panorama of Assighat, and have a tranquil journey in holy river Ganges. It is followed by a visit to the striking temples of Varanasi, whose magnanimity and grandiose attract tourists from worldwide. Transport you to the golden triangle luxury resort.",
                         arrival: "Day 10: Varanasi Sightseeing Tour",
                     },
                     {
                         id: 11,
-                        tourCover: require('../../Assets/Categories/Varanasi/12Layer-12-1.png'),
+                        tourCover: require('../../Assets/Categories/Varanasi/12Layer-12-1.jpg'),
                         alt: "India vacation Packages all inclusive",
                         detail1: "Check out the hotel and then fly to New Delhi—end of 11-day Varanasi Tour and Travels.",
                         detail2: "We plan your tailor made India tour and you can opt this luxury north India tour with additional nights for Exotic south India Kerala Ayurveda experience as well for your personal tour stay and for the Yoga Retreat at the beach in Goa.",
@@ -375,7 +375,7 @@ const CategoryData = [
             },
             {
                 id: 4,
-                titleTag: "Golden Triangle Tour Packages | Agra Taj Mahal Tour Packages",
+                titleTag: "Golden Triangle Tour Packages | Delhi Ranthambore-Jaipur Tour Packages",
                 cover: require('../../Assets/Categories/WILDLIFE-TOUR.jpg'),
                 alt: "luxury golden triangle wildlife tour",
                 title: "LUXURY GOLDEN TRIANGLE WILDLIFE TOUR",
@@ -489,7 +489,7 @@ const CategoryData = [
         subCategory: [
             {
                 id: 1,
-                titleTag: "Golden Triangle Tour Packages | Agra Taj Mahal Tour Packages",
+                titleTag: "Golden Triangle Tour Packages | Cochin Marari-Cochin Tour Packages",
                 cover: require('../../Assets/Categories/LUXURY-KERALA-WITH-HOUSEBOAT.jpeg'),
                 alt: "luxury kerala tour with houseboat",
                 title: "LUXURY KERALA WITH HOUSEBOAT",
@@ -615,7 +615,7 @@ const CategoryData = [
             },
             {
                 id: 2,
-                titleTag: "Golden Triangle Tour Packages | Agra Taj Mahal Tour Packages",
+                titleTag: "Golden Triangle Tour Packages | Chennai Cochi Tour Packages",
                 cover: require('../../Assets/Categories/LUXURY-SOUTH-INDIA-TOUR.jpg'),
                 alt: "luxury South India tour package",
                 title: "TRAILS OF LUXURY SOUTH INDIA TOUR",

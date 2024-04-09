@@ -15,7 +15,6 @@
 .footer-main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 100px;
 }
 
 .footer-main h1{
@@ -26,6 +25,7 @@
 .footer-main p{
     color: #ddc8ac;
     margin-bottom: 1.75em;
+    font-size: 15px;
 }
 .footer-main p:last-child{
     color: #ddc8ac;
@@ -49,6 +49,7 @@
 .footer-contact-detail ul li a{
     text-decoration: none;
     color: #ddc8ac;
+    font-size: 15px;
 }
 .footer-contact-detail ul li a:hover{
     color: #3a3a3a;

@@ -17,7 +17,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.footer-main h1{
+.footer-main h3{
     font-size: 1.4rem;
     color: #b98f4b;
     margin-bottom: 1.25em;
@@ -60,7 +60,7 @@
     background-color: #b98f4b;
     padding: 30px;
 }
-.footer-contact-form h3{
+.footer-contact-form h4{
    color: #333333;
    font-size: 25px;
     font-family: Roboto;

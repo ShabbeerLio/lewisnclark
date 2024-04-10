@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'
 import React, { useEffect } from 'react'
 import "./About.css"
 import aboutimg from "../../Assets/About/Lewis-and-Clark-Tours.jpg"
@@ -8,7 +9,6 @@ import p1 from "../../Assets/About/bikram-1.jpg"
 import p3 from "../../Assets/About/prashant.jpg"
 import { FaSnowflake } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
 
 
 const About = (props) => {
@@ -27,9 +27,8 @@ const About = (props) => {
   return (
     <>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>{props.title}</title>
-        <link rel="canonical" href="https://lewisnclarktours.com/about-us/" />
+        <link rel="canonical" href={props.canonical} />
       </Helmet>
       <div className='about'>
         <div className='about-main'>
@@ -51,7 +50,7 @@ const About = (props) => {
         </div>
         <div className='about-main'>
           <div className="about-detail">
-            <h1>Lewis N Clark Tours</h1>
+            <h2>Lewis N Clark Tours</h2>
             <h4>An India Destination Management Company (DMC)</h4>
             <div className="about-detail-desc">
               <p>Lewis N Clark Tours is a start up in India from April 2019 and an India Destination Management Company (India DMC). Our travel company specialises in customized & authentic pre-designed tours throughout India. We are an inbound Tour Agency in India and offer customized Tour and Tailor made tours in India.  Our Luxury India Tour programs are uniquely planned by Indian Tour experts and professionally executed.  Lewis N Clark Tours plans your exotic trip in India authentically with flexibility.</p>
@@ -65,7 +64,7 @@ const About = (props) => {
         </div>
         <div className='about-main-peoples'>
           <div className="about-our-people">
-            <h1>Our Team</h1>
+            <h2>Our Team</h2>
             <div className="about-people-detail">
               <div className="people-box">
                 <div className="people-box-image">

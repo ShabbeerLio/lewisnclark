@@ -1,10 +1,10 @@
+import { Helmet } from 'react-helmet'
 import React, { useEffect } from 'react'
 import "./Category.css"
 import CategoryData from './categoryData'
 import Card from '../Card/Card'
-import { Helmet } from 'react-helmet'
 
-const Category = ({ title, category }) => {
+const Category = ({ title, category ,canonical }) => {
 
     // useEffect(() => {
     //     document.title = `${(title)}`
@@ -20,9 +20,8 @@ const Category = ({ title, category }) => {
     return (
         <>
             <Helmet>
-                <meta charSet="utf-8" />
                 <title>{title}</title>
-                <link rel="canonical" href="https://lewisnclarktours.com/luxury-north-india/" />
+                <link rel="canonical" href={canonical} />
             </Helmet>
             <div className='category'>
                 <div className='category-main'>

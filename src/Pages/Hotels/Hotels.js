@@ -1,7 +1,7 @@
+import { Helmet } from 'react-helmet'
 import React, { useEffect } from 'react'
 import "./Hotels.css"
 import HotelData from './HotelData'
-import { Helmet } from 'react-helmet'
 
 const Hotels = (props) => {
 
@@ -12,9 +12,8 @@ const Hotels = (props) => {
     return (
         <>
             <Helmet>
-                <meta charSet="utf-8" />
                 <title>{props.title}</title>
-                <link rel="canonical" href="https://lewisnclarktours.com/luxury-hotels/" />
+                <link rel="canonical" href={props.canonical} />
             </Helmet>
             <div className='hotel'>
                 <div className="hotel-box1">

@@ -39,6 +39,13 @@
   font-weight: 600;
   margin-bottom: 20px;
 }
+.home-about h2 {
+  color: #d6b686;
+  font-family: "Ruluko", Sans-serif;
+  font-size: 31px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 
 .home-icon span .seperator:before {
   display: block;
@@ -183,7 +190,7 @@
   margin-bottom: 20px;
 }
 
-.home-chooseUs h1 {
+.home-chooseUs h2 {
   color: #d6b686;
   font-family: "Ruluko", Sans-serif;
   font-size: 31px;

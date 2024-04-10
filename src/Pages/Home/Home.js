@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import { Helmet } from "react-helmet";
+import React from 'react'
 import "./Home.css"
 import Banner from '../../Components/Banner/Banner'
 import himg1 from "../../Assets/Home/LUXURY-NORTH-INDIA-2.jpg"
@@ -12,7 +13,6 @@ import chooseus1 from "../../Assets/Home/India-exploration.jpg"
 import chooseus2 from "../../Assets/Home/explore-india-tour.jpg"
 import exoticimg from "../../Assets/Home/Images-1280.1280.jpeg"
 import { Link } from 'react-router-dom'
-import { Helmet } from "react-helmet";
 
 const Home = (props) => {
 
@@ -31,9 +31,8 @@ const Home = (props) => {
   return (
     <>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>{props.title}</title>
-        <link rel="canonical" href="https://lewisnclarktours.com/" />
+        <link rel="canonical" href={props.canonical} />
       </Helmet>
       <div className='home'>
         <Banner />
@@ -98,7 +97,7 @@ const Home = (props) => {
           <div className="home-boxes">
             <div className="home-theam">
               <img src={theam} alt="luxury india tour packages" />
-              <h1>Luxury Hotels</h1>
+              <h2>Luxury Hotels</h2>
               <p>Lewis and Clark Tours is Luxury tour operators in India and offers all kind of Rajasthan tours luxury packages, Luxury private tours India and plans your India holidays exclusively with all inclusive for your best and unforgettable journey. Plan your Luxury vacation India with local tour operator in India for an authentic and real India experience! We are an India holiday specialists and are available to advice and support 24 x 7 for your India trip.</p>
               <div className="theam-button">
                 <p>View All</p>
@@ -108,7 +107,7 @@ const Home = (props) => {
         </div>
         <div className="home-chooseUs">
           <div className="home-boxes">
-            <h1>Why Lewis and Clark?</h1>
+            <h2>Why Lewis and Clark?</h2>
             <p>Lewis and Clark expedition is known as a major chapter in the history of American exploration. The famous travellers Lewis N Clark and their team travelled a lot and discovered unmapped lands, rivers and mountains significantly.</p>
             <div className="chooseUs-main">
               <div className="chooseUs-item">

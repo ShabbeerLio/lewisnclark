@@ -83,7 +83,7 @@ const ContactForm = () => {
 
     return (
         <div className="footer-contact-form">
-            <h3>INQUIRE NOW</h3>
+            <h4>INQUIRE NOW</h4>
             <p>SEND YOUR DETAILS TO BOOK</p>
             {messageSent ? (
                 <div className='form-message'>

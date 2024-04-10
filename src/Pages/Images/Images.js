@@ -1,21 +1,20 @@
+import { Helmet } from 'react-helmet'
 import React, { useEffect } from 'react'
 import "./Images.css"
 import ImageData from './ImageData'
 import { Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
 
 const Images = (props) => {
 
-    useEffect(() => {
-        document.title = `${(props.title)}`
-    }, [])
+    // useEffect(() => {
+    //     document.title = `${(props.title)}`
+    // }, [])
 
     return (
         <>
             <Helmet>
-                <meta charSet="utf-8" />
                 <title>{props.title}</title>
-                <link rel="canonical" href="https://lewisnclarktours.com/india-tour-images/" />
+                <link rel="canonical" href={props.canonical} />
             </Helmet>
             <div className='Images'>
                 <div className='Images-main'>

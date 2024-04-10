@@ -1,8 +1,8 @@
+import { Helmet } from 'react-helmet';
 import React, { useEffect } from 'react'
 import "./Contact.css"
 import { FaSnowflake } from "react-icons/fa6";
 import contactimg from "../../Assets/Contact/1-1-1.jpg"
-import { Helmet } from 'react-helmet';
 
 const Contact = (props) => {
 
@@ -13,9 +13,8 @@ const Contact = (props) => {
     return (
         <>
             <Helmet>
-                <meta charSet="utf-8" />
                 <title>{props.title}</title>
-                <link rel="canonical" href="https://lewisnclarktours.com/contact-us/" />
+                <link rel="canonical" href={props.canonical} />
             </Helmet>
             <div className='contact'>
                 <div className='contact-main'>

@@ -3,12 +3,21 @@ import React, { useEffect } from 'react'
 import "./Category.css"
 import CategoryData from './categoryData'
 import Card from '../Card/Card'
+import { useLocation } from 'react-router-dom';
 
-const Category = ({ title, category ,canonical }) => {
+const Category = ({ title, category }) => {
 
-    // useEffect(() => {
-    //     document.title = `${(title)}`
-    // }, [])
+    const location = useLocation();
+
+    useEffect(() => {
+      document.title = `${(title)}`
+      // Update the canonical URL based on the current location
+      const canonicalUrl = `${window.location.origin}${location.pathname}`;
+      const link = document.querySelector("link[rel='canonical']");
+      if (link) {
+        link.setAttribute("href", canonicalUrl);
+      }
+    }, [location]);
 
     const selectedCategory = CategoryData.find(cat => cat.category === category);
 
@@ -19,10 +28,6 @@ const Category = ({ title, category ,canonical }) => {
 
     return (
         <>
-            <Helmet>
-                <title>{title}</title>
-                <link rel="canonical" href={canonical} />
-            </Helmet>
             <div className='category'>
                 <div className='category-main'>
                     <div className="category-head">

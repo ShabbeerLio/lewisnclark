@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet'
 import React, { useEffect } from 'react'
 import "./About.css"
 import aboutimg from "../../Assets/About/Lewis-and-Clark-Tours.jpg"
@@ -9,9 +8,21 @@ import p1 from "../../Assets/About/bikram-1.jpg"
 import p3 from "../../Assets/About/prashant.jpg"
 import { FaSnowflake } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 
 
 const About = (props) => {
+  const location = useLocation();
+
+  useEffect(() => {
+    document.title = `${(props.title)}`
+    // Update the canonical URL based on the current location
+    const canonicalUrl = `${window.location.origin}${location.pathname}`;
+    const link = document.querySelector("link[rel='canonical']");
+    if (link) {
+      link.setAttribute("href", canonicalUrl);
+    }
+  }, [location]);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -26,10 +37,6 @@ const About = (props) => {
 
   return (
     <>
-      <Helmet>
-        <title>{props.title}</title>
-        <link rel="canonical" href={props.canonical} />
-      </Helmet>
       <div className='about'>
         <div className='about-main'>
           <div className="about-head">

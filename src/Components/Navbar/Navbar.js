@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
-import Logo from "../../Assets/Home/cropped-cropped-cropped-tour-and-treval-4-removebg-preview-300x219.png"
+import Logo from "../../Assets/Home/lewis.jpg"
 import { IoSearchSharp, IoChevronDown } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 

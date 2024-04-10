@@ -1,21 +1,26 @@
-import { Helmet } from 'react-helmet';
+
 import React, { useEffect } from 'react'
 import "./Contact.css"
 import { FaSnowflake } from "react-icons/fa6";
 import contactimg from "../../Assets/Contact/1-1-1.jpg"
+import { useLocation } from 'react-router-dom';
 
 const Contact = (props) => {
 
-    // useEffect(() => {
-    //     document.title = `${(props.title)}`
-    // }, [])
+    const location = useLocation();
+
+  useEffect(() => {
+    document.title = `${(props.title)}`
+    // Update the canonical URL based on the current location
+    const canonicalUrl = `${window.location.origin}${location.pathname}`;
+    const link = document.querySelector("link[rel='canonical']");
+    if (link) {
+      link.setAttribute("href", canonicalUrl);
+    }
+  }, [location]);
 
     return (
         <>
-            <Helmet>
-                <title>{props.title}</title>
-                <link rel="canonical" href={props.canonical} />
-            </Helmet>
             <div className='contact'>
                 <div className='contact-main'>
                     <div className="contact-head">

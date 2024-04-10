@@ -39,15 +39,15 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home canonical={"https://lewisnclarktours.com/"} title={"India Tour Trip | Luxury India Tours Packages | Luxury Travel India"} />} />
-          <Route path="/about-us/" exact element={<About canonical={"https://lewisnclarktours.com/about-us/"} title={"Exotic Trip | Inbound Tour Agency India - Lewis N Clark Tours"} />} />
-          <Route path="/lurury-india-tour/" exact element={<Peoples canonical={"https://lewisnclarktours.com/lurury-india-tour/"} title={"India Tour Trip | Luxury India Tours Packages | Luxury Travel India"} />} />
-          <Route path="/luxury-north-india/" exact element={<Category canonical={"https://lewisnclarktours.com/luxury-north-india/"} title={"North India Tour Packages | North India Holiday | North India Trip"} category="LUXURY NORTH INDIA" />} />
-          <Route path="/luxury-south-india/" exact element={<Category canonical={"https://lewisnclarktours.com/luxury-south-india/"} title={"South India Tour Packages | Luxury Houseboat, Kerala Tour"} category="LUXURY SOUTH INDIA" />} />
+          <Route path="/" exact element={<Home title={"India Tour Trip | Luxury India Tours Packages | Luxury Travel India"} />} />
+          <Route path="/about-us/" exact element={<About title={"Exotic Trip | Inbound Tour Agency India - Lewis N Clark Tours"} />} />
+          <Route path="/lurury-india-tour/" exact element={<Peoples title={"India Tour Trip | Luxury India Tours Packages | Luxury Travel India"} />} />
+          <Route path="/luxury-north-india/" exact element={<Category title={"North India Tour Packages | North India Holiday | North India Trip"} category="LUXURY NORTH INDIA" />} />
+          <Route path="/luxury-south-india/" exact element={<Category title={"South India Tour Packages | Luxury Houseboat, Kerala Tour"} category="LUXURY SOUTH INDIA" />} />
           <Route path="/:pathName" exact element={<HotelDetail />} />
-          <Route path="/luxury-hotels/" exact element={<Hotels canonical={"https://lewisnclarktours.com/luxury-hotels/"} title={"Luxury Hotels - Lewis and Clark Tours"} />} />
-          <Route path="/india-tour-images/" exact element={<Images canonical={"https://lewisnclarktours.com/india-tour-images/"} title={"India Tour Images - Lewis and Clark Tours"} />} />
-          <Route path="/contact-us/" exact element={<Contact canonical={"https://lewisnclarktours.com/contact-us/"} title={"Lewis and Clark Travel Expeditions - Lewis and Clark Tours"} />} />
+          <Route path="/luxury-hotels/" exact element={<Hotels title={"Luxury Hotels - Lewis and Clark Tours"} />} />
+          <Route path="/india-tour-images/" exact element={<Images title={"India Tour Images - Lewis and Clark Tours"} />} />
+          <Route path="/contact-us/" exact element={<Contact title={"Lewis and Clark Travel Expeditions - Lewis and Clark Tours"} />} />
         </Routes>
         <Footer />
       </BrowserRouter>

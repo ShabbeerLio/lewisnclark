@@ -1,21 +1,27 @@
-import { Helmet } from 'react-helmet'
+
 import React, { useEffect } from 'react'
 import "./Images.css"
 import ImageData from './ImageData'
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 
 const Images = (props) => {
 
-    // useEffect(() => {
-    //     document.title = `${(props.title)}`
-    // }, [])
+    const location = useLocation();
+
+    useEffect(() => {
+      document.title = `${(props.title)}`
+      // Update the canonical URL based on the current location
+      const canonicalUrl = `${window.location.origin}${location.pathname}`;
+      const link = document.querySelector("link[rel='canonical']");
+      if (link) {
+        link.setAttribute("href", canonicalUrl);
+      }
+    }, [location]);
 
     return (
         <>
-            <Helmet>
-                <title>{props.title}</title>
-                <link rel="canonical" href={props.canonical} />
-            </Helmet>
+           
             <div className='Images'>
                 <div className='Images-main'>
                     <div className='Images-head'>

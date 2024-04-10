@@ -1,21 +1,29 @@
-import { Helmet } from 'react-helmet';
 import React, { useEffect } from 'react'
 import "./HotelDetail.css"
 import { FaSnowflake } from "react-icons/fa6";
 import CategoryData from '../Category/categoryData';
 import { Link, useParams } from 'react-router-dom';
 import { FaWalking } from "react-icons/fa";
+import { useLocation } from 'react-router-dom';
 
 const HotelDetail = (props) => {
     const { pathName } = useParams();
 
+    const location = useLocation();
+
+    useEffect(() => {
+        document.title = `${(subCategoryItem.titleTag)}`
+      // Update the canonical URL based on the current location
+      const canonicalUrl = `${window.location.origin}${location.pathname}`;
+      const link = document.querySelector("link[rel='canonical']");
+      if (link) {
+        link.setAttribute("href", canonicalUrl);
+      }
+    }, [location]);
+
     const subCategoryItem = CategoryData
         .flatMap(category => category.subCategory)
         .find(item => item.pathName === pathName);
-
-    // useEffect(() => {
-    //     document.title = `${(subCategoryItem.titleTag)}`
-    // }, [])
 
     if (!subCategoryItem) {
         return <div>Item not found</div>;
@@ -31,10 +39,6 @@ const HotelDetail = (props) => {
 
     return (
         <>
-            <Helmet>
-                <title>{subCategoryItem.titleTag}</title>
-                <link rel="canonical" href={`https://lewisnclarktours.com/${pathName}`} />
-            </Helmet>
             <div className='HotelDetail' key={subCategoryItem.id}>
                 <div className="hotel-detail-box">
                     <div className="hotel-detail-banner">

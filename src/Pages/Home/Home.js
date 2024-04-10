@@ -1,5 +1,5 @@
-import { Helmet } from "react-helmet";
-import React from 'react'
+
+import React, { useEffect } from 'react'
 import "./Home.css"
 import Banner from '../../Components/Banner/Banner'
 import himg1 from "../../Assets/Home/LUXURY-NORTH-INDIA-2.jpg"
@@ -13,8 +13,21 @@ import chooseus1 from "../../Assets/Home/India-exploration.jpg"
 import chooseus2 from "../../Assets/Home/explore-india-tour.jpg"
 import exoticimg from "../../Assets/Home/Images-1280.1280.jpeg"
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 
 const Home = (props) => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    document.title = `${(props.title)}`
+    // Update the canonical URL based on the current location
+    const canonicalUrl = `${window.location.origin}${location.pathname}`;
+    const link = document.querySelector("link[rel='canonical']");
+    if (link) {
+      link.setAttribute("href", canonicalUrl);
+    }
+  }, [location]);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -23,17 +36,9 @@ const Home = (props) => {
     });
   };
 
-  // useEffect(() => {
-  //   document.title = `${(props.title)}`
-  // }, [])
-
 
   return (
     <>
-      <Helmet>
-        <title>{props.title}</title>
-        <link rel="canonical" href={props.canonical} />
-      </Helmet>
       <div className='home'>
         <Banner />
         <div className="home-about">

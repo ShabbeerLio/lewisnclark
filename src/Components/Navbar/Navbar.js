@@ -36,7 +36,6 @@ const Navbar = () => {
         <>
             <div className="navBar">
                 <div id="myNavMenu" className="nav-menu">
-                    <div className="nav-items">
                         <nav className="row navbar navbar-expand-lg navbar-light align-items-lg-end">
                             <div className="container-fluid">
                                 <div className="company-logo">
@@ -96,13 +95,15 @@ const Navbar = () => {
                                                         <IoSearchSharp />
                                                     </div>
                                                 </div>
+                                            <div className="call-button">
+                                                <a href="">Book Now</a>
+                                            </div>
                                             </div>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </nav>
-                    </div>
 
                 </div>
 

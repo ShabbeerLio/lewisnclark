@@ -43,7 +43,7 @@ const Home = (props) => {
         <Banner />
         <div className="home-about">
           <div className="home-boxes">
-            <h3>Welcome</h3>
+            <h3>Welcome To</h3>
             <h1>Lewis and Clark Tours! </h1>
             <div className="home-icon">
               <span>

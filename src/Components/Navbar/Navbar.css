@@ -3,22 +3,17 @@
   background-color: black;
 }
 
-.company-logo-box,
-.nav-items nav {
+.nav-menu {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0px 15px;
 }
 .navbar-items {
   width: 100%;
-  border-top: 1px solid #9a6844;
+  /* border-top: 1px solid #9a6844; */
 }
-.nav-items {
-  background-color: black;
-}
+
 
 
 .company-logo img {
@@ -131,7 +126,7 @@
 }
 
 .nav-menu ul li a {
-  padding: 20px !important;
+  padding: 10px 20px !important;
   font-weight: 500;
   font-size: 1rem;
   color: #dbc695 !important;
@@ -155,6 +150,17 @@
   color: #fcd79f;
 }
 
+.call-button a{
+  margin-left: 20px;
+  text-decoration: none;
+  background-color: #f4dd85;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+
 .navbar-nav .dropdown-menu {
   background-color: #383535;
   border-top: 1px solid red;
@@ -163,7 +169,8 @@
   padding: 0;
 }
 .nav-menu ul li a:hover {
-  background-color: #787470;
+  background-color: #f4dd85;
+  color: black !important;
 }
 
 .dropdown-menu {
@@ -221,7 +228,7 @@
 
 
 @media screen and (min-width: 1200px) {
-  .company-logo-box{
+  .nav-menu{
     max-width: 1140px;
   }
 
@@ -229,10 +236,6 @@
 }
 
 @media screen and (min-width: 992px) {
-
-  .nav-items {
-    background-color: #383535;
-  }
 
   .navbar-nav .nav-item .dropdown-menu.mega-menu::before {
     content: "";
@@ -248,14 +251,14 @@
     transform: translate(-50%);
   }
 
-  .company-logo{
+  /* .company-logo{
     background-color: black;
     width: 100%;
-  }
+  } */
 
-  .container-fluid {
+  /* .container-fluid {
     flex-direction: column;
-  }
+  } */
 
   .nav-button{
     display: none;

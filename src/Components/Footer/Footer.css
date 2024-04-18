@@ -9,23 +9,25 @@
     width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 2rem 15px 4rem 15px;
+  padding: 3rem 15px 4rem 15px;
 }
 
 .footer-main{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 30% 30% 40%;
+    gap: 10px;
 }
 
+
 .footer-main h3{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #b98f4b;
     margin-bottom: 1.25em;
 }
 .footer-main p{
     color: #ddc8ac;
     margin-bottom: 1.75em;
-    font-size: 15px;
+    font-size: 14px;
 }
 .footer-main p:last-child{
     color: #ddc8ac;
@@ -49,7 +51,7 @@
 .footer-contact-detail ul li a{
     text-decoration: none;
     color: #ddc8ac;
-    font-size: 15px;
+    font-size: 14px;
 }
 .footer-contact-detail ul li a:hover{
     color: #3a3a3a;
@@ -62,14 +64,14 @@
 }
 .footer-contact-form h4{
    color: #333333;
-   font-size: 25px;
+   font-size: 22px;
     font-family: Roboto;
     font-weight: 700;
     text-align: left;
 }
 .footer-contact-form p{
    color: #333333;
-   font-size: 16px;
+   font-size: 15px;
     font-family: Roboto;
     font-weight: normal;
     text-align: left;
@@ -247,12 +249,11 @@ form .input-box textarea{
     border-style: solid;
     border-width: 0px;
     border-top-width: 1px;
-    border-top-color: #E5E5E5;
+    border-top-color: #131313;
     padding: 20px 0px;
 }
 .footer-copyright p{
      color: #bca57f;
-     min-height: 80px;
      margin: 0;
 }
 

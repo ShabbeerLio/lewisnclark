@@ -110,8 +110,8 @@ const ContactForm = () => {
                                 onChange={handleInputChange} required
                             />
                         </div>
-                    </div>
-                    <div className="contact-form-box">
+                    {/* </div>
+                    <div className="contact-form-box"> */}
                         <div className='input-box'>
                             <input
                                 name="user_country"
@@ -130,8 +130,8 @@ const ContactForm = () => {
                                 onChange={handleInputChange} required
                             />
                         </div>
-                    </div>
-                    <div className="contact-form-box">
+                    {/* </div>
+                    <div className="contact-form-box"> */}
                         <div className='input-box'>
                             <input
                                 name="user_durationTravel"
@@ -150,8 +150,8 @@ const ContactForm = () => {
                                 onChange={handleInputChange} required
                             />
                         </div>
-                    </div>
-                    <div className="contact-form-box">
+                    {/* </div>
+                    <div className="contact-form-box"> */}
                         <div className='input-box'>
                             <select
                                 name="user_adults"

@@ -60,7 +60,12 @@
 .footer-contact-form{
     border-color: rgba(0, 0, 0, 0);
     background-color: #b98f4b;
-    padding: 30px;
+    padding: 3rem 5rem;
+}
+.footer-contact-form{
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #b98f4b;
+    padding: 3rem 5rem;
 }
 .footer-contact-form h4{
    color: #333333;
@@ -79,10 +84,26 @@
 }
 
 .contact-form-box{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     margin-right: -5px;
     margin-left: -5px;
+}
+.contact-form-boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap :1rem;
+}
+.footer-main .contact-form-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.footer-main .footer-contact-form{
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #b98f4b;
+    padding: 3rem 2rem;
 }
 
 .contact-form-box .input-box{
@@ -283,5 +304,26 @@ form .input-box textarea{
 
     .footer-copyright p {
         min-height: 100%;
+    }
+    .contact-form-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .contact-form-box{
+        display: block;
+    }
+    .footer-contact-form{
+        padding: 3rem 2rem;
+    }
+    .footer-contact-form :nth-child(4){
+        display: flex;
+    }
+    .footer-main .contact-form-box{
+        grid-template-columns: repeat(1,1fr);
     }
   }

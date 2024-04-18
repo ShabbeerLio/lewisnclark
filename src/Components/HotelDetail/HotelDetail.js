@@ -13,12 +13,12 @@ const HotelDetail = (props) => {
 
     useEffect(() => {
         document.title = `${(subCategoryItem.titleTag)}`
-      // Update the canonical URL based on the current location
-      const canonicalUrl = `${window.location.origin}${location.pathname}`;
-      const link = document.querySelector("link[rel='canonical']");
-      if (link) {
-        link.setAttribute("href", canonicalUrl);
-      }
+        // Update the canonical URL based on the current location
+        const canonicalUrl = `${window.location.origin}${location.pathname}`;
+        const link = document.querySelector("link[rel='canonical']");
+        if (link) {
+            link.setAttribute("href", canonicalUrl);
+        }
     }, [location]);
 
     const subCategoryItem = CategoryData
@@ -76,11 +76,11 @@ const HotelDetail = (props) => {
                                 <div className="hotel-body-image">
                                     <img src={subCategoryItem.overview} alt={subCategoryItem.overviewTag} />
                                 </div>
-                                <div className="hotel-contactForm">
-                                    {subCategoryItem.contactForm}
-                                </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="hotel-contactForm">
+                        {subCategoryItem.contactForm}
                     </div>
                 </div>
                 <div className="hotel-detail-box">

@@ -1,0 +1,44 @@
+.formfloat{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.582);
+    
+}
+.formfloat-main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floatform-card{
+    position: relative;
+    width: 50%;
+}
+
+.formfloat-button{
+    position: absolute;
+    right: 3%;
+    top: 2%;
+}
+.formfloat-button p{
+    margin: 0;
+    background-color: #894343;
+    padding: 5px 15px;
+    border-radius: 8px;
+   font-size: 25px;
+   color: white;
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 540px) {
+    .floatform-card{
+        position: relative;
+        width: 100%;
+    }
+}

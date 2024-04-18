@@ -213,7 +213,6 @@
 .hotel-button a p {
   display: inline-block;
   line-height: 1;
-  background-color: #69727d;
   font-size: 15px;
   padding: 12px 24px;
   border-radius: 3px;
@@ -224,7 +223,7 @@
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
   fill: #000000;
   color: #000000;
-  background-color: #dac78f;
+  background-color: #bc9352;
 }
 
 .hotel-detail-item h2{

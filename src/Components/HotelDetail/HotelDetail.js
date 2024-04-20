@@ -11,15 +11,30 @@ const HotelDetail = (props) => {
 
     const location = useLocation();
 
+
     useEffect(() => {
-        document.title = `${(subCategoryItem.titleTag)}`
+        document.title = `${subCategoryItem.titleTag}`;
+        
         // Update the canonical URL based on the current location
         const canonicalUrl = `${window.location.origin}${location.pathname}`;
-        const link = document.querySelector("link[rel='canonical']");
-        if (link) {
-            link.setAttribute("href", canonicalUrl);
+        const canonicalLink = document.querySelector("link[rel='canonical']");
+        if (canonicalLink) {
+          canonicalLink.setAttribute("href", canonicalUrl);
         }
-    }, [location]);
+        
+        // Update the description meta tag
+        const description = `${subCategoryItem.descriptions}`;
+        const metaDescription = document.querySelector("meta[name='description']");
+        if (metaDescription) {
+          metaDescription.setAttribute("content", description);
+        } else {
+          // If the description meta tag doesn't exist, create it
+          const newMeta = document.createElement("meta");
+          newMeta.setAttribute("name", "description");
+          newMeta.setAttribute("content", description);
+          document.head.appendChild(newMeta);
+        }
+      }, [location]);
 
     const subCategoryItem = CategoryData
         .flatMap(category => category.subCategory)

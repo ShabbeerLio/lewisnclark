@@ -86,7 +86,7 @@ const Navbar = () => {
                                             <Link className="nav-link" to="/india-tour-images/" onClick={closeMenu} >India Tour Images</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="/lurury-india-tour/" onClick={closeMenu}  >Blogs</Link>
+                                            <Link className="nav-link" to="/blogs/" onClick={closeMenu}  >Blogs</Link>
                                         </li>
                                         <div className="nav-action">
                                             <div className="call-button" onClick={formIsOpen}>
@@ -97,6 +97,9 @@ const Navbar = () => {
                                 </div>
                             </div>
 
+                            <div className="fix-icon-enquery">
+                                <p onClick={formIsOpen}>ENQUIRE NOW</p>
+                            </div>
                             <div className="fix-icon">
                                 <span className='shine'></span>
                                 <a href="https://wa.me/+919811207934">

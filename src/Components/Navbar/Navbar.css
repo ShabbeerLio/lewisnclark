@@ -130,19 +130,6 @@
   font-family: "Ruluko", Sans-serif;
 }
 
-.nav-action {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-left: 20px;
-}
-
-.nav-action svg {
-  font-size: 20px;
-  margin-left: 20px;
-  color: #bc9352;
-}
-
 .call-button p {
   margin: 0;
   display: flex;
@@ -158,8 +145,9 @@
   font-weight: 500;
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
+  transition: all 0.3s;
 }
-.call-button a:hover {
+.call-button p:hover {
   background-color: #f8dea0;
 }
 
@@ -260,6 +248,23 @@
   animation: whatsapp 2s infinite;
 }
 
+.fix-icon-enquery {
+  position: fixed;
+  bottom: 50%;
+  right: -4%;
+  rotate: -90deg;
+}
+
+.fix-icon-enquery p {
+  background-color: #bc9352;
+  padding: 12px 24px;
+  color: black;
+  border-radius: 8px;
+  margin: 0;
+  cursor: pointer;
+  text-align: right;
+}
+
 @keyframes whatsapp {
   0% {
     transform: scale(1);
@@ -289,7 +294,7 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 990px) {
   .navbar-nav .nav-item .dropdown-menu.mega-menu::before {
     content: "";
     border-bottom: 13px solid white;
@@ -306,6 +311,9 @@
 
   .nav-button {
     display: none;
+  }
+  .fix-icon-enquery {
+    right: -4%;
   }
 }
 
@@ -325,7 +333,10 @@
     align-items: center;
     justify-content: flex-start;
     margin: 10px 0px;
-}
+  }
+  .fix-icon-enquery {
+    right: -5%;
+  }
 }
 @media only screen and (max-width: 540px) {
   .company-logo img {
@@ -345,5 +356,8 @@
   }
   .fix-icon a svg {
     font-size: 30px;
+  }
+  .fix-icon-enquery {
+    right: -15%;
   }
 }

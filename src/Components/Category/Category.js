@@ -5,19 +5,33 @@ import CategoryData from './categoryData'
 import Card from '../Card/Card'
 import { useLocation } from 'react-router-dom';
 
-const Category = ({ title, category }) => {
+const Category = ({ title, category ,descriptions}) => {
 
     const location = useLocation();
 
     useEffect(() => {
-      document.title = `${(title)}`
-      // Update the canonical URL based on the current location
-      const canonicalUrl = `${window.location.origin}${location.pathname}`;
-      const link = document.querySelector("link[rel='canonical']");
-      if (link) {
-        link.setAttribute("href", canonicalUrl);
-      }
-    }, [location]);
+        document.title = `${title}`;
+        
+        // Update the canonical URL based on the current location
+        const canonicalUrl = `${window.location.origin}${location.pathname}`;
+        const canonicalLink = document.querySelector("link[rel='canonical']");
+        if (canonicalLink) {
+          canonicalLink.setAttribute("href", canonicalUrl);
+        }
+        
+        // Update the description meta tag
+        const description = `${descriptions}`;
+        const metaDescription = document.querySelector("meta[name='description']");
+        if (metaDescription) {
+          metaDescription.setAttribute("content", description);
+        } else {
+          // If the description meta tag doesn't exist, create it
+          const newMeta = document.createElement("meta");
+          newMeta.setAttribute("name", "description");
+          newMeta.setAttribute("content", description);
+          document.head.appendChild(newMeta);
+        }
+      }, [title, location]);
 
     const selectedCategory = CategoryData.find(cat => cat.category === category);
 

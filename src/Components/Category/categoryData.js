@@ -9,7 +9,8 @@ const CategoryData = [
         subCategory: [
             {
                 id: 1,
-                titleTag: "Golden Triangle Tour Packages | Delhi Jaipur Tour Packages",
+                titleTag: "Luxury Golden Triangle India Tour package | Golden Triangle Luxury Tour",
+                descriptions:"Explore the exotic journey with Luxury Golden Triangle Tour in India. Experience the breathtaking sunrise visit to the Taj Mahal. Enthrill with the magical charm of India Golden Triangle Tour Package and discover the enchanting cities Delhi, Agra, and Jaipur together.",
                 cover: require('../../Assets/Categories/LUXURY-GOLDEN-TRIANGLE-TOUR.jpg'),
                 alt: "LUXURY GOLDEN TRIANGLE TOUR",
                 title: "Luxury Golden Triangle Tour",
@@ -105,7 +106,8 @@ const CategoryData = [
             },
             {
                 id: 2,
-                titleTag: "Golden Triangle Tour Packages | Delhi Jodhpur Udaipur Tour Packages",
+                titleTag: "Rajasthan Luxury Tour Packages | Royal Rajasthan Tour, Taj Hotel Rajasthan Package",
+                descriptions:"Rajasthan is known for its royal stories and fairytales in India Luxury Vacation packages. Learn its colorful culture and vibrant traditions in Luxury Rajasthan Tour packages and feel like Maharaja in your luxury tour.",
                 cover: require('../../Assets/Categories/Rajasthan-holiday-trip.jpg'),
                 alt: "rajasthan travel packages",
                 title: "LUXURY INDIA THROUGH THE LAND OF COLORS",
@@ -269,6 +271,7 @@ const CategoryData = [
             {
                 id: 3,
                 titleTag: "Golden Triangle Tour Packages | Agra Taj Mahal Tour Packages",
+                descriptions:"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
                 cover: require('../../Assets/Categories/LUXURY-GOLDEN-TRIANGLE-VARANASI-TOUR.jpg'),
                 alt: "golden triangle india tour packages",
                 title: "golden triangle india tour packages",
@@ -378,6 +381,7 @@ const CategoryData = [
             {
                 id: 4,
                 titleTag: "Golden Triangle Tour Packages | Delhi Ranthambore-Jaipur Tour Packages",
+                descriptions:"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
                 cover: require('../../Assets/Categories/WILDLIFE-TOUR.jpg'),
                 alt: "luxury golden triangle wildlife tour",
                 title: "LUXURY GOLDEN TRIANGLE WILDLIFE TOUR",
@@ -493,6 +497,7 @@ const CategoryData = [
             {
                 id: 1,
                 titleTag: "Golden Triangle Tour Packages | Cochin Marari-Cochin Tour Packages",
+                descriptions:"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
                 cover: require('../../Assets/Categories/LUXURY-KERALA-WITH-HOUSEBOAT.jpeg'),
                 alt: "luxury kerala tour with houseboat",
                 title: "LUXURY KERALA WITH HOUSEBOAT",
@@ -620,6 +625,7 @@ const CategoryData = [
             {
                 id: 2,
                 titleTag: "Golden Triangle Tour Packages | Chennai Cochi Tour Packages",
+                descriptions:"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
                 cover: require('../../Assets/Categories/LUXURY-SOUTH-INDIA-TOUR.jpg'),
                 alt: "luxury South India tour package",
                 title: "TRAILS OF LUXURY SOUTH INDIA TOUR",

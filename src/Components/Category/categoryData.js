@@ -270,8 +270,8 @@ const CategoryData = [
             },
             {
                 id: 3,
-                titleTag: "Golden Triangle Tour Packages | Agra Taj Mahal Tour Packages",
-                descriptions:"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+                titleTag: "Varanasi Luxury Packages, Golden Triangle Tour with Varanasi, Best Varanasi Packages",
+                descriptions:"Learn the mystic of wold's oldest city Varanasi and explore the hidden treasure of north India in Luxury Varanasi Tour tour. Enjoy Privately-Guided Varanasi Tour with Luxury Hotels and make your India Luxury vacation memorable with our Tour packages to Varanasi from USA.",
                 cover: require('../../Assets/Categories/LUXURY-GOLDEN-TRIANGLE-VARANASI-TOUR.jpg'),
                 alt: "golden triangle india tour packages",
                 title: "golden triangle india tour packages",
@@ -380,8 +380,8 @@ const CategoryData = [
             },
             {
                 id: 4,
-                titleTag: "Golden Triangle Tour Packages | Delhi Ranthambore-Jaipur Tour Packages",
-                descriptions:"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+                titleTag: "Golden Triangle with Ranthambore, Ranthambore Luxury Safari, Luxury Tiger Safari India",
+                descriptions:"Indulge in an ultimate India safari with tiger sighting and enjoy your best luxury golden triangle wildlife tour. Make your Ranthambore and Taj Mahal tour mesmerizing with luxury tour operators India.",
                 cover: require('../../Assets/Categories/WILDLIFE-TOUR.jpg'),
                 alt: "luxury golden triangle wildlife tour",
                 title: "LUXURY GOLDEN TRIANGLE WILDLIFE TOUR",
@@ -496,8 +496,8 @@ const CategoryData = [
         subCategory: [
             {
                 id: 1,
-                titleTag: "Golden Triangle Tour Packages | Cochin Marari-Cochin Tour Packages",
-                descriptions:"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+                titleTag: "Luxury Kerala Tour, 5 Star Kerala Tour Packages, Premium Kerala Tour Packages",
+                descriptions:"Book Taj Kerala packages and enjoy private luxury tours of Kerala exclusively.  Explore Kerala Luxury Tour and experience soul soothing backwater. Plan your luxury holiday packages in Kerala with Lewis and Clark Tours.",
                 cover: require('../../Assets/Categories/LUXURY-KERALA-WITH-HOUSEBOAT.jpeg'),
                 alt: "luxury kerala tour with houseboat",
                 title: "LUXURY KERALA WITH HOUSEBOAT",
@@ -624,8 +624,8 @@ const CategoryData = [
             },
             {
                 id: 2,
-                titleTag: "Golden Triangle Tour Packages | Chennai Cochi Tour Packages",
-                descriptions:"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+                titleTag: "South India Luxury Tours, Private Tour South India, Luxury South India Tour Packages",
+                descriptions:"Discover the the exotics charms in Southern India and experience South India tours from USA with best luxury tour company India. Our South India luxury trave offers a journey through ancients temples, luxury Hotels, tropical backwaters and with Tiger Park.",
                 cover: require('../../Assets/Categories/LUXURY-SOUTH-INDIA-TOUR.jpg'),
                 alt: "luxury South India tour package",
                 title: "TRAILS OF LUXURY SOUTH INDIA TOUR",

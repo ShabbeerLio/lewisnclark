@@ -53,7 +53,7 @@ const BlogDetail = () => {
     return (
         <div className='HotelDetail' key="{subCategoryItem.id}">
             <div className="hotel-detail-box">
-                <div className="hotel-detail-banner">
+                <div className="blog-banner">
                     <img src={blogDetail.cover} alt={blogDetail.alttag} />
                 </div>
             </div>

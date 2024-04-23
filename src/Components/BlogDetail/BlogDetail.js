@@ -15,7 +15,7 @@ const BlogDetail = () => {
 
     const blogDetail = BlogData.find(item => item.pathName === pathName);
     useEffect(() => {
-        document.title = `${blogDetail?.title || 'Blog Detail'}`;
+        document.title = `${blogDetail?.titleTag || 'Blog Detail'}`;
 
         // Update the canonical URL based on the current location
         const canonicalUrl = `${window.location.origin}${location.pathname}`;
@@ -83,9 +83,9 @@ const BlogDetail = () => {
                                     <>
                                         <h5>{item.title}</h5>
                                         <img src={item.imag} alt={item.alttag} />
-                                        <p>{item.detail1}</p>
-                                        <p>{item.detail2}</p>
-                                        <p>{item.detail3}</p>
+                                        {item.detailDesc.map((d) => (
+                                            <p key={d.id}>{d.desc}</p>
+                                        ))}
                                     </>
                                 ))}
                             </div>

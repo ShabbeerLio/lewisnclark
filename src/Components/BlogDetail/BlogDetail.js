@@ -82,9 +82,14 @@ const BlogDetail = () => {
                                 {blogDetail.detail.map((item) => (
                                     <>
                                         <h5>{item.title}</h5>
-                                        <img src={item.imag} alt={item.alttag} />
+                                        {item.imag ? <img src={item.imag} alt={item.alttag} /> : null}
                                         {item.detailDesc.map((d) => (
-                                            <p key={d.id}>{d.desc}</p>
+                                            <>
+                                                <div className="blog-detail-detail">
+                                                    {d.title ? <span>{d.title}</span> : null}
+                                                    <p key={d.id}>{d.desc}</p>
+                                                </div>
+                                            </>
                                         ))}
                                     </>
                                 ))}

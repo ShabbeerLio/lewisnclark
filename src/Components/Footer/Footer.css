@@ -326,4 +326,7 @@ form .input-box textarea{
     .footer-main .contact-form-box{
         grid-template-columns: repeat(1,1fr);
     }
+    .contact-form-box-button button{
+        width: 100% !important;
+    }
   }

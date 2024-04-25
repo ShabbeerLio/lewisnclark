@@ -64,6 +64,9 @@ const Footer = () => {
                         <li>
                             <Link to="/contact-us/" onClick={scrollToTop}>Contact Us</Link>
                         </li>
+                        <li>
+                            <Link to="/blogs/" onClick={scrollToTop}>Blog</Link>
+                        </li>
                     </ul>
                 </div>
                 <ContactForm />

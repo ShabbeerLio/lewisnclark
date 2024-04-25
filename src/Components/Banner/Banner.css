@@ -3,3 +3,9 @@
     object-fit: cover;
     height: 65vh;
 }
+
+@media only screen and (max-width: 540px) {
+    .Banner img{
+        height: 35vh;
+    }
+}

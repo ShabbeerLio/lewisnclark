@@ -1,11 +1,11 @@
 .blog {
-  background-color: black;
+  background-color: #111111;
   font-family: "Ruluko", Sans-serif;
 }
 
 .blog-box {
-  /* padding: 20px 0px; */
-  background-color: black;
+  padding: 20px 0px;
+  background-color: #111111;
 }
 .blog-box2 {
   padding: 20px 0px;
@@ -234,5 +234,8 @@
   }
   .blog-banner img {
     height: 30vh;
+  }
+  .blog-overview .blog-body-left .body-left-button a {
+    width: 100%;
   }
 }

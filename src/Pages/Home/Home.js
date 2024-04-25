@@ -14,6 +14,7 @@ import chooseus2 from "../../Assets/Home/explore-india-tour.jpg"
 import exoticimg from "../../Assets/Home/Images-1280.1280.jpeg"
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom';
+import BlogData from '../../Components/Blog/BlogData'
 
 const Home = (props) => {
 
@@ -21,14 +22,14 @@ const Home = (props) => {
 
   useEffect(() => {
     document.title = `${props.title}`;
-    
+
     // Update the canonical URL based on the current location
     const canonicalUrl = `${window.location.origin}${location.pathname}`;
     const canonicalLink = document.querySelector("link[rel='canonical']");
     if (canonicalLink) {
       canonicalLink.setAttribute("href", canonicalUrl);
     }
-    
+
     // Update the description meta tag
     const description = `${props.descriptions}`
     const metaDescription = document.querySelector("meta[name='description']");
@@ -48,6 +49,19 @@ const Home = (props) => {
       top: 0,
       behavior: 'auto'
     });
+  };
+
+  const formatPathname = (pathname) => {
+    return pathname.toLowerCase().replace(/\s+/g, '-');
+  };
+
+  const trimDescription = (desc) => {
+    const wordLimit = 30;
+    const words = desc.split(' ');
+    if (words.length > wordLimit) {
+      return words.slice(0, wordLimit).join(' ') + '...';
+    }
+    return desc;
   };
 
 
@@ -180,6 +194,32 @@ const Home = (props) => {
             <p>Embark on an opulent journey with our bespoke Luxury South India Tour, where indulgence knows no bounds. Tailored to perfection, our Luxury India private tour packages cater to discerning travelers from the USA, Canada, Australia, and the UK, offering an unparalleled experience in the heart of the Indian subcontinent. </p>
             <p>Elevate your senses with our meticulously crafted Luxury India Tours Packages, ensuring a seamless blend of culture, heritage, and extravagance. Immerse yourself in the lap of luxury with our exclusive Luxury India Travel Packages, carefully curated for the elite traveler seeking an unforgettable escape. </p>
             <p>Explore the treasures of India with our exquisite Luxury Indian Holiday Packages, encompassing the splendors of the Golden Triangle and beyond. For a truly regal experience, embark on our Luxury Train Tours. Discover the epitome of luxury with our Luxury Tours to India, where each destination unfolds a story of opulence and magnificence.</p>
+          </div>
+        </div>
+        <div className="home-blogs">
+          <div className="home-boxes">
+            <h2>Blogs</h2>
+            <div className="home-blog-box">
+              {BlogData.slice(1).reverse().slice(0, 3).map((item) => (
+                <div className="blog-box-item" key={item.pathName}>
+                  <Link to={{
+                    pathname: `/blogs/${formatPathname(item.pathName)}/`
+                  }} onClick={scrollToTop}>
+                    <img src={item.cover} alt={item.alttag} />
+                    <div className="blog-card-desc">
+                      <p>{item.date}</p>
+                      <h4>{item.title}</h4>
+                      <p>{trimDescription(item.desc)}</p>
+                    </div>
+                  </Link>
+                  <div className="blog-box-button">
+                    <Link to={{
+                      pathname: `/blogs/${formatPathname(item.pathName)}/`
+                    }} onClick={scrollToTop}>View More</Link>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

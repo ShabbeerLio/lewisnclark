@@ -38,7 +38,7 @@
   text-align: center;
   color: #bca57f;
   font-family: "Ruluko", Sans-serif;
-  font-size: 31px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 50px;
@@ -47,7 +47,7 @@
   text-align: center;
   color: #b98f4b;
   font-family: "Ruluko", Sans-serif;
-  font-size: 23px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -256,6 +256,11 @@
 }
 
 @media only screen and (max-width: 540px) {
+
+  .hoteldetail-head h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
   .hotel-overview {
     flex-wrap: wrap;
   }
@@ -284,5 +289,8 @@
 
   .hotel-item-right{
     width: 100%;
+  }
+  .hotel-detail-banner img {
+    height: 30vh;
   }
 }

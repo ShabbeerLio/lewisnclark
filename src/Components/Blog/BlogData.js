@@ -201,7 +201,7 @@ const BlogData = [
                 id: 1,
                 title: "Luxury Kerala Tour:",
                 imag: require('../../Assets/Blogs/Blog3/kerela blog2.jpg'),
-                alttag: "luxury kerala tour :",
+                alttag: "luxury kerala tour",
                 detailDesc: [
                     {
                         id: 1,
@@ -283,6 +283,163 @@ const BlogData = [
                     {
                         id: 1,
                         desc: "In the realm of luxury travel, South India stands as a beacon of extravagance and sophistication. From the tranquil backwaters of Kerala to the majestic palaces of Hyderabad, the region offers a tapestry of experiences that redefine opulence. As you embark on your journey through the top 5 hotels and luxury tour packages, prepare to be enchanted by the allure of South India, where every moment is a testament to the art of indulgence."
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        id: 4,
+        title: "India Luxury experience: Unveiling the Top Oberoi Hotels in North India and so on with Lewis and Clark Tours",
+        titleTag: "India Luxury experience: Unveiling the Top Oberoi Hotels in North India and so on with Lewis and Clark Tours",
+        descriptions: "Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+        cover: require('../../Assets/Blogs/Blog4/the oberoi.jpg'),
+        alttag: "luxury golden triangle tour India. ",
+        date: "24/04/2024",
+        desc: "Welcome to the epitome of luxury travel in India, curated by Lewis and Clark Tours. In this exclusive blog post, we delve into the world of opulence and grandeur, focusing on the top Oberoi Hotels in North India in other destinations. Renowned for their impeccable service, breathtaking architecture, and indulgent amenities, these hotels promise an unforgettable experience for discerning travelers seeking the utmost in luxury.",
+        pathName: "india-luxury-experience",
+        detail: [
+            {
+                id: 1,
+                title: "Luxury Golden Triangle Tour India: Exploring the Gems of Delhi, Agra, and Jaipur",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Embark on a journey through India's cultural heritage with our luxury golden triangle tour India. This iconic itinerary encompasses the vibrant cities of Delhi, Agra, and Jaipur, offering a glimpse into the country's rich history and architectural wonders.",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                imag: require('../../Assets/Blogs/Blog4/The Oberoi, New Delhi.jpg'),
+                alttag: "luxury golden triangle tour India",
+                title: "The Oberoi, New Delhi:",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Nestled in the heart of India's capital city, The Oberoi, New Delhi, stands as a beacon of luxury and sophistication. With its elegant interiors, award-winning restaurants, and world-class spa, this iconic hotel sets the standard for luxury accommodations in Delhi. India Luxury Tour planner can explore nearby landmarks such as the India Gate, Humayun's Tomb, and the bustling markets of Connaught Place before retreating to the tranquility of their lavish rooms and suites."
+                    },
+                ],
+            },
+            {
+                id: 3,
+                imag: require('../../Assets/Blogs/Blog4/Oberoi Amarvilas.jpg'),
+                alttag: "luxury golden triangle tour India",
+                title: "The OberoiAmarvilas, Agra:",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Experience the ultimate in romance and luxury at The OberoiAmarvilas, Agra, where every room offers uninterrupted views of the Taj Mahal. As one of the most iconic monuments in the world, the Taj Mahal is best experienced in the early morning light or under the romantic glow of the setting sun. After exploring this architectural marvel, guests can relax in the hotel's opulent surroundings, indulge in gourmet cuisine, and rejuvenate their senses at the spa."
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: "The OberoiRajvilas, Jaipur:",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Escape to a bygone era of regal splendor at The OberoiRajvilas, Jaipur, where luxury meets tradition in the heart of Rajasthan. Set amidst 32 acres of lush gardens, this palatial retreat offers guests a glimpse into the royal heritage of Jaipur. From its intricately designed villas and tents to its world-class amenities and bespoke experiences, The OberoiRajvilas promises an unforgettable stay in the Pink City."
+                    },
+                ],
+            },
+            {
+                id: 5,
+                title: "Luxury Tours India from Australia: A Journey of Discovery and Luxury",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "For travelers seeking an exotic escape from the ordinary, our luxury tours India from Australia offer a seamless blend of adventure, culture, and indulgence. From the majestic landscapes of the Himalayas to the pristine beaches of Goa, India beckons with its myriad of experiences waiting to be explored."
+                    },
+                ],
+            },
+            {
+                id: 6,
+                title: "The Oberoi Wildflower Hall, Shimla:",
+                imag: require('../../Assets/Blogs/Blog4/Oberoi Wildflower Hall, Shimla.jpg'),
+                alttag: "luxury tours India from Australia ",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Perched atop the Himalayas, The Oberoi Wildflower Hall, Shimla, exudes old-world charm and unparalleled luxury. Surrounded by cedar forests and snow-capped peaks, this majestic retreat offers guests a sanctuary of serenity and exclusivity. Whether it's trekking in the mountains, indulging in spa treatments, or simply soaking in the panoramic views, every moment at Wildflower Hall is a testament to the beauty of nature and the heights of luxury."
+                    },
+                ],
+            },
+            {
+                id: 7,
+                title: "The OberoiUdaivilas, Udaipur:",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Experience the romance of Rajasthan at The OberoiUdaivilas, Udaipur, where every corner tells a story of opulence and grandeur. Situated on the banks of Lake Pichola, this majestic palace hotel is a masterpiece of architecture and design. Guests can unwind in their private pool villas, dine under the stars overlooking the lake, and partake in cultural experiences that celebrate the rich heritage of Udaipur."
+                    },
+                ],
+            },
+            {
+                id: 8,
+                title: "India Luxury Tour Packages: Crafting Unforgettable Memories",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "At Lewis and Clark Tours, we understand that every traveler is unique, which is why we offer a range of India luxury tour packages designed to cater to your specific interests and preferences. Whether you're a history buff, a foodie, or an adventure seeker, our curated itineraries promise to deliver an unforgettable journey through the land of contrasts."
+                    },
+                ],
+            },
+            {
+                id: 9,
+                title: "The OberoiSukhvilas Resort & Spa, Chandigarh:",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Escape the hustle and bustle of city life at The OberoiSukhvilas Resort & Spa, Chandigarh, where luxury meets wellness in perfect harmony. Set amidst 8,000 acres of protected forest, this tranquil oasis offers guests a sanctuary for rejuvenation and relaxation. From holistic spa treatments to outdoor adventures such as horseback riding and nature walks, Sukhvilas promises a holistic experience that nourishes the body, mind, and soul."
+                    },
+                ],
+            },
+            {
+                id: 10,
+                title: "The Oberoi Vanyavilas Wildlife Resort, Ranthambore:",
+                imag: require('../../Assets/Blogs/Blog4/The Oberoi Vanyavilas.jpg'),
+                alttag: "India luxury tour packages ",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Embark on IndiaTiger Safari adventure at The Oberoi Vanyavilas Wildlife Resort, Ranthambore, where luxury meets the wilderness in the heart of Rajasthan. Situated adjacent to Ranthambore National Park, this luxurious tented resort offers guests the opportunity to spot tigers, leopards, and other exotic wildlife in their natural habitat. After a day of exploration, guests can unwind in their private tents, dine under the stars, and relive the tales of the jungle around a roaring bonfire."
+                    },
+                ],
+            },
+            {
+                id: 11,
+                title: "Luxury Tours of India from UK: A Taste of Royalty",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "For travelers from the UK seeking a taste of royalty, our luxury tours of India from UK offer a curated selection of experiences that showcase the best of Indian hospitality and heritage. From the majestic palaces of Rajasthan to the backwaters of Kerala, India's diversity is as captivating as it is enchanting."
+                    },
+                ],
+            },
+            {
+                id: 12,
+                title: "The Oberoi, Gurgaon:",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Experience contemporary luxury at its finest at The Oberoi, Gurgaon, where cutting-edge design meets unparalleled service. Situated in the bustling business district of Gurgaon, this urban oasis offers guests a respite from the chaos of city life with its tranquil surroundings and world-class amenities. Whether it's indulging in gourmet cuisine, relaxing by the infinity pool, or unwinding at the spa, every moment at The Oberoi, Gurgaon, is designed to exceed expectations."
+                    },
+                ],
+            },
+            {
+                id: 13,
+                title: "The Oberoi, Mumbai:",
+                imag: require('../../Assets/Blogs/Blog4/The Oberoi, Mumbai.jpg'),
+                alttag: "luxury tours of India from UK ",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Experience the pulse of Mumbai at The Oberoi, Mumbai, where luxury meets sophistication in India's financial capital. Located on Marine Drive, overlooking the Arabian Sea, this iconic hotel offers guests unparalleled views of the city skyline and the sea beyond. From its elegant rooms and suites to its award-winning restaurants and rooftop bar, The Oberoi, Mumbai, promises a truly unforgettable stay in the city that never sleeps."
+                    },
+                    {
+                        id: 2,
+                        desc: "In conclusion, the Oberoi Hotels in North India epitomize luxury and hospitality, offering guests an unparalleled experience that blends tradition with modernity, opulence with simplicity, and indulgence with authenticity. With Lewis and Clark Tours as your trusted guide, embark on a journey of discovery and luxury through the enchanting landscapes and vibrant cultures of India."
                     },
                 ],
             },

@@ -5,8 +5,9 @@ import { FaSnowflake } from "react-icons/fa6";
 import BlogData from '../Blog/BlogData';
 
 const BlogDetail = () => {
-    const { pathName } = useParams();
+    /* global dataLayer */
     const location = useLocation();
+    const { pathName } = useParams();
 
     const formatPathname = (title) => {
         // Convert spaces to dashes and make it lowercase
@@ -17,24 +18,47 @@ const BlogDetail = () => {
     useEffect(() => {
         document.title = `${blogDetail?.titleTag || 'Blog Detail'}`;
 
-        // Update the canonical URL based on the current location
         const canonicalUrl = `${window.location.origin}${location.pathname}`;
-        const canonicalLink = document.querySelector("link[rel='canonical']");
+        let canonicalLink = document.querySelector("link[rel='canonical']");
         if (canonicalLink) {
             canonicalLink.setAttribute("href", canonicalUrl);
+        } else {
+            canonicalLink = document.createElement("link");
+            canonicalLink.setAttribute("rel", "canonical");
+            canonicalLink.setAttribute("href", canonicalUrl);
+            document.head.appendChild(canonicalLink);
         }
 
-        // Update the description meta tag
         const description = `${blogDetail?.descriptions || 'Blog Description'}`;
-        const metaDescription = document.querySelector("meta[name='description']");
+        let metaDescription = document.querySelector("meta[name='description']");
         if (metaDescription) {
             metaDescription.setAttribute("content", description);
         } else {
-            // If the description meta tag doesn't exist, create it
-            const newMeta = document.createElement("meta");
-            newMeta.setAttribute("name", "description");
-            newMeta.setAttribute("content", description);
-            document.head.appendChild(newMeta);
+            metaDescription = document.createElement("meta");
+            metaDescription.setAttribute("name", "description");
+            metaDescription.setAttribute("content", description);
+            document.head.appendChild(metaDescription);
+        }
+
+        // Ensure dataLayer is initialized before the GA script loads
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        // Load the Google Analytics script only once
+        const gaScriptId = 'ga-gtag';
+        if (!document.getElementById(gaScriptId)) {
+            const script = document.createElement('script');
+            script.id = gaScriptId;
+            script.async = true;
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3BK9F87D6E';
+            document.head.appendChild(script);
+
+            script.onload = () => {
+                gtag('js', new Date());
+                gtag('config', 'G-3BK9F87D6E');
+            };
         }
     }, [blogDetail, location]);
 

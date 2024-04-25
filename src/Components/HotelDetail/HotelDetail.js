@@ -7,38 +7,63 @@ import { FaWalking } from "react-icons/fa";
 import { useLocation } from 'react-router-dom';
 
 const HotelDetail = (props) => {
+
     const { pathName } = useParams();
-
-    const location = useLocation();
-
-
-    useEffect(() => {
-        document.title = `${subCategoryItem.titleTag}`;
-        
-        // Update the canonical URL based on the current location
-        const canonicalUrl = `${window.location.origin}${location.pathname}`;
-        const canonicalLink = document.querySelector("link[rel='canonical']");
-        if (canonicalLink) {
-          canonicalLink.setAttribute("href", canonicalUrl);
-        }
-        
-        // Update the description meta tag
-        const description = `${subCategoryItem.descriptions}`;
-        const metaDescription = document.querySelector("meta[name='description']");
-        if (metaDescription) {
-          metaDescription.setAttribute("content", description);
-        } else {
-          // If the description meta tag doesn't exist, create it
-          const newMeta = document.createElement("meta");
-          newMeta.setAttribute("name", "description");
-          newMeta.setAttribute("content", description);
-          document.head.appendChild(newMeta);
-        }
-      }, [location]);
-
     const subCategoryItem = CategoryData
         .flatMap(category => category.subCategory)
         .find(item => item.pathName === pathName);
+
+    /* global dataLayer */
+    const location = useLocation();
+
+    useEffect(() => {
+        document.title = `${subCategoryItem.titleTag}`;
+
+        const canonicalUrl = `${window.location.origin}${location.pathname}`;
+        let canonicalLink = document.querySelector("link[rel='canonical']");
+        if (canonicalLink) {
+            canonicalLink.setAttribute("href", canonicalUrl);
+        } else {
+            canonicalLink = document.createElement("link");
+            canonicalLink.setAttribute("rel", "canonical");
+            canonicalLink.setAttribute("href", canonicalUrl);
+            document.head.appendChild(canonicalLink);
+        }
+
+        const description = `${subCategoryItem.descriptions}`;
+        let metaDescription = document.querySelector("meta[name='description']");
+        if (metaDescription) {
+            metaDescription.setAttribute("content", description);
+        } else {
+            metaDescription = document.createElement("meta");
+            metaDescription.setAttribute("name", "description");
+            metaDescription.setAttribute("content", description);
+            document.head.appendChild(metaDescription);
+        }
+
+        // Ensure dataLayer is initialized before the GA script loads
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        // Load the Google Analytics script only once
+        const gaScriptId = 'ga-gtag';
+        if (!document.getElementById(gaScriptId)) {
+            const script = document.createElement('script');
+            script.id = gaScriptId;
+            script.async = true;
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3BK9F87D6E';
+            document.head.appendChild(script);
+
+            script.onload = () => {
+                gtag('js', new Date());
+                gtag('config', 'G-3BK9F87D6E');
+            };
+        }
+    }, [subCategoryItem.titleTag, subCategoryItem.descriptions, location.pathname]);
+
+
 
     if (!subCategoryItem) {
         return <div>Item not found</div>;

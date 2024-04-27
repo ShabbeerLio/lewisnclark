@@ -17,24 +17,24 @@ import BlogDetail from './Components/BlogDetail/BlogDetail';
 function App() {
 
   // remove inspect and copy element
-  // useEffect(() => {
-  //   const handleRightClick = (e) => {
-  //     e.preventDefault();
-  //   };
+  useEffect(() => {
+    const handleRightClick = (e) => {
+      e.preventDefault();
+    };
 
-  //   const handleSelect = (e) => {
-  //     e.preventDefault();
-  //     return false;
-  //   };
+    const handleSelect = (e) => {
+      e.preventDefault();
+      return false;
+    };
 
-  //   document.addEventListener('selectstart', handleSelect);
-  //   document.addEventListener('contextmenu', handleRightClick);
+    document.addEventListener('selectstart', handleSelect);
+    document.addEventListener('contextmenu', handleRightClick);
 
-  //   return () => {
-  //     document.removeEventListener('contextmenu', handleRightClick);
-  //     document.removeEventListener('selectstart', handleSelect);
-  //   };
-  // }, []);
+    return () => {
+      document.removeEventListener('contextmenu', handleRightClick);
+      document.removeEventListener('selectstart', handleSelect);
+    };
+  }, []);
 
   return (
     <>

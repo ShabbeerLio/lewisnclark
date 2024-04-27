@@ -105,8 +105,8 @@ const BlogDetail = () => {
                                 <p>{blogDetail.desc1}</p>
                                 {blogDetail.detail.map((item) => (
                                     <>
-                                        <h5>{item.title}</h5>
                                         {item.imag ? <img src={item.imag} alt={item.alttag} /> : null}
+                                        <h5>{item.title}</h5>
                                         {item.detailDesc.map((d) => (
                                             <>
                                                 <div className="blog-detail-detail">

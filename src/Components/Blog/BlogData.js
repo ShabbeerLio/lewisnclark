@@ -290,10 +290,10 @@ const BlogData = [
     },
     {
         id: 4,
-        title: "India Luxury experience: Unveiling the Top Oberoi Hotels in North India and so on with Lewis and Clark Tours",
-        titleTag: "India Luxury experience: Unveiling the Top Oberoi Hotels in North India and so on with Lewis and Clark Tours",
-        descriptions: "Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
-        cover: require('../../Assets/Blogs/Blog4/the oberoi.jpg'),
+        title: "Experience Luxury India Tour with Oberoi Hotels by Lewis And Clark",
+        titleTag: "Oberoi Tour India | Oberoi Exotic Vacations, Oberoi Hotels India Packages",
+        descriptions: "Explore Luxury India with Oberoi Hotels. Our Luxury golden triangle tour packages are well planned with Oberoi exotic vacations all inclusive, private driver and escort. Discover the colours of India in Oberoi India Tour and fulfil the dream of seeing the Taj Mahal.",
+        cover: require('../../Assets/Blogs/Blog4/oberoi banner.jpg'),
         alttag: "luxury golden triangle tour India. ",
         date: "24/04/2024",
         desc: "Welcome to the epitome of luxury travel in India, curated by Lewis and Clark Tours. In this exclusive blog post, we delve into the world of opulence and grandeur, focusing on the top Oberoi Hotels in North India in other destinations. Renowned for their impeccable service, breathtaking architecture, and indulgent amenities, these hotels promise an unforgettable experience for discerning travelers seeking the utmost in luxury.",
@@ -311,9 +311,9 @@ const BlogData = [
             },
             {
                 id: 2,
-                imag: require('../../Assets/Blogs/Blog4/The Oberoi, New Delhi.jpg'),
+                imag: require('../../Assets/Blogs/Blog4/oberoi delhi.jpg'),
                 alttag: "luxury golden triangle tour India",
-                title: "The Oberoi, New Delhi:",
+                title: "The Oberoi, New Delhi",
                 detailDesc: [
                     {
                         id: 1,
@@ -323,29 +323,31 @@ const BlogData = [
             },
             {
                 id: 3,
-                imag: require('../../Assets/Blogs/Blog4/Oberoi Amarvilas.jpg'),
+                imag: require('../../Assets/Blogs/Blog4/oberoi agra.jpg'),
                 alttag: "luxury golden triangle tour India",
-                title: "The OberoiAmarvilas, Agra:",
+                title: "The Oberoi Amarvilas, Agra",
                 detailDesc: [
                     {
                         id: 1,
-                        desc: "Experience the ultimate in romance and luxury at The OberoiAmarvilas, Agra, where every room offers uninterrupted views of the Taj Mahal. As one of the most iconic monuments in the world, the Taj Mahal is best experienced in the early morning light or under the romantic glow of the setting sun. After exploring this architectural marvel, guests can relax in the hotel's opulent surroundings, indulge in gourmet cuisine, and rejuvenate their senses at the spa."
+                        desc: "Experience the ultimate in romance and luxury at The Oberoi Amarvilas, Agra, where every room offers uninterrupted views of the Taj Mahal. As one of the most iconic monuments in the world, the Taj Mahal is best experienced in the early morning light or under the romantic glow of the setting sun. After exploring this architectural marvel, guests can relax in the hotel's opulent surroundings, indulge in gourmet cuisine, and rejuvenate their senses at the spa."
                     },
                 ],
             },
             {
                 id: 4,
-                title: "The OberoiRajvilas, Jaipur:",
+                title: "The Oberoi Rajvilas, Jaipur",
+                imag: require('../../Assets/Blogs/Blog4/rajvilas.jpg'),
+                alttag: "luxury golden triangle tour India",
                 detailDesc: [
                     {
                         id: 1,
-                        desc: "Escape to a bygone era of regal splendor at The OberoiRajvilas, Jaipur, where luxury meets tradition in the heart of Rajasthan. Set amidst 32 acres of lush gardens, this palatial retreat offers guests a glimpse into the royal heritage of Jaipur. From its intricately designed villas and tents to its world-class amenities and bespoke experiences, The OberoiRajvilas promises an unforgettable stay in the Pink City."
+                        desc: "Escape to a bygone era of regal splendor at The Oberoi Rajvilas, Jaipur, where luxury meets tradition in the heart of Rajasthan. Set amidst 32 acres of lush gardens, this palatial retreat offers guests a glimpse into the royal heritage of Jaipur. From its intricately designed villas and tents to its world-class amenities and bespoke experiences, The Oberoi Rajvilas promises an unforgettable stay in the Pink City."
                     },
                 ],
             },
             {
                 id: 5,
-                title: "Luxury Tours India from Australia: A Journey of Discovery and Luxury",
+                title: "Luxury Tours India from Australia: A luxury discovery",
                 detailDesc: [
                     {
                         id: 1,
@@ -354,24 +356,14 @@ const BlogData = [
                 ],
             },
             {
-                id: 6,
-                title: "The Oberoi Wildflower Hall, Shimla:",
-                imag: require('../../Assets/Blogs/Blog4/Oberoi Wildflower Hall, Shimla.jpg'),
-                alttag: "luxury tours India from Australia ",
-                detailDesc: [
-                    {
-                        id: 1,
-                        desc: "Perched atop the Himalayas, The Oberoi Wildflower Hall, Shimla, exudes old-world charm and unparalleled luxury. Surrounded by cedar forests and snow-capped peaks, this majestic retreat offers guests a sanctuary of serenity and exclusivity. Whether it's trekking in the mountains, indulging in spa treatments, or simply soaking in the panoramic views, every moment at Wildflower Hall is a testament to the beauty of nature and the heights of luxury."
-                    },
-                ],
-            },
-            {
                 id: 7,
-                title: "The OberoiUdaivilas, Udaipur:",
+                title: "The Oberoi Udaivilas, Udaipur",
+                imag: require('../../Assets/Blogs/Blog4/oberoi udaipur.webp'),
+                alttag: "luxury golden triangle tour India",
                 detailDesc: [
                     {
                         id: 1,
-                        desc: "Experience the romance of Rajasthan at The OberoiUdaivilas, Udaipur, where every corner tells a story of opulence and grandeur. Situated on the banks of Lake Pichola, this majestic palace hotel is a masterpiece of architecture and design. Guests can unwind in their private pool villas, dine under the stars overlooking the lake, and partake in cultural experiences that celebrate the rich heritage of Udaipur."
+                        desc: "Experience the romance of Rajasthan at The Oberoi Udaivilas, Udaipur, where every corner tells a story of opulence and grandeur. Situated on the banks of Lake Pichola, this majestic palace hotel is a masterpiece of architecture and design. Guests can unwind in their private pool villas, dine under the stars overlooking the lake, and partake in cultural experiences that celebrate the rich heritage of Udaipur."
                     },
                 ],
             },
@@ -386,18 +378,8 @@ const BlogData = [
                 ],
             },
             {
-                id: 9,
-                title: "The OberoiSukhvilas Resort & Spa, Chandigarh:",
-                detailDesc: [
-                    {
-                        id: 1,
-                        desc: "Escape the hustle and bustle of city life at The OberoiSukhvilas Resort & Spa, Chandigarh, where luxury meets wellness in perfect harmony. Set amidst 8,000 acres of protected forest, this tranquil oasis offers guests a sanctuary for rejuvenation and relaxation. From holistic spa treatments to outdoor adventures such as horseback riding and nature walks, Sukhvilas promises a holistic experience that nourishes the body, mind, and soul."
-                    },
-                ],
-            },
-            {
                 id: 10,
-                title: "The Oberoi Vanyavilas Wildlife Resort, Ranthambore:",
+                title: "The Oberoi Vanyavilas Wildlife Resort, Ranthambore",
                 imag: require('../../Assets/Blogs/Blog4/The Oberoi Vanyavilas.jpg'),
                 alttag: "India luxury tour packages ",
                 detailDesc: [
@@ -419,7 +401,9 @@ const BlogData = [
             },
             {
                 id: 12,
-                title: "The Oberoi, Gurgaon:",
+                title: "The Oberoi, Gurgaon",
+                imag: require('../../Assets/Blogs/Blog4/oberoi gurgaon.jpg'),
+                alttag: "luxury golden triangle tour India",
                 detailDesc: [
                     {
                         id: 1,
@@ -429,8 +413,8 @@ const BlogData = [
             },
             {
                 id: 13,
-                title: "The Oberoi, Mumbai:",
-                imag: require('../../Assets/Blogs/Blog4/The Oberoi, Mumbai.jpg'),
+                title: "The Oberoi, Mumbai",
+                imag: require('../../Assets/Blogs/Blog4/oberoi mumbai.jpg'),
                 alttag: "luxury tours of India from UK ",
                 detailDesc: [
                     {

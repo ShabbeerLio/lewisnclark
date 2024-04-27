@@ -40,7 +40,7 @@
   font-family: "Ruluko", Sans-serif;
   font-size: 24px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 50px;
 }
 .hoteldetail-head h4 {

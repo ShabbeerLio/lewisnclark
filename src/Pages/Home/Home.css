@@ -185,6 +185,9 @@
   border-radius: 5px;
   text-transform: uppercase;
 }
+.home-theam .theam-button a{
+  text-decoration: none;
+}
 
 .home-theam img {
   width: 100%;

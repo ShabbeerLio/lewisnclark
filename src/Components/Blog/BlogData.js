@@ -672,6 +672,107 @@ const BlogData = [
             },
         ],
     },
+    {
+        id: 7,
+        title: "Welcome to Lewis and Clark Tours: Your Gateway to Luxury Tours in India from Australia",
+        titleTag: "Gateway to Luxury Tours in India from Australia",
+        descriptions: "Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+        cover: require('../../Assets/Blogs/Blog7/blog7-main.avif'),
+        alttag: "best tours to India from Australia",
+        date: "01/05/2024",
+        desc: "Are you ready to embark on a lifetime journey of enchanting land of India? Look no further! Lewis and Clark Tours is your trusted Travel companion for experiencing the best tours to India from Australia. With a focus on luxury and personalized experiences, we specialize in crafting unforgettable tours in India that cater to your every need and desire.",
+        pathName: "gateway-to-luxury-tours-in-india-from-australia",
+        detail: [
+            {
+                id: 1,
+                imag: require('../../Assets/Blogs/Blog7/blog7-1.jpeg'),
+                alttag: "India luxury tour packages",
+                title: "Why Choose Lewis and Clark Tours?",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "At Lewis and Clark Tours, we understand that every traveler is unique, seeking authentic experiences that leave a lasting impression. That's why we go above and beyond to curate tours that surpass expectations. Here's why you should choose us for your next luxury Vacation in India",
+                    },
+                    {
+                        id: 2,
+                        title: "Luxury Redefined",
+                        desc: "Experience the epitome of luxury with our meticulously crafted tour packages. From lavish accommodations to exclusive experiences, we spare no expense in ensuring your comfort and satisfaction.",
+                    },
+                    {
+                        id: 3,
+                        title: "Personalized Experiences",
+                        desc: "We believe that your journey should reflect your interests and preferences. That's why we offer customizable tour options, allowing you to tailor your itinerary to suit your needs",
+                    },
+                    {
+                        id: 4,
+                        title: "Expert Guidance",
+                        desc: "Our team of experienced travel professionals is dedicated to providing unparalleled service every step of the way. From planning your itinerary to assisting you during your travels, we're here to make your journey seamless and stress-free. ",
+                    },
+                    {
+                        id: 4,
+                        title: "Unforgettable Memories",
+                        desc: "India is a land of rich culture, history, and diversity. With Lewis and Clark Tours, you'll create memories that will last a lifetime as you explore iconic landmarks, immerse yourself in local traditions, and indulge in exquisite cuisine.",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                imag: require('../../Assets/Blogs/Blog7/Blog7-2.webp'),
+                alttag: "luxury south India tour",
+                title: "Explore the Jewel of South India",
+                detailDesc: [
+                    {
+                        id: 1,
+                        title:"Luxury South India Tour",
+                        desc: "Discover the lush landscapes, vibrant culture, and serene backwaters of South India with our luxury south India tour. Our enchanting India Tours will take you to some of the region's most renowned destinations, including with the highlights."
+                    },
+                    {
+                        id: 2,
+                        title: "Taj Houseboat Kerala",
+                        desc: "Experience the ultimate in luxury and tranquility as you cruise along the picturesque backwaters of Kerala aboard a traditional houseboat. Indulge in gourmet meals, relax in opulent surroundings, and immerse yourself in the natural beauty that surrounds you."
+                    },
+                    {
+                        id: 3,
+                        title: "Cultural Gems",
+                        desc: "From the historic city of Mysore to the serene hill stations of Ooty and Coorg, our tour showcases the cultural richness and diversity of South India. Explore magnificent palaces, ancient temples, and lush tea plantations as you delve into the region's fascinating heritage. "
+                    },
+                    {
+                        id: 4,
+                        title: "Exquisite Cuisine",
+                        desc: "South India is renowned for its delectable cuisine, characterized by its bold flavors and aromatic spices. Sample a variety of mouthwatering dishes, from fragrant biryanis to savory dosas, as you embark on a culinary journey like no other."
+                    },
+                ],
+            },
+            {
+                id: 3,
+                imag: require('../../Assets/Blogs/Blog7/blog7-3.jpeg'),
+                alttag: "luxury India tour packages",
+                title: "Experience Opulence with Our Luxury India Tour Packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        title: "Luxury North India Tours",
+                        desc: "Immerse yourself in the grandeur of Luxury North India Tours with our meticulously curated tour plans. From the iconic Taj Mahal in Agra to the bustling streets of Delhi, experience the rich history and vibrant culture of this captivating region in style."
+                    },
+                    {
+                        id: 2,
+                        title: "Royal Rajasthan Retreat",
+                        desc: "Step back in time and discover the opulence of Rajasthan's royal heritage with our Royal Rajasthan Retreat. Stay in luxurious heritage hotels, explore majestic forts and palaces, and witness the colorful traditions of this regal land."
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: "Book Your Dream Journey with Lewis and Clark Tours",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Ready to embark on the lifetime luxury tour experience in India! Contact us today to book your luxury tour to India from Australia with Lewis and Clark Tours. Let us transform your travel dreams into reality as you embark on a journey that will leave you with memories to cherish for years to come. Your extraordinary Indian odyssey waits to unlock our luxury India tour deals!"
+                    },
+                ],
+            },
+        ],
+    },
 
 ]
 

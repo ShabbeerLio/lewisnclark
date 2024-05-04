@@ -773,6 +773,77 @@ const BlogData = [
             },
         ],
     },
+    {
+        id: 8,
+        title: "Luxury Tiger Safari in India with Lewis and Clark Tours",
+        titleTag: "Luxury Tiger Safari in India with Lewis and Clark Tours",
+        descriptions: "Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+        cover: require('../../Assets/Blogs/Blog8/Blog8-main.jpeg'),
+        alttag: "Ranthambore Tiger Park",
+        date: "03/05/2024",
+        desc: "Welcome to the realm of opulence and wilderness, where every moment is a breathtaking encounter with nature's grandeur. Lewis and Clark Tours proudly present an unparalleled journey into the heart of India's majestic landscapes, inviting you to explore the mesmerising realm of luxury tiger safaris though Ranthambore Tiger Park. Immerse yourself in the rich biodiversity of India, where the royal Bengal tiger reigns supreme, and every corner unveils a new tale of adventure and luxury.",
+        pathName: "luxury-tiger-safari-in-india-with-lewis-and-clark-tours",
+        detail: [
+            {
+                id: 1,
+                title: "Exploring Rajasthan's Opulence",
+                imag: require('../../Assets/Blogs/Blog8/blog8-1.webp'),
+                alttag: "Rajasthan hotel packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Begin your expedition in the vibrant state of Rajasthan, renowned for its regal heritage and opulent palaces. Our meticulously curated Rajasthan hotel packages offer a glimpse into the extravagant lifestyle of the Maharajas, allowing you to experience unparalleled hospitality amidst royal settings. Indulge in the lavish comforts of iconic Oberoi properties, where every detail exudes elegance and refinement. From the magnificent Oberoi Udaivilas overlooking Lake Pichola to the majestic Oberoi Rajvilas nestled amidst lush gardens, immerse yourself in unparalleled luxury at every step of your journey.",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                title: "Luxury Wildlife Tours in India",
+                imag: require('../../Assets/Blogs/Blog8/blog8-2.jpeg'),
+                alttag: "luxury wildlife tours India",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "As you venture deeper into the wilderness, prepare to be enthralled by the wonders of India's diverse wildlife. Our luxury wildlife tours India offer exclusive access to some of the country's most pristine national parks and sanctuaries, where untamed beauty meets unparalleled comfort. Embark on an unforgettable journey through the untamed jungles of Ranthambore, where the elusive Bengal tiger roams freely in its natural habitat. With our expert guides and luxurious accommodations, every moment becomes a thrilling encounter with the wild."
+                    },
+                ],
+            },
+            {
+                id: 3,
+                title: "Ranthambore Tiger Safari",
+                imag: require('../../Assets/Blogs/Blog8/blog8-3.jpeg'),
+                alttag: "Ranthambore tiger safari",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "No journey to India is complete without a rendezvous with the majestic tigers of Ranthambore. Situated amidst the Aravalli and Vindhya mountain ranges, Ranthambore tiger safari is a haven for wildlife enthusiasts and photographers alike. Set out on exhilarating tiger safaris, where every safari vehicle is equipped with modern amenities to ensure your comfort and safety. Traverse the rugged terrain in search of these elusive predators, guided by the expertise of our seasoned naturalists. Whether you catch a glimpse of a majestic tiger prowling through the undergrowth or witness a spectacular sunset over the ancient ruins, every moment in Ranthambore is etched in the memory forever."
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: "Luxury India Tour Packages",
+                imag: require('../../Assets/Blogs/Blog8/blog8-4.webp'),
+                alttag:"bespoke luxury India tour packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "At Lewis and Clark Tours, we understand that luxury lies in the finer details. Our bespoke luxury India tour packages are crafted to perfection, catering to the discerning traveler seeking unparalleled comfort and sophistication. From private transfers in luxury vehicles to personalized concierge services, we ensure that every aspect of your journey exceeds expectations. Whether you wish to explore the architectural marvels of Jaipur, immerse yourself in the spiritual aura of Varanasi, in combination with India wildlife luxury tour or unwind amidst the serene backwaters of Kerala, our luxury India tour packages promise an unforgettable sojourn through the diverse tapestry of the country."
+                    },
+                ],
+            },
+            {
+                id:5,
+                title: "Conclusion",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Embark on a transformative journey into the heart of India's wilderness with Lewis and Clark Tours. From the regal palaces of Rajasthan to the untamed jungles of Ranthambore, immerse yourself in the epitome of luxury and adventure. Let every moment be a testament to the splendor of nature and the opulence of hospitality as you create memories to last a lifetime. Join us and experience the magic of luxury tiger safaris in India, where every encounter is a celebration of life's grandest adventures."
+                    },
+                ],
+            },
+        ],
+    },
 
 ]
 

@@ -844,6 +844,160 @@ const BlogData = [
             },
         ],
     },
+    {
+        id: 9,
+        title: "Welcome to Lewis and Clark Tours: Your Gateway to Luxury Toursto India",
+        titleTag: "Welcome to Lewis and Clark Tours: Your Gateway to Luxury Toursto India",
+        descriptions: "Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+        cover: require('../../Assets/Blogs/Blog9/Blog9-main.jpg'),
+        alttag: "bespoke Luxury Tours in India",
+        date: "05/05/2024",
+        desc: "At Lewis and Clark Tours, we believe in curating experiences that transcend the ordinary and elevate travel to a realm of luxury and indulgence. Our passion lies in crafting bespoke Luxury Tours in Indiathat immerse you in the rich tapestry of India's culture, heritage, and hospitality. Among our premier offerings, Oberoi Hotels India packages stand out as the epitome of opulence and refinement, promising a sojourn marked by unparalleled comfort and bespoke service.",
+        pathName: "your-gateway-to-luxury-toursto-india",
+        detail: [
+            {
+                id: 1,
+                title: "Exploring the Charms of Rajasthan: A Luxury Odyssey",
+                imag: require('../../Assets/Blogs/Blog9/Blog9-1.jpg'),
+                alttag: "Rajasthan luxury trip",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Rajasthan, the land of kings, beckons with its regal splendor and timeless allure. Embark on a journey fit for royalty with our meticulously designed Rajasthan luxury trip. Immerse yourself in the grandeur of centuries-old palaces, witness the vibrant hues of bustling bazaars, and traverse the golden sands of the Thar Desert in style.",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                title: "Unraveling the Essence of Luxury India Tour Packages",
+                imag: require('../../Assets/Blogs/Blog9/Blog9-2.jpg'),
+                alttag: "Luxury India tour packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "For discerning travelers seeking the crème de la crème of Indian hospitality, our Luxury India tour packages offer an unmatched blend of sophistication and extravagance. From the majestic forts of Jaipur to the serene backwaters of Kerala, each itinerary is carefully curated to captivate your senses and leave you with memories to cherish for a lifetime."
+                    },
+                ],
+            },
+            {
+                id: 3,
+                title: "Indulge in the Majesty of Rajasthan Tour Packages All-Inclusive",
+                imag: require('../../Assets/Blogs/Blog9/Blog9-3.jpg'),
+                alttag: "rajasthan tour packages allinclusive",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Step into a world where every detail is meticulously orchestrated to perfection with our rajasthan tour packages allinclusive. Whether you're exploring the majestic Mehrangarh Fort in Jodhpur or savoring a traditional Rajasthani feast under the starlit sky, rest assured that every aspect of your journey is taken care of with the utmost care and attention."
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: "Unlocking the Splendors of Oberoi Hotels India Packages",
+                imag: require('../../Assets/Blogs/Blog9/Blog9-4.webp'),
+                alttag:"bespoke luxury India tour packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Nestled amidst some of the most iconic destinations in India, Oberoi Hotels redefine luxury with their impeccable service, exquisite accommodations, and unparalleled amenities. As a preferred partner of Oberoi Hotels, Lewis and Clark Tours bring you exclusive packages that promise a seamless blend of opulence and authenticity."
+                    },
+                ],
+            },
+            {
+                id:5,
+                title: "Luxuriate in the Oberoi Experience: Highlights of Our Packages",
+                imag: require('../../Assets/Blogs/Blog9/Blog9-5.jpg'),
+                alttag:"bespoke luxury India tour packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        title: "Exquisite Accommodations",
+                        desc: " From the palatial suites of The OberoiUdaivilas overlooking Lake Pichola to the tranquil oasis of The OberoiRajvilas in Jaipur, each property epitomizes luxury in its truest sense."
+                    },
+                    {
+                        id: 2,
+                        title: "Culinary Delights",
+                        desc: " Indulge your palate with a culinary journey through India's diverse flavors, courtesy of the award-winning restaurants and expert chefs at Oberoi Hotels."
+                    },
+                    {
+                        id: 3,
+                        title: "Personalized Experiences",
+                        desc: "Whether it's a private yoga session at sunrise or a curated tour of the local markets, our Oberoi Hotels India packages are tailored to suit your preferences and interests."
+                    },
+                    {
+                        id: 4,
+                        title: "Scenic Locations",
+                        desc: "Nestled in some of the most picturesque locations around the world, the Oberoi Hotels offer breathtaking views and serene surroundings, providing the perfect backdrop for a memorable retreat."
+                    },
+                    {
+                        id: 5,
+                        title: "Exclusive Amenities",
+                        desc: "Enjoy access to a range of exclusive amenities, including swimming pools, fitness centers, and recreational activities, designed to enhance your stay and create lasting memories."
+                    },
+                    {
+                        id: 6,
+                        title: "Personalized Services",
+                        desc: "Experience personalized attention and exemplary service from the moment you arrive. The Oberoi's attentive staff ensures every aspect of your stay is seamlessly catered to, leaving you feeling like royalty."
+                    },
+                    {
+                        id: 7,
+                        title: "Wellness Retreats",
+                        desc: "Rejuvenate your body, mind, and soul at the Oberoi's luxury spas. Pamper yourself with an array of wellness treatments, including massages, facials, and yoga sessions, tailored to invigorate and restore balance."
+                    },
+                ],
+            },
+            {
+                id:6,
+                title: "Crafting Your Dream Itinerary: How to Book",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Planning your luxury getaway with Lewis and Clark Tours is as effortless as it is exhilarating. Simply browse through our selection of Oberoi Hotels India packages and Rajasthan tour offerings, and let us know your preferred dates and destinations. Our team of experienced travel specialists will take care of the rest, ensuring that every aspect of your journey exceeds your expectations."
+                    },
+                ],
+            },
+            {
+                id:7,
+                title: "Why Choose Lewis and Clark Tours?",
+                imag: require('../../Assets/Blogs/Blog9/Blog9.jpg'),
+                alttag:"India luxury Tour",
+                detailDesc: [
+                    {
+                        id: 1,
+                        title: "Expertise",
+                        desc: "With years of experience in the luxury travel industry, we possess the knowledge and insights to curate seamless and unforgettable experiences."
+                    },
+                    {
+                        id: 2,
+                        title: "Personalized Service",
+                        desc: "From the moment you reach out to us until the conclusion of your journey, our dedicated team is committed to providing personalized attention and assistance."
+                    },
+                    {
+                        id: 3,
+                        title: "Exclusivity",
+                        desc: "As a preferred partner of Oberoi Hotels and other luxury properties, we offer access to exclusive amenities and experiences that are not available elsewhere."
+                    },
+                    {
+                        id: 4,
+                        title: "Peace of Mind",
+                        desc: "Travel with confidence knowing that every aspect of your itinerary is meticulously planned and executed, allowing you to relax and immerse yourself in the magic of India."
+                    },
+                ],
+            },
+            {
+                id:8,
+                title: "Embark on Your Journey of Luxury and Discovery",
+                imag: require('../../Assets/Blogs/Blog9/Blog9-6.jpg'),
+                alttag:"India luxury Tour",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "At Lewis and Clark Tours, we invite you to embark on a dreamtour of luxury in India and explore unlike any other. Whether you're traversing the mystical landscapes of Rajasthan or unwinding in the lap of an Oberoi Hotel in India luxury Tour, let us be your trusted companion every step of the way. Contact us today to begin planning your next unforgettableLuxury Tours in India with Oberoi exotic Vacation packages."
+                    },
+                ],
+            },
+        ],
+    },
 
 ]
 

@@ -723,7 +723,7 @@ const BlogData = [
                 detailDesc: [
                     {
                         id: 1,
-                        title:"Luxury South India Tour",
+                        title: "Luxury South India Tour",
                         desc: "Discover the lush landscapes, vibrant culture, and serene backwaters of South India with our luxury south India tour. Our enchanting India Tours will take you to some of the region's most renowned destinations, including with the highlights."
                     },
                     {
@@ -824,7 +824,7 @@ const BlogData = [
                 id: 4,
                 title: "Luxury India Tour Packages",
                 imag: require('../../Assets/Blogs/Blog8/blog8-4.webp'),
-                alttag:"bespoke luxury India tour packages",
+                alttag: "bespoke luxury India tour packages",
                 detailDesc: [
                     {
                         id: 1,
@@ -833,7 +833,7 @@ const BlogData = [
                 ],
             },
             {
-                id:5,
+                id: 5,
                 title: "Conclusion",
                 detailDesc: [
                     {
@@ -895,7 +895,7 @@ const BlogData = [
                 id: 4,
                 title: "Unlocking the Splendors of Oberoi Hotels India Packages",
                 imag: require('../../Assets/Blogs/Blog9/Blog9-4.webp'),
-                alttag:"bespoke luxury India tour packages",
+                alttag: "bespoke luxury India tour packages",
                 detailDesc: [
                     {
                         id: 1,
@@ -904,10 +904,10 @@ const BlogData = [
                 ],
             },
             {
-                id:5,
+                id: 5,
                 title: "Luxuriate in the Oberoi Experience: Highlights of Our Packages",
                 imag: require('../../Assets/Blogs/Blog9/Blog9-5.jpg'),
-                alttag:"bespoke luxury India tour packages",
+                alttag: "bespoke luxury India tour packages",
                 detailDesc: [
                     {
                         id: 1,
@@ -947,7 +947,7 @@ const BlogData = [
                 ],
             },
             {
-                id:6,
+                id: 6,
                 title: "Crafting Your Dream Itinerary: How to Book",
                 detailDesc: [
                     {
@@ -957,10 +957,10 @@ const BlogData = [
                 ],
             },
             {
-                id:7,
+                id: 7,
                 title: "Why Choose Lewis and Clark Tours?",
                 imag: require('../../Assets/Blogs/Blog9/Blog9.jpg'),
-                alttag:"India luxury Tour",
+                alttag: "India luxury Tour",
                 detailDesc: [
                     {
                         id: 1,
@@ -985,14 +985,229 @@ const BlogData = [
                 ],
             },
             {
-                id:8,
+                id: 8,
                 title: "Embark on Your Journey of Luxury and Discovery",
                 imag: require('../../Assets/Blogs/Blog9/Blog9-6.jpg'),
-                alttag:"India luxury Tour",
+                alttag: "India luxury Tour",
                 detailDesc: [
                     {
                         id: 1,
                         desc: "At Lewis and Clark Tours, we invite you to embark on a dreamtour of luxury in India and explore unlike any other. Whether you're traversing the mystical landscapes of Rajasthan or unwinding in the lap of an Oberoi Hotel in India luxury Tour, let us be your trusted companion every step of the way. Contact us today to begin planning your next unforgettableLuxury Tours in India with Oberoi exotic Vacation packages."
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        id: 10,
+        title: "Top 5 exotic Wildlife Parks inLuxury India Packages with Lewis and Clark Travels",
+        titleTag: "Top 5 exotic Wildlife Parks inLuxury India Packages with Lewis and Clark Travels",
+        descriptions: "Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+        cover: require('../../Assets/Blogs/Blog10/Blog10-main.jpg'),
+        alttag: "luxury wildlife tours in India",
+        date: "07/05/2024",
+        desc: "India, with its rich biodiversity and stunning landscapes, offers an unparalleled experience for wildlife enthusiasts. Imagine delving into the heart of the wilderness, encountering majestic tigers in their natural habitat, and indulging in lavish accommodations amidst nature's tranquility. Lewis and Clark Tours and travelsproudly presents the top five luxury wildlife tours in India, promising a harmonious blend of opulence and adventure. Embark on these unforgettable journeys where every moment is crafted to perfection, from exhilarating tiger safaris to serene encounters with diverse wildlife.",
+        pathName: "top-wildlife-parks-india-packages",
+        detail: [
+            {
+                id: 1,
+                title: "Ranthambore National Park Tiger Safari",
+                imag: require('../../Assets/Blogs/Blog10/Blog10-1.jpg'),
+                alttag: "OberoiVanyavilas",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Begin your escapade with the Ranthambore National Park Tiger Safari, a haven for wildlife aficionados. Nestled in the royal state of Rajasthan, this UNESCO World Heritage Site boasts a thriving population of Bengal tigers amidst ancient ruins and verdant landscapes. Lewis and Clark Tours curate an exclusive experience, offering personalized jeep safaris guided by expert naturalists. Witness the regal predators in their natural habitat as you explore the park's diverse ecosystems. After an exhilarating day of wildlife sightings, retreat to the lavish comforts of luxury hotels such as The OberoiVanyavilas, featuring opulent tents, exquisite dining options, and rejuvenating spa treatments.",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                title: "Bandhavgarh National Park Luxury Expedition",
+                imag: require('../../Assets/Blogs/Blog10/Blog10-2.webp'),
+                alttag: "luxury tiger safari india ",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Indulge in unparalleled luxury tiger safari india amidst the wilderness of Bandhavgarh National Park, renowned for its high density of tigers and rich biodiversity. Lewis and Clark Tours invites you to embark on a bespoke safari experience, combining thrilling game drives with lavish accommodations. Traverse through dense forests and open grasslands, encountering elusive wildlife species including leopards, sloth bears, and vibrant birdlife. After an adventurous day, unwind in the lap of luxury at Taj MahuaKothi, offering elegant cottages, gourmet cuisine, and immersive cultural experiences."
+                    },
+                ],
+            },
+            {
+                id: 3,
+                title: "Kanha National Park: A Retreat for Wildlife Connoisseurs",
+                imag: require('../../Assets/Blogs/Blog10/Blog10-3.jpg'),
+                alttag: "BanjaarTola",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Immerse yourself in the untamed beauty of Kanha National Park, immortalized by Rudyard Kipling's classic tale, 'The Jungle Book.' Lewis and Clark Tours and Travels curates a luxurious retreat, allowing you to witness the enchanting wilderness in style. Embark on guided safaris through pristine forests and sprawling meadows, encountering rare species such as the barasingha deer and Indian wild dog. After each excursion, luxuriate in the comforts of BanjaarTola - A Taj Safari Lodge, offering lavish tented suites overlooking the serene Banjaar River. Unwind with sunset cocktails, private dining experiences, and rejuvenating spa therapies amidst nature's embrace."
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: "Sunderbans Luxury Cruise: Exploring the Mangrove Majesty",
+                imag: require('../../Assets/Blogs/Blog10/Blog10-4.jpg'),
+                alttag: "Royal Bengal Tiger",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Embark on a voyage of discovery through the mystical mangrove forests of the Sunderbans, home to the iconic Royal Bengal Tiger. Lewis and Clark Tours and travels present an exclusive luxury cruise, allowing you to traverse the labyrinthine waterways in opulent style. Sail aboard luxurious vessels equipped with spacious cabins, gourmet dining options, and panoramic sundecks offering breathtaking views of the mangrove wilderness. Explore the tangled mangrove forests, spotting elusive tigers, playful dolphins, and a myriad of bird species. Experience the essence of luxury amidst nature's tranquility, with personalized services and world-class amenities."
+                    },
+                ],
+            },
+            {
+                id: 5,
+                title: "Nagarhole National Park: Unveiling the Wilderness of Southern India",
+                imag: require('../../Assets/Blogs/Blog10/Blog10-5.jpg'),
+                alttag: "tiger safari in south india",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: " Conclude your luxury wildlife odyssey with a journey to Nagarhole National Park, nestled in the lush landscapes of tiger safari in south india. Lewis and Clark Tours invites you to explore this biodiversity hotspot, renowned for its thriving population of tigers, elephants, and leopards. Embark on guided safaris through dense forests and scenic water bodies, encountering a plethora of wildlife species in their natural habitat. After each exhilarating expedition, retreat to the tranquil oasis of Evolve Back, Kabini, where luxurious villas, gourmet cuisine, and indigenous spa therapies await. Immerse yourself in the serenity of nature, surrounded by the unparalleled luxury of Evolve Back's hospitality."
+                    },
+
+                ],
+            },
+            {
+                id: 6,
+                title: "Conclusion",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Embark on a journey of opulence and adventure with Lewis and Clark Tours, as you explore the top five luxury wildlife tours in India. From the regal tigers of Ranthambore to the mystical mangroves of Sunderbans, each expedition promises an unforgettable experience amidst the wilderness. Indulge in lavish accommodations, personalized services, and immersive wildlife encounters, ensuring a truly luxurious escapade. Whether you seek the thrill of a tiger safari or the serenity of nature's embrace, let Lewis and Clark Tours redefine luxury travel in India with unparalleled elegance and sophistication."
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        id: 11,
+        title: "Explore the 7 beautiful Wonders in India Luxury vacation by Lewis and Clark Tours",
+        titleTag: "Explore the 7 beautiful Wonders in India Luxury vacation by Lewis and Clark Tours",
+        descriptions: "Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+        cover: require('../../Assets/Blogs/Blog11/Blog11-main.jpg'),
+        alttag: "Luxury India Tour packages",
+        date: "09/05/2024",
+        desc: "Welcome to Lewis and Clark Tours, where we redefine luxury travel in India by offering exquisite journeys to explore the seven wonders of this incredible land. Embark on an once-in-a-lifetime adventure with us and indulge in opulent accommodations, unparalleled hospitality, and mesmerizing experiences across India's most iconic destinations.",
+        pathName: "explore-the-beautiful-wonders-in-india",
+        detail: [
+            {
+                id: 1,
+                title: "Introduction to Lewis and Clark Tours",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "We Lewis and Clark Tours, an India luxury tour operator from Delhi, we believe that trip to India is not just about visiting places; it's alsoabout creating unforgettable memories and enriching experiencesduring your India luxury tours. With a passion for exploration and a commitment to excellence, we curate bespoke India luxury tours that cater to the discerning traveler's every desire.",
+                    },
+                    {
+                        id: 2,
+                        desc: "Our team of experienced travel professionals meticulously crafts each India Touritinerary to ensure a seamless blend of luxury, comfort, and cultural immersion. From magnificent palaces and ancient temples to breathtaking natural landscapes, our tours offer a glimpse into the rich tapestry of India's heritage and diversity",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                title: "Discover the 7 Wonders in your Luxury India Tour packages",
+                imag: require('../../Assets/Blogs/Blog11/Blog11-1.jpg'),
+                alttag: "Luxury India Tour packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        title: "Taj Mahal, Agra",
+                        desc: "Begin yourIndiaLuxuryTour from Agra with a visit to the crown jewel of India, the iconic Taj Mahal. Marvel at the timeless beauty of this architectural masterpiece as you explore its intricate marble façade and lush gardens."
+                    },
+                    {
+                        id: 2,
+                        title: "Red Fort, Delhi",
+                        desc: "Immerse yourself in the grandeur of Mughal architecture at the historic Red Fort in Delhi during your Luxury Tour from Delhi. Admire the stunning red sandstone walls, intricate carvings, and majestic palaces that once served as the seat of power for emperors."
+                    },
+                    {
+                        id: 3,
+                        title: "Hampi, Karnataka",
+                        desc: "Step back in time as you wander through the ancient ruins of Hampi, a UNESCO World Heritage Site. Explore the awe-inspiring temple complexes, majestic boulders, and vibrant bazaars during your Luxury South India packages that make Hampi a living testament to India's glorious past."
+                    },
+                    {
+                        id: 4,
+                        title: "Khajuraho Temples, Madhya Pradesh",
+                        desc: "Delve into the realm of spirituality and sensuality at the Khajuraho Temples, renowned for their exquisite carvings and intricate sculptures depicting various facets of human life and emotions.  Discover India’s century’s old carving art during your Luxury India Vacations. "
+                    },
+                    {
+                        id: 5,
+                        title: "Konark Sun Temple, Odisha",
+                        desc: "Embark on mystic religion Hindu and its culture during your Luxury India Tour and travelsandBehold the architectural marvel of the Konark Sun Temple, dedicated to the sun god Surya. Marvel at the intricate stone carvings that adorn the temple's walls, depicting scenes from Hindu mythology and everyday life."
+                    },
+                    {
+                        id: 6,
+                        title: "QutubMinar, Delhi",
+                        desc: "Explore the towering QutubMinar, the tallest brick minaret in the world, and a UNESCO World Heritage Site. Admire the intricate Islamic architecture and learn about the fascinating history of this iconic monument during Delhi Tour package by Lewis and Clark Expeditions. "
+                    },
+                    {
+                        id: 7,
+                        title: "Golden Temple, Amritsar",
+                        desc: "Discover world’s largest kitchen Langer at Holi shrine Amritsar in luxury north India tour packages.Experience the spiritual bliss at the Golden Temple, the holiest shrine of Sikhism in the whole world. Marvel at the temple's shimmering golden façade, serene sarovar (pool), and the melodious hymns that resonate throughout its sacred precincts."
+                    },
+                ],
+            },
+            {
+                id: 3,
+                title: "Luxury Accommodation and Amenities",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "At Lewis and Clark Travels, we take care of High End Tours in India and its clients, for not only their Tour activities in India, but also their luxury accommodations for better experiences.That's why we handpick the finest luxury accommodations that offer a blend of comfort, elegance, and impeccable service. From heritage hotels and boutique resorts to lavish villas and palatial suites, we ensure that every moment of your stay isfull of experiences in India."
+                    },
+                    {
+                        id: 2,
+                        desc: "Indulge in gourmet dining experiences featuring authentic Indian cuisine prepared by master chefs using the freshest local ingredients. Relax and rejuvenate with bespoke spa treatments inspired by ancient wellness traditions. And immerse yourself in luxury with personalized services and amenities that cater to your every whim."
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: "Luxury Vacation Packages",
+                imag: require('../../Assets/Blogs/Blog11/Blog11-2.png'),
+                alttag: "India luxury vacation packages ",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Our India luxury vacation packages are designed to provide you with a hassle-free travel experience, allowing you to focus on creating memories that last a lifetime. Whether you're seeking a romantic getaway, a family adventure, or a solo sojourn, we have the perfect itinerary for you."
+                    },
+                    {
+                        id: 2,
+                        desc: "Choose from a range of curated tours that showcase the best of India's cultural heritage, natural beauty, and culinary delights. From the snow-capped peaks of the Himalayas to the sun-kissed beaches of Goa, our luxury india tour packagescover the length and breadth of this enchanting land, ensuring that you experience the very best that India has to offer."
+                    },
+                ],
+            },
+            {
+                id: 5,
+                title: "Luxury Travel in North India",
+                imag: require('../../Assets/Blogs/Blog11/Blog11-3.jpg'),
+                alttag: "luxury north India tours ",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "For those seeking to explore the treasures of North India in style, our luxury north India tours offer an unparalleled travelsexperiences journey through this vibrant region. Discover the majestic forts and palaces of Rajasthan, cruise along the tranquil backwaters of Kerala, or embark on a wildlife safari in the jungles of Madhya Pradesh – the possibilities are endless."
+                    },
+                    {
+                        id: 2,
+                        desc: "Experience the splendor of North India's rich cultural heritage as you visit historic cities, bustling markets, and ancient temples. And at the end of each day, retire to the comfort of your luxurious accommodation, where every detail has been carefully curated to ensure your utmost satisfaction."
+                    },
+
+                ],
+            },
+            {
+                id: 6,
+                title: "Conclusion",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "At Lewis and Clark Tour and travels, we invite you to embark on a transformative journey through the seven wonders of India, where luxury meets experience and exploration. Every moment is a wonderfulopportunity to discover something new in Luxury Tours in India. Let Lewis and Clark Expeditions plan  your Luxury India Tours, our India tour packages is filledwiththe vibrant colors, rich flavors, and timeless traditions of this captivating land. Are you ready to experience our bespoke India luxury tours, where the magic of India awaits for you?"
+                    },
+                    {
+                        id: 2,
+                        desc: "Contact us today to begin planning of your luxury India tour and embark on the experiencesof a lifetime with Lewis and Clark Tours and Travels."
                     },
                 ],
             },

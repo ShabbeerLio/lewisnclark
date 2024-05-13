@@ -1213,6 +1213,102 @@ const BlogData = [
             },
         ],
     },
+    {
+        id: 12,
+        title: "Lewis and Clark Tours: Your Gateway to Luxury India Vacations",
+        titleTag: "Lewis and Clark Tours: Your Gateway to Luxury India Vacations",
+        descriptions: "Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish.",
+        cover: require('../../Assets/Blogs/Blog12/Blog12-main.jpg'),
+        alttag: "luxury packages in India",
+        date: "10/05/2024",
+        desc: "Welcome to Lewis and Clark Tours, where our India luxury Tour brings you in the heart of the beautiful country! Embark on an enchanting IndiaTours with us and unveil the opulent charm of Oberoi Hotels through our meticulously curated luxury packages in India. Indulge in the epitome of extravagance while exploring the rich heritage, vibrant culture, and breathtaking landscapes of India. From the majestic palaces in Luxury Rajasthan to the tranquil backwaters of luxury Kerala in South India, our luxury India vacations from the USA promise an unparalleled experience tailored to your desires.",
+        pathName: "gateway-to-luxury-india-vacations",
+        detail: [
+            {
+                id: 1,
+                title: "Unveiling Luxury: Oberoi Hotels India Packages",
+                imag: require('../../Assets/Blogs/Blog12/Blog12-1.webp'),
+                alttag: "Oberoi Hotels India Packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "At Lewis and Clark Tours, we believe that every traveler deserves to experience the epitome of luxury. That's why we have partnered with Oberoi Hotels, renowned for their exceptional hospitality and unrivaled opulence, to craft the ultimate India tour packages like Luxury Golden Triangle Tour with Oberoi. Let us plan your India Vacation with luxury Oberoi where every moment is infused with grandeur and sophistication.",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                title: "Rajasthan Luxury Tour Packages: A Regal Affair",
+                imag: require('../../Assets/Blogs/Blog12/Blog12-2.jpg'),
+                alttag: "Rajasthan luxury tour packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Step into a realm of royalty with our Rajasthan luxury tour packages. Explore the land of maharajas and majestic forts, where every corner tells a tale of valor and grandeur. Stay in the lap of luxury at Oberoi Hotels, where traditional Rajasthani hospitality blends seamlessly with modern comforts."
+                    },
+                    {
+                        id: 2,
+                        desc: "Begin your journey in Jaipur, the Pink City, where you'll be captivated by the splendor of the Amber Fort and the intricacy of the Hawa Mahal. Indulge in a royal dining experience at the iconic Oberoi Rajvilas, set amidst lush gardens and serene pools."
+                    },
+                    {
+                        id: 3,
+                        desc: "Continue your India Luxuryodyssey to Udaipur, the City of Lakes, where the majestic Lake Palace and the grand City Palace await your exploration. Relax and rejuvenate at The Oberoi Udaivilas, overlooking the serene waters of Lake Pichola, offering a perfect blend of tranquility and luxury in our Oberoi exotic vacation."
+                    },
+                ],
+            },
+            {
+                id: 3,
+                title: "Embark on a Soul-Stirring experiences: Luxury India Travel",
+                imag: require('../../Assets/Blogs/Blog12/Blog12-3.jpg'),
+                alttag: "India luxury travel",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Experience the essence of India with our India luxury travel, meticulously crafted to cater to the discerning traveler. Whether you seek spiritual enlightenment in the sacred city of Varanasi, a rendezvous with wildlife in Ranthambore National Park, or a blissful retreat in the serene backwaters of Kerala, Lewis and Clark Tours has the perfect India Tour itinerary for you."
+                    },
+                    {
+                        id: 2,
+                        desc: "Immerse yourself in the spiritual ambiance of Varanasi as you witness the mesmerizing Ganga Aarti on the ghats of the sacred river Ganges. Retreat to the tranquility of The Oberoi Amarvilas in Agra, offering uninterrupted views of the iconic Taj Mahal, a testament to eternal love."
+                    },
+                    {
+                        id: 3,
+                        desc: "For wildlife enthusiasts, our luxury India tour packages include thrilling safaris in Ranthambore National Park, home to the majestic Bengal tiger. After an exhilarating day in the wilderness, unwind in the lap of luxury at The Oberoi Vanyavilas, where luxury tents amidst lush greenery offer a perfect blend of adventure and comfort."
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: "Luxury Redefined: Oberoi Hotels India Packages",
+                imag: require('../../Assets/Blogs/Blog12/Blog12-4.jpg'),
+                alttag: "Oberoi hotels India packages",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "At Lewis and Clark Tours, we redefine luxury with our Oberoi hotels India packages. Experience unparalleled comfort, impeccable service, and bespoke experiences that cater to your every whim and fancy. Whether you're seeking a romantic getaway, a cultural immersion, or an adventure of a lifetime, our expertly crafted itineraries ensure a seamless and unforgettable journey."
+                    },
+                    {
+                        id: 2,
+                        desc: "Indulge in the finest culinary delights, rejuvenate your senses with holistic spa treatments, and immerse yourself in the rich tapestry of India's cultural heritage. With Lewis and Clark Tours, every moment is a celebration of luxury, sophistication, and unparalleled hospitality.Book your Oberoi Holidays India with Lewis and Clark tours. "
+                    },
+                ],
+            },
+            {
+                id: 5,
+                title: "Plan Your Dream Escape Today!",
+                detailDesc: [
+                    {
+                        id: 1,
+                        desc: "Are you ready to embark on a journey of a lifetime with Indian Luxury? Contact Lewis and Clark Tours today to book your exclusive Oberoi Hotels India Package and experience the rhymes of India at best. Let Lewis and Clark be your luxury Travel planner in India and let us guide youfor luxury, adventure, and unforgettable memories."
+                    },
+                    {
+                        id: 2,
+                        desc: "Rediscover the art of travel with Lewis and Clark Tours. Your perfect Indian odyssey awaits to be explored!"
+                    },
+
+                ],
+            },
+        ],
+    },
 
 ]
 

@@ -74,6 +74,12 @@ const Navbar = () => {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav ml-auto">
                                         <li className="nav-item">
+                                            <Link className="nav-link active" to="/" onClick={closeMenu}>Home</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link active" to="/about-us/" onClick={closeMenu}>About</Link>
+                                        </li>
+                                        <li className="nav-item">
                                             <Link className="nav-link active" to="/luxury-north-india/" onClick={closeMenu}>Luxury North India</Link>
                                         </li>
                                         <li className="nav-item">
@@ -87,6 +93,9 @@ const Navbar = () => {
                                         </li>
                                         <li className="nav-item">
                                             <Link className="nav-link" to="/blogs/" onClick={closeMenu}  >Blogs</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/contact-us/" onClick={closeMenu}  >Contact</Link>
                                         </li>
                                         <div className="nav-action">
                                             <div className="call-button" onClick={formIsOpen}>

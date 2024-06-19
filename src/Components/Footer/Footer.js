@@ -26,6 +26,8 @@ const Footer = () => {
                         <li>Email: info at lewisnclarktours dot com</li>
                     </ul>
                     <h3>REGISTERED IN NEW DELHI (INCREDIBLE INDIA)</h3>
+                    <p>2ND FLOOR, T-35/A, FLAT NO. C-2, KH NO. 115/3, WARD
+                        NO. 6, Village Mehrauli, New Delhi, South Delhi, Delhi 110030</p>
                     <p>UAM Nummer - DL10D0013736 <br />GST/ VAT Nummer - 07AZWPK6163B1Z4</p>
                 </div>
                 <div className="footer-contact-detail">

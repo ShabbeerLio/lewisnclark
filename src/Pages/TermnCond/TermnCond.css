@@ -13,6 +13,13 @@
   position: relative;
 }
 
+.TermCond-box{
+    margin-top: 2rem;
+}
+.TermCond-image img{
+    width: 100%;
+    object-fit: cover;
+}
 .TermCond-box h2 {
     color: #ba8137;
     font-family: "Ruluko", Sans-serif;

@@ -13,6 +13,7 @@ import Hotels from './Pages/Hotels/Hotels';
 import HotelDetail from './Components/HotelDetail/HotelDetail';
 import Blog from './Components/Blog/Blog';
 import BlogDetail from './Components/BlogDetail/BlogDetail';
+import TermnCond from './Pages/TermnCond/TermnCond';
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
           <Route path="/india-tour-images/" exact element={<Images title={"India Tour Images - Lewis and Clark Tours"} descriptions={"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish."} />} />
           <Route path="/contact-us/" exact element={<Contact title={"Lewis and Clark Travel Expeditions - Lewis and Clark Tours"} descriptions={"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish."} />} />
           <Route path="/blogs/" exact element={<Blog title={"Lewis and Clark Travel Expeditions - Lewis and Clark Tours"} descriptions={"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish."} />} />
+          <Route path="/term-and-condition/" exact element={<TermnCond title={"Lewis and Clark Travel Expeditions - Lewis and Clark Tours"} descriptions={"Lewis and Clark Tour is one of the best luxury tour operators in India. Experience the epitome of luxury India Vacations with us and uncover its natural beauty and rich culture. We create a tailor-made Luxury tour in India, ensuring an unforgettable journey from start to finish."} />} />
           <Route path="/blogs/:pathName" exact element={<BlogDetail />} />
         </Routes>
         <Footer />

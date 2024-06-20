@@ -69,6 +69,9 @@ const Footer = () => {
                         <li>
                             <Link to="/blogs/" onClick={scrollToTop}>Blog</Link>
                         </li>
+                        <li>
+                            <Link to="/term-and-condition/" onClick={scrollToTop}>Terms & Conditions</Link>
+                        </li>
                     </ul>
                 </div>
                 <ContactForm />

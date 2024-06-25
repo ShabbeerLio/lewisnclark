@@ -167,7 +167,7 @@ const Home = (props) => {
         <div className="home-chooseUs">
           <div className="home-boxes">
             <h2>Why Lewis and Clark?</h2>
-            <p>Lewis and Clark expedition is known as a major chapter in the history of American exploration. The famous travellers Lewis N Clark and their team travelled a lot and discovered unmapped lands, rivers and mountains significantly.</p>
+            <p>Lewis and Clark expedition is known as a major chapter in the history of American exploration. The famous travellers Lewis and Clark and their team travelled a lot and discovered unmapped lands, rivers and mountains significantly.</p>
             <div className="chooseUs-main">
               <div className="chooseUs-item">
                 <div className="chooseUs-left">

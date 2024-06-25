@@ -103,7 +103,7 @@ const About = (props) => {
               <p>We are looking forward to welcoming you in India for an unforgettable and luxurious experience from north India to south India as well from West India Mumbai to east India Calcutta of colonial time.</p>
               <p>Lewis and Clark Tours believes in Personal care, authentic luxury experience & value for money! </p>
               <p>Feel free to choose your favourite Luxury India trips from our exotic India travel Programs. Contact us for your India tour private with a guide and chauffeur. We are always happy to help you.</p>
-              <span>Note: Lewis N Clark DMC is a part of Amazing Indien Reisen UG group. </span>
+              <span>Note: Lewis and Clark DMC is a part of Amazing Indien Reisen UG group. </span>
             </div>
           </div>
         </div>

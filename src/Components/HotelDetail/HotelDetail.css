@@ -214,7 +214,7 @@
   display: inline-block;
   line-height: 1;
   font-size: 15px;
-  padding: 12px 24px;
+  padding: 12px 40px;
   border-radius: 3px;
   text-align: center;
   transition: all .3s;
@@ -224,6 +224,10 @@
   fill: #000000;
   color: #000000;
   background-color: #bc9352;
+}
+.hotel-button a p:hover {
+  background-color: #f8dea0;
+  color: black;
 }
 
 .hotel-detail-item h2{

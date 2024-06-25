@@ -22,7 +22,7 @@ const Footer = () => {
                     <p>H 44, BSI Business Park, Sector 63, Noida, Uttar Pradesh 201301, India</p>
                     <ul>
                         <li>Phone: +91-9811-20-7934​ (24/7 - Call & WhatsApp)</li>
-                        <li>Phone: +91-9958-06-6500</li>
+                        <li>Phone: +91-8860-61-5628</li>
                         <li>Email: info at lewisnclarktours dot com</li>
                     </ul>
                     <h3>REGISTERED IN NEW DELHI (INCREDIBLE INDIA)</h3>

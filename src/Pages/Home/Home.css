@@ -179,7 +179,7 @@
   background-color: #bc9352;
   color: black;
   margin: 0;
-  padding: 10px 30px;
+  padding: 10px 50px;
   font-weight: 400;
   font-family: "Roboto", Sans-serif;
   border-radius: 5px;
@@ -187,6 +187,11 @@
 }
 .home-theam .theam-button a{
   text-decoration: none;
+}
+
+.home-theam .theam-button p:hover {
+  background-color: #f8dea0;
+  color: black;
 }
 
 .home-theam img {
@@ -203,7 +208,8 @@
 }
 .home-chooseUs p {
   color: #d6b686;
-  padding-bottom: 20px;
+  font-size: 17px;
+  padding-bottom: 15px;
   font-family: Ruluko, sans-serif;
 }
 
@@ -377,6 +383,11 @@
   cursor: pointer;
   transition: all 0.3s;
 }
+.home-blogs .home-blog-box .blog-box-item .blog-box-button a:hover {
+  background-color: #f8dea0;
+  color: black;
+}
+
 @media screen and (min-width: 1200px) {
   .home-boxes {
     max-width: 1140px;

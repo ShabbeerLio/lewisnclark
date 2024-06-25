@@ -123,8 +123,8 @@
 }
 
 .nav-menu ul li a {
-  padding: 10px 12px !important;
-  font-size: 1rem;
+  padding: 10px 8px !important;
+  font-size: 18px;
   color: #bc9352 !important;
   text-transform: capitalize;
   font-family: "Ruluko", Sans-serif;
@@ -250,19 +250,30 @@
 
 .fix-icon-enquery {
   position: fixed;
-  bottom: 50%;
-  right: -4%;
-  rotate: -90deg;
+  right: 0;
+  top: 50%;
+  z-index: 2;
 }
 
 .fix-icon-enquery p {
   background-color: #bc9352;
-  padding: 12px 24px;
   color: black;
-  border-radius: 8px;
-  margin: 0;
+  border-radius: 10px 10px 0 0;
   cursor: pointer;
-  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -60px;
+  transform: rotate(-90deg);
+  transition: all 0.8s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  height: 40px;
+  width: 150px;
+}
+
+.fix-icon-enquery p:hover {
+  background-color: #f8dea0;
+  color: black;
 }
 
 @keyframes whatsapp {
@@ -312,9 +323,6 @@
   .nav-button {
     display: none;
   }
-  .fix-icon-enquery {
-    right: -4%;
-  }
 }
 
 @media only screen and (max-width: 990px) {
@@ -333,9 +341,6 @@
     align-items: center;
     justify-content: flex-start;
     margin: 20px 0px;
-  }
-  .fix-icon-enquery {
-    right: -5%;
   }
 }
 @media only screen and (max-width: 540px) {
@@ -356,8 +361,5 @@
   }
   .fix-icon a svg {
     font-size: 30px;
-  }
-  .fix-icon-enquery {
-    right: -15%;
   }
 }
